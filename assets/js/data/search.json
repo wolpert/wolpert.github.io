@@ -1,0 +1,1939 @@
+[
+  
+  {
+    "title": "So it goes...",
+    "url": "/posts/So-it-goes/",
+    "categories": "",
+    "tags": "",
+    "date": "2021-05-23 17:00:00 +0000",
+    
+
+
+
+
+
+    "snippet": "For years I’ve wanted to get rid of wordpress. And I started the Jekyll webiste here years ago… just never got it to where I wanted. Now I’ve made the switch.Is this gonna get me to write more?  Maybe. Not by itself. Rather what I’m doing is making it easy for me to write new posts. That was alwa..."
+  },
+  
+  {
+    "title": "Google releases assertion library",
+    "url": "/posts/google-releases-assertion-library/",
+    "categories": "",
+    "tags": "",
+    "date": "2019-07-09 14:12:07 +0000",
+    
+
+
+
+
+
+    "snippet": "Google’s internal library Truth has been released as version 1.0. It maintained by the Guava people, and is designed to work for both Java and Android according to their page. (Though not sure exactly what the Android tweaks are.)I like the API for Truth and AssertJ and their error messages. Hone..."
+  },
+  
+  {
+    "title": "Something is rotten in the state of Denmark",
+    "url": "/posts/something-is-rotten-in-the-state-of-denmark/",
+    "categories": "",
+    "tags": "",
+    "date": "2019-05-10 04:00:28 +0000",
+    
+
+
+
+
+
+    "snippet": "I don’t get it. Typically I cannot handle most modern shows. Take Game of Thrones. Its filled with violence and incest. I’m not a prude by any standard, but it’s simply too much for me. To be fair, most shows these days I’d rather not watch. So it’s nice when the rare show pops up that I can hand..."
+  },
+  
+  {
+    "title": "Three weeks in...",
+    "url": "/posts/three-weeks-in/",
+    "categories": "",
+    "tags": "",
+    "date": "2019-04-26 02:34:09 +0000",
+    
+
+
+
+
+
+    "snippet": "tl; dr… still I enjoy the leaf.The leaf lends itself to my schedule. I still haven’t gotten the fast-charger installed. I will soon. But that means for now I’m just using the trickle charger. Work is only like 12 miles away, so nightly charging is completely fine for me.For ref, this is a used 20..."
+  },
+  
+  {
+    "title": "2016 Leaf...",
+    "url": "/posts/2016-leaf/",
+    "categories": "",
+    "tags": "",
+    "date": "2019-04-07 00:19:08 +0000",
+    
+
+
+
+
+
+    "snippet": "I recently bought a used Nissan Leaf, 2016 SL.  The place that sold it was a dealership, but not a Nissan one. When I saw it, it had 10 out of 12 bars on the battery. The site included free CarFax which indicated that the battery was given a maintenance notice of the battery firmware needing an u..."
+  },
+  
+  {
+    "title": "ErgoDox and me",
+    "url": "/posts/ergodox-and-me/",
+    "categories": "",
+    "tags": "",
+    "date": "2018-09-20 01:50:03 +0000",
+    
+
+
+
+
+
+    "snippet": "I updated my keyboard at work to the ErgoDox EZ. Its the best keyboard I’ve had in a while… replacing my tried and ‘untrusted’ ErgoPro from Matias. The Matias keyboard worked nicely for me, but they kept flaking out… quality challenges where the keyboard would register multiple clicks all the tim..."
+  },
+  
+  {
+    "title": "Kubernetes Phase 1",
+    "url": "/posts/kubernetes-phase-1/",
+    "categories": "",
+    "tags": "",
+    "date": "2017-10-01 22:22:07 +0000",
+    
+
+
+
+
+
+    "snippet": "I just uploaded to github a set of instructions and scripts that I’m using to install kubernetes on raspberry Pis. I’ve run into some weird funk due to the arm OS install on the arm64 processor, and that many containers assume amd64. But this is a start.The next steps is simplify the install a bi..."
+  },
+  
+  {
+    "title": "Easy-Bake Data Center",
+    "url": "/posts/easy-bake-data-center/",
+    "categories": "",
+    "tags": "",
+    "date": "2017-09-17 17:04:32 +0000",
+    
+
+
+
+
+
+    "snippet": "I cleaned up my office a few weeks ago. Collected the few raspberry pi’s that are unused. The odd switch; cheap, unmanaged, but efficient. Sure, I’m still in the process of making a game, but like most humans, I’m easily distracted. This distraction got to me when a saw the switch. And of course,..."
+  },
+  
+  {
+    "title": "Google Home no longer using Google keep starting April 10",
+    "url": "/posts/google-home-no-longer-using-google-keep-starting-april-10/",
+    "categories": "Tech",
+    "tags": "",
+    "date": "2017-04-09 17:46:45 +0000",
+    
+
+
+
+
+
+    "snippet": "Google looks like its making a change in how it handles lists with Google Home. We use Google Keep a ton. Shared grocery lists are really great… and having you tell Home to add and item to the shared list is perfect. Well, was perfect. Starting April 10th, Google Home will instead add the item to..."
+  },
+  
+  {
+    "title": "Crypto Library",
+    "url": "/posts/crypto-library/",
+    "categories": "",
+    "tags": "",
+    "date": "2016-08-28 00:19:23 +0000",
+    
+
+
+
+
+
+    "snippet": "I finally pushed my first version of paranoia crypto library. Its basically a wrapper around Bouncy Castle. It ‘expires’ keys so they don’t hang out in memory, forces AES-256, uses Scrypt for hashing, requires SecureRandom, and will include a proguard file to munge BC so it doesn’t get into class..."
+  },
+  
+  {
+    "title": "Scrypt",
+    "url": "/posts/scrypt/",
+    "categories": "",
+    "tags": "",
+    "date": "2016-08-25 15:22:17 +0000",
+    
+
+
+
+
+
+    "snippet": "Trying to decide if scrypt is useful for creating a hash from a password to encrypt documents with. (AES-256)"
+  },
+  
+  {
+    "title": "the Farmer...",
+    "url": "/posts/the-farmer/",
+    "categories": "",
+    "tags": "",
+    "date": "2016-01-25 01:08:18 +0000",
+    
+
+
+
+
+
+    "snippet": "I’ve started writing a new game. I switched from my second version of ‘Pachinko Fever’ to this ‘pseudo’ RPG style game. We’ll see how it goes. I have the game-play in mind… but its not finalized. I’m making sure that it’ll be interesting and addictive. There is a way to level up and fashion (lear..."
+  },
+  
+  {
+    "title": "Matias Ergo Pro keyboard...",
+    "url": "/posts/matias-ergo-pro-keyboard/",
+    "categories": "",
+    "tags": "",
+    "date": "2016-01-23 01:42:23 +0000",
+    
+
+
+
+
+
+    "snippet": "This review of the Ergo Pro keyboard from Matias is more then a thinly veiled exercise I dreamed up to test the keyboard… but not much.The keyboard was delivered today from Amazon. Had to replace a failing ‘natural’ ergonomic keyboard from Microsoft that I’ve typically use on all my computers ove..."
+  },
+  
+  {
+    "title": "So... I&#39;m impressed with the Nexus 6P",
+    "url": "/posts/so-im-impressed-with-the-nexus-6p/",
+    "categories": "",
+    "tags": "",
+    "date": "2015-12-08 04:12:27 +0000",
+    
+
+
+
+
+
+    "snippet": "Recently I’ve been big into trying to figure out how to upgrade the sound coming from my audio system. I’ve looked at tube amps to make proper use of my turntable. (Yeah, that’s right… vinyl.) But I also have a ton of music as mp3 and flac files. I’ve looked at the monoprice tube amp which has a ..."
+  },
+  
+  {
+    "title": "Flour, rice and potato",
+    "url": "/posts/flour-rice-and-potato/",
+    "categories": "Family",
+    "tags": "diet",
+    "date": "2015-10-03 16:12:05 +0000",
+    
+
+
+
+
+
+    "snippet": "I lost twelve pounds. I have eight to go. I stopped eating flour, rice and potato.When I was a vegetarian, flour, rice and potato was mostly my diet. Tastes good, but you never really feel full. A while ago my doctor was concerned that my triglycerides were too high, and surprisingly, my choleste..."
+  },
+  
+  {
+    "title": "Final Notes from the 2015 Cassandra Summit",
+    "url": "/posts/final-notes-from-the-2015-cassandra-summit/",
+    "categories": "Code",
+    "tags": "Cassandra",
+    "date": "2015-09-27 18:31:15 +0000",
+    
+
+
+
+
+
+    "snippet": "This is my last post about the 2015 Cassandra Summit. This is mostly a list of random details that I wanted to keep track of. Most people may not find this useful.DataStax 4.8 will have better ‘encryption at rest’ then previous DataStax versions. There are other providers then DataStax that shoul..."
+  },
+  
+  {
+    "title": "Cassandra Summit: Conference Sessions",
+    "url": "/posts/cassandra-summit-conference-sessions/",
+    "categories": "Code",
+    "tags": "Cassandra",
+    "date": "2015-09-27 17:40:50 +0000",
+    
+
+
+
+
+
+    "snippet": "The Cassandra summit that DataStax hosted this year had just shy of 140 sessions over two days. Each session was grouped into tracks such as operations, development and architecture. They had a half-way decent app built by Double Dutch that provided a way to schedule which sessions you wanted to ..."
+  },
+  
+  {
+    "title": "Cassandra Summit: Training and Certification",
+    "url": "/posts/cassandra-summit-training-and-certification/",
+    "categories": "",
+    "tags": "Cassandra",
+    "date": "2015-09-26 23:08:51 +0000",
+    
+
+
+
+
+
+    "snippet": "This last week I went to the Cassandra summit that Datastax had put on. The first day was training and certification, and the following two day was the conference itself. I had been playing with Cassandra for years, though nothing major, and certainly nothing in production yet.The training itself..."
+  },
+  
+  {
+    "title": "Finally making progress",
+    "url": "/posts/finally-making-progress/",
+    "categories": "",
+    "tags": "",
+    "date": "2014-12-14 17:27:17 +0000",
+    
+
+
+
+
+
+    "snippet": "I finally took my cousin’s advice and I’m making a game with a story to it. I’ve made some progress getting a generic RPG together with libgdx where the game flow, stories, npcs and loot/abilities are loaded in dynamically. This means the it will be easy to enhance over time. I’m going to add in ..."
+  },
+  
+  {
+    "title": "Google opinions reward app is a bit creepy...",
+    "url": "/posts/google-opinions-reward-app-is-a-bit-creepy/",
+    "categories": "",
+    "tags": "",
+    "date": "2014-10-28 14:39:51 +0000",
+    
+
+
+
+
+
+    "snippet": "I installed the Google opinions app a while ago thinking it was just a standard marketing survey app. It comes up with a few questions during the week about various products, and for your time, it’ll reward you with a quarter or two of google play store credit. It does make you feel like you’re d..."
+  },
+  
+  {
+    "title": "Sprint, S5 and bloatware",
+    "url": "/posts/sprint-s5-and-bloatware/",
+    "categories": "",
+    "tags": "",
+    "date": "2014-09-16 01:41:01 +0000",
+    
+
+
+
+
+
+    "snippet": "I had a ‘massive’ install of a bunch of apps on my phone. It looks like its sprint-mandated bloatware. (I use ting, but we all know how that goes…. had to get the S5 from ting, so….)Anyways…. I removed them quickly. Disabled ‘mobile id’ which is what I think is causing it. (Mobile ID runs ‘MVNO C..."
+  },
+  
+  {
+    "title": "Medical students blog",
+    "url": "/posts/medical-students-blog/",
+    "categories": "",
+    "tags": "",
+    "date": "2014-04-18 16:34:19 +0000",
+    
+
+
+
+
+
+    "snippet": "Medical students blogHere is a blog post of a medical student watching a surgery for fixing a broken hip. Not the easiest thing to read."
+  },
+  
+  {
+    "title": "Its the little things that I find funny...",
+    "url": "/posts/its-the-little-things-that-i-find-funny/",
+    "categories": "",
+    "tags": "",
+    "date": "2013-08-20 15:51:24 +0000",
+    
+
+
+
+
+
+    "snippet": "Prawf was intended to be a ‘Practical Workflow Engine’. I had put together the words years ago thinking it didn’t mean anything else.Apparently it (mostly) means “Test” in Welsh. I found this out months ago, but figured since no one reserved the domain name ‘prawf.com’ by now, it simply wasn’t th..."
+  },
+  
+  {
+    "title": "Moving to Ting for cell service",
+    "url": "/posts/moving-to-ting-for-cell-service/",
+    "categories": "",
+    "tags": "",
+    "date": "2013-06-28 18:36:32 +0000",
+    
+
+
+
+
+
+    "snippet": "Moving to Ting for cell serviceI’m leaving Sprint. I got really tired of Sprint charging me for $10/phone/month for ‘extended data’, which was their way of saying ‘4G’, even though 4G is not available anywhere near me. But the reality is the costs are not that different between Sprint, T-Mobile a..."
+  },
+  
+  {
+    "title": "Trying out Ting...",
+    "url": "/posts/trying-out-ting/",
+    "categories": "",
+    "tags": "",
+    "date": "2013-06-27 16:21:47 +0000",
+    
+
+
+
+
+
+    "snippet": "Started looking at Ting for service. Started with my old EVO 4G, updated the OS to Jelly Bean (Maz build) and connected it up. I’ll post soon a longer post with what I ended up doing. We’ll see how it works, but if this work well, I’ll switch my other phones."
+  },
+  
+  {
+    "title": "Rackspace and PRISM",
+    "url": "/posts/rackspace-and-prism/",
+    "categories": "",
+    "tags": "",
+    "date": "2013-06-11 04:28:06 +0000",
+    
+
+
+
+
+
+    "snippet": "Rackspace totally nailed the PRISM question when ask to them. Read it here."
+  },
+  
+  {
+    "title": "Now, Revaders with Sound!",
+    "url": "/posts/now-revaders-with-sound/",
+    "categories": "",
+    "tags": "gaming",
+    "date": "2013-05-12 01:59:17 +0000",
+    
+
+
+
+
+
+    "snippet": "I got my hands on a replica MOOG synthesizer… its a decent version of the original. I decided to use it to create the sounds for Revaders. Even though the MOOG is from the days of early 8-bit games, the sound it generates is not the same as used in those games, so I may change it. But its not bad..."
+  },
+  
+  {
+    "title": "Revaders Early Access",
+    "url": "/posts/revaders-early-access/",
+    "categories": "",
+    "tags": "",
+    "date": "2013-05-01 14:03:31 +0000",
+    
+
+
+
+
+
+    "snippet": "I finished up the first early access release done for Revaders, and its now available on Google Play. I’m looking for comments on the game and to see how people think it should progress. It’s the first game I wrote in a long time, and I used this as a way to learn the PlayN framework. PlayN allow..."
+  },
+  
+  {
+    "title": "Prawf Pause....",
+    "url": "/posts/prawf-pause/",
+    "categories": "",
+    "tags": "",
+    "date": "2013-03-14 03:52:48 +0000",
+    
+
+
+
+
+
+    "snippet": "Due to unforeseen circumstances, I’m going to temporarily pause prawf development.Since ATOM came out, I’ve futz’d with news readers; but Google Reader made me lazy. Kirsten too. Thanks to Google’s desire to route out all the ways to avoid advertisements, I think I’m going to try to build the new..."
+  },
+  
+  {
+    "title": "Making prawf real...",
+    "url": "/posts/making-prawf-real/",
+    "categories": "",
+    "tags": "",
+    "date": "2013-02-24 17:21:55 +0000",
+    
+
+
+
+
+
+    "snippet": "Sometime after I left Philips/Magnavox, I came up with the idea for prawf. Over the years, what I wanted prawf to be may have changed, but the core concept never did. I’m finally in a position where I believe I can make prawf a reality. I even think it can make a profit.What I’ve done is revamped..."
+  },
+  
+  {
+    "title": "Lenovo x230, Windows 8 and Ubuntu",
+    "url": "/posts/lenovo-x230-windows-8-and-ubuntu/",
+    "categories": "",
+    "tags": "",
+    "date": "2013-01-25 04:53:16 +0000",
+    
+
+
+
+
+
+    "snippet": "Just a quick note for people who bought a laptop with Windows8 (W8) and want to use Ubuntu without destroying W8. And in my case, I have the Lenovo  x230 ThinkPad with secure boot. This is what I did to accomplish this.You can easily install 12.10 on this ThinkPad. Before you do, make sure you in..."
+  },
+  
+  {
+    "title": "Bootstrap...",
+    "url": "/posts/bootstrap/",
+    "categories": "",
+    "tags": "",
+    "date": "2012-12-28 23:49:39 +0000",
+    
+
+
+
+
+
+    "snippet": "On the rare occasions I’m doing front-end work, I like someone else to make the design and give me what they want. But I have this project I’m doing on at home, and there isn’t anyone else to make the design. This means I have to come up with something that looks ‘reasonable’ and easy to use. By ..."
+  },
+  
+  {
+    "title": "More music...",
+    "url": "/posts/more-music/",
+    "categories": "",
+    "tags": "",
+    "date": "2012-09-03 05:39:44 +0000",
+    
+
+
+
+
+
+    "snippet": "I spent the weekend playing banjo. Perfected one song and wrote a new one. Did do some programming, but music was my focus. I think its time to make another recording."
+  },
+  
+  {
+    "title": "Ice cream sandwich...",
+    "url": "/posts/ice-cream-sandwich/",
+    "categories": "",
+    "tags": "",
+    "date": "2012-08-19 06:03:06 +0000",
+    
+
+
+
+
+
+    "snippet": "Just updated my galaxy tab 7.0 plus to ICS. I’m surprised how much of a difference it made. Its really good."
+  },
+  
+  {
+    "title": "Maybe I should have been a lawyer...",
+    "url": "/posts/maybe-i-should-have-been-a-lawyer/",
+    "categories": "",
+    "tags": "",
+    "date": "2012-07-31 16:14:23 +0000",
+    
+
+
+
+
+
+    "snippet": "I’m a netflix subscriber. Recently got an email about a class-action lawsuit against netflix. They are in settlement talks. Here is the breakdown of the settlement:Netflix has agreed to change its data retention practices so that it separates (known as “decoupling”) Entertainment Content Viewing ..."
+  },
+  
+  {
+    "title": "ActiveMQ 5.6.0 is out",
+    "url": "/posts/activemq-5-6-0-is-out/",
+    "categories": "Tech",
+    "tags": "",
+    "date": "2012-05-12 18:21:35 +0000",
+    
+
+
+
+
+
+    "snippet": "Looks like ActiveMQ 5.6 is out. Includes stomp updates. http://www.nighttale.net/activemq/activemq-560-and-other-news.html"
+  },
+  
+  {
+    "title": "Meteorjs...",
+    "url": "/posts/meteorjs/",
+    "categories": "",
+    "tags": "",
+    "date": "2012-04-13 21:45:04 +0000",
+    
+
+
+
+
+
+    "snippet": "New app ‘framework’ for making websites. Meteor (via meteor.com) Checking it out…"
+  },
+  
+  {
+    "title": "Groovy code coverage...",
+    "url": "/posts/groovy-code-coverage/",
+    "categories": "",
+    "tags": "",
+    "date": "2012-04-11 21:01:57 +0000",
+    
+
+
+
+
+
+    "snippet": "After reading a post about what not to test, discussed with a friend about how to determine where you need complete code coverage, and where you don’t. Resulting idea is that the more complex the code, the more code coverage it should have. So, going to experiment with Jenkins, Sonar and GMetrics..."
+  },
+  
+  {
+    "title": "Banjo...",
+    "url": "/posts/banjo/",
+    "categories": "Family",
+    "tags": "",
+    "date": "2012-03-16 04:23:27 +0000",
+    
+
+
+
+
+
+    "snippet": "When I was about four, I started banjo lessons at the old town school of folk music in Chicago. I ended them when I was around 8. I grew up with a lot of really good musicians around. From Wendy Warner playing the cello, to Jordan Rosen on the guitar, and others as well. (Hoff, Oakley, etc) I alw..."
+  },
+  
+  {
+    "title": "Grails 1.3.7, cobertura and zip errors",
+    "url": "/posts/grails-1-3-7-cobertura-and-zip-errors/",
+    "categories": "",
+    "tags": "",
+    "date": "2011-08-23 17:09:20 +0000",
+    
+
+
+
+
+
+    "snippet": "When turning code-coverage on for my grails app, I suddenly started getting an error when cobertura was instrumenting my classes; unable to read zip file. Found someone with similar issues here, but I had to end up with a different patch. I added the closure onto the fileset request on line 122 o..."
+  },
+  
+  {
+    "title": "Google and Minors... what the ToS says...",
+    "url": "/posts/google-and-minors-what-the-tos-says/",
+    "categories": "",
+    "tags": "",
+    "date": "2011-08-10 20:34:50 +0000",
+    
+
+
+
+
+
+    "snippet": "Right now I’m trying to get my son’s gmail account re-enabled, with no such luck. Google’s attempt at COPPA compliance/mitigation is not impacted by parental agreement. But in attempts to figure out what’s going on, turns out you cannot use Google if your under 18. This is according to the Terms ..."
+  },
+  
+  {
+    "title": "Small review of cloud music options",
+    "url": "/posts/small-review-of-cloud-music-options/",
+    "categories": "Tech",
+    "tags": "",
+    "date": "2011-07-22 19:36:28 +0000",
+    
+
+
+
+
+
+    "snippet": "Some of you know that I’m kinda a music nut. I have a fairly eclectic music collection and love to hear it all the time. Years ago I converted my albums to FLAC and MP3, bought Cowon audiophile devices, and realized that MP3 is really all I need. My CDs, for the most part, are in boxes now, and I..."
+  },
+  
+  {
+    "title": "Cassandra 0.7 and the grails plugin",
+    "url": "/posts/cassandra-0-7-and-the-grails-plugin/",
+    "categories": "",
+    "tags": "",
+    "date": "2011-01-20 17:02:31 +0000",
+    
+
+
+
+
+
+    "snippet": "Just updated the grails plugin for Cassandra to be compatible with Cassandra 0.7. Remember folks, this isn’t a GORM module."
+  },
+  
+  {
+    "title": "Mario, Evo and the death of WebOS...",
+    "url": "/posts/mario-evo-and-the-death-of-webos/",
+    "categories": "Tech",
+    "tags": "",
+    "date": "2010-06-29 04:12:07 +0000",
+    
+
+
+
+
+
+    "snippet": "As of now Android is my only smartphone operating system. WebOS is dead to me. Why you ask? Because now you can get Mario running around as a live wallpaper for Android. Unless WebOS starts using Tempest controls I’m done. The is awesome.I figured out today that Android doesn’t combine instance m..."
+  },
+  
+  {
+    "title": "A good review of Android vs. WebOS",
+    "url": "/posts/a-good-review-of-android-vs-webos/",
+    "categories": "Tech",
+    "tags": "",
+    "date": "2010-06-20 17:05:05 +0000",
+    
+
+
+
+
+
+    "snippet": "A found this review that goes in depth on the differences between the Android Evo and Palm Pre on Sprint. Its long but worth it."
+  },
+  
+  {
+    "title": "The problems of food in America...",
+    "url": "/posts/the-problems-of-food-in-america/",
+    "categories": "Family",
+    "tags": "",
+    "date": "2010-06-18 16:52:54 +0000",
+    
+
+
+
+
+
+    "snippet": "I pointed out in a previous post about my problems with chemically processed food additives like soy isolate. Then I tried to not eat that type of stuff even though I’m a vegetarian. Turns out I kinda mess up my diet and general health in the process.Fundamentally, I’m fairly lazy in the food pre..."
+  },
+  
+  {
+    "title": "Gridgain, Grails, GORM and Cassandra",
+    "url": "/posts/gridgain-grails-gorm-and-cassandra/",
+    "categories": "",
+    "tags": "",
+    "date": "2010-06-15 23:05:58 +0000",
+    
+
+
+
+
+
+    "snippet": "I have grails working to submit jobs to gridgain nodes. The grid tasks execute and send out jobs that run on the grid nodes just fine. The grid jobs are able to make use of a cassandra service (provided by the cassandra plugin I wrote) just fine, thanks to Hector reconnecting blindly on the grid ..."
+  },
+  
+  {
+    "title": "Android scenes and WebOS",
+    "url": "/posts/android-scenes-and-webos/",
+    "categories": "Business, Tech",
+    "tags": "",
+    "date": "2010-06-10 03:50:54 +0000",
+    
+
+
+
+
+
+    "snippet": "I started getting into customizing my Evo tonight and I have to say the scenes/widgets concept is pretty good compared to the WebOS ‘cards’. In the palm when you launch an app you have apps divided into three ‘pages’ (cards) that you can launch. So customizing is pretty much pick which of the thr..."
+  },
+  
+  {
+    "title": "WebOS vs Android",
+    "url": "/posts/webos-vs-android/",
+    "categories": "Family, Tech",
+    "tags": "",
+    "date": "2010-06-08 03:02:19 +0000",
+    
+
+
+
+
+
+    "snippet": "I just got an Evo to upgrade from my Palm pre. I’m most surprised by the Evo in that it is not a pure killer of the WebOS Palm pre.  Here are initial findings.Hardware: Here there is no comparison. The Evo is fast and good looking. The Palm pre started with hardware issues (Slider, screen effects..."
+  },
+  
+  {
+    "title": "Facebook, Google and privacy...",
+    "url": "/posts/facebook-google-and-privacy/",
+    "categories": "Business",
+    "tags": "",
+    "date": "2010-05-25 16:44:45 +0000",
+    
+
+
+
+
+
+    "snippet": "The current direction Facebook has taken is rightfully seen as hostile to individual privacy. But remember that Facebook was was only moderately interested in providing a private space online anyways. The make money in selling their data to marketing organizations. They (Zuckerberg) talk about ho..."
+  },
+  
+  {
+    "title": "What fear looks like...",
+    "url": "/posts/what-fear-looks-like/",
+    "categories": "Business",
+    "tags": "",
+    "date": "2010-05-06 19:43:03 +0000",
+    
+
+
+
+
+
+    "snippet": "Folks watching the dow today got a unpleasant shock. Dow dropped 10% only to regain some ground reducing the loss. Odds are automatic trading went into effect after some ‘technical limits’ got hit. Now, this was somewhat predictable… Here is the last 3 days of gold compared to the Dow… On Tuesday..."
+  },
+  
+  {
+    "title": "Ubuntu 10.04 installed",
+    "url": "/posts/ubuntu-10-04-installed/",
+    "categories": "Business, Code",
+    "tags": "",
+    "date": "2010-04-29 23:26:19 +0000",
+    
+
+
+
+
+
+    "snippet": "Finished upgrading Ubuntu 9.10 to 10.04 on main laptop… not too bad of an upgrade."
+  },
+  
+  {
+    "title": "GridGain and Grails",
+    "url": "/posts/gridgaincassandragrails/",
+    "categories": "",
+    "tags": "",
+    "date": "2010-04-23 21:51:46 +0000",
+    
+
+
+
+
+
+    "snippet": "We’ve been able to get gridgain and grails running together at work recently. Its works out well, though some of the issues we ran into seem weird.  First, putting closures in gridstasks/jobs works, but using dynamically generated closures, or closures created on the fly without class files on di..."
+  },
+  
+  {
+    "title": "Life with &#39;NoSQL&#39;...",
+    "url": "/posts/life-with-nosql/",
+    "categories": "Business, Code",
+    "tags": "",
+    "date": "2010-04-21 15:32:17 +0000",
+    
+
+
+
+
+
+    "snippet": "I  have to say that after playing with Cassandra, a NoSQL datastore, I’m completely impressed with what it gives. Fast read and writes, scale unlike I’ve ever seen, and (fairly) easy to manage. Its not without compromises; transaction management, two-phased commits, atomicity, etc. But I’m having..."
+  },
+  
+  {
+    "title": "This is not a test...",
+    "url": "/posts/this-is-not-a-test/",
+    "categories": "",
+    "tags": "",
+    "date": "2010-04-17 18:53:24 +0000",
+    
+
+
+
+
+
+    "snippet": "I spent part of last week upset because I was forced to realize that some vegetarian food is processed with chemicals like hexane. I used to be a chemist, so I understand the process and end result. The chemist in me doesn’t care; final product does not have hexane in it, or if it does, any heati..."
+  },
+  
+  {
+    "title": "SEC finally grows a set...",
+    "url": "/posts/sec-finally-grows-a-set/",
+    "categories": "",
+    "tags": "",
+    "date": "2010-04-16 15:13:57 +0000",
+    
+
+
+
+
+
+    "snippet": "Goldman Sachs gets sued by the SEC for fraud, regardless of many Goldman Sachs alumni are work for the government. And this comes up with out a hedge fund manager profited from the housing downturn. Of course, its not that they made money when everyone else lost it, but they made and sold investm..."
+  },
+  
+  {
+    "title": "Google servers visualized",
+    "url": "/posts/google-servers-visualized/",
+    "categories": "Business",
+    "tags": "",
+    "date": "2010-04-15 02:11:16 +0000",
+    
+
+
+
+
+
+    "snippet": "﻿﻿A good diagram showing the insane number of servers google has in visual format."
+  },
+  
+  {
+    "title": "Apple&#39;s AppStore. Its just business...",
+    "url": "/posts/apples-appstore-its-just-business/",
+    "categories": "",
+    "tags": "",
+    "date": "2010-04-11 16:32:51 +0000",
+    
+
+
+
+
+
+    "snippet": "A good post describing why Apple is killing the 3rd party tools to convert flash/.net/etc apps to iphone apps has been endorsed by Steve Jobs as ‘insightful’. Simply put, Apple is pulling plays from IBM and Microsoft’s playbook of the past. Its only business folks. Of course, I think its short-si..."
+  },
+  
+  {
+    "title": "Data modeling",
+    "url": "/posts/data-modeling/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2010-03-16 18:58:20 +0000",
+    
+
+
+
+
+
+    "snippet": "Interesting post about still needing a data model when dealing with non-SQL based datastores. I remember watching a video about using Cassandra and when talking about designing with it, the speaker mentioned that with Cassandra, you have to know how your going to model the data and access it ‘mor..."
+  },
+  
+  {
+    "title": "Cassandra and IDMS",
+    "url": "/posts/cassandra-and-idms/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2010-03-16 15:29:22 +0000",
+    
+
+
+
+
+
+    "snippet": "The more I play with Cassandra, the more it seems like an IDMS implementation for micros. Data keys point to files, which have structured methods to look up the data sets faster then in SQL, but the relationship between data sets are defined in code. I remember a discussion I had back when I work..."
+  },
+  
+  {
+    "title": "Grails and Cassandra",
+    "url": "/posts/grails-and-cassandra/",
+    "categories": "",
+    "tags": "",
+    "date": "2010-03-12 19:41:38 +0000",
+    
+
+
+
+
+
+    "snippet": "We are going to start using Cassandra at work, and in the process, needed to develop a grails plugin. Nothing was available and we wanted to make something generic; so we could use it in multiple projects. So I have started to write one, and made my cassandra plugin available at github. Its not r..."
+  },
+  
+  {
+    "title": "Unboxing a fake Intel CPU",
+    "url": "/posts/unboxing-a-fake-intel-cpu/",
+    "categories": "",
+    "tags": "",
+    "date": "2010-03-10 19:42:58 +0000",
+    
+
+
+
+
+
+    "snippet": "Many have heard about the fake CPUs accidentally sent by newegg. (Newegg had a supplier distribute them, who they got rid of.) Now presented by Gearlog is the unboxing of a fake CPU."
+  },
+  
+  {
+    "title": "Why I hate Apple and already miss Sun...",
+    "url": "/posts/why-i-hate-apple-and-already-miss-sun/",
+    "categories": "",
+    "tags": "",
+    "date": "2010-03-10 03:28:05 +0000",
+    
+
+
+
+
+
+    "snippet": "It was recently revealed that years ago Steve Jobs threatened Schwartz (Sun Microsystems) and Schwartz reminded Steve about Sun’s own patient portfolio, and the fact that they take from others too. (Keynote vs. Concurrence, Mac on Unix, etc) The basis of that phone call is the reason I hate Apple..."
+  },
+  
+  {
+    "title": "There is a patent on the linked list.",
+    "url": "/posts/there-is-a-patent-on-the-linked-list/",
+    "categories": "",
+    "tags": "",
+    "date": "2010-03-08 03:58:17 +0000",
+    
+
+
+
+
+
+    "snippet": "As recently pointed out by Juixe, the US government has given a patent on the linked list to LSI Logic Corp who filed for the patent in 2002. According to Wikipedia, the linked list was first used in the 1950’s. Can we now agree that US patent system is broken?Linked list… I’m surprised no one ha..."
+  },
+  
+  {
+    "title": "My Grandmother&#39;s recipes...",
+    "url": "/posts/my-grandmothers-recipes/",
+    "categories": "Family",
+    "tags": "",
+    "date": "2010-02-23 14:35:12 +0000",
+    
+
+
+
+
+
+    "snippet": "It looks like many of these recipes are most likely from my grandmother, not my mom. Kirsten thinks my mom kept her own recipes elsewhere, especially since we couldn’t find some of hers that we knew were written down. (For example, her famous Snickerdoodles recipe was no where to be found, nor th..."
+  },
+  
+  {
+    "title": "My Mother&#39;s Recipes",
+    "url": "/posts/my-mothers-recipes/",
+    "categories": "Family",
+    "tags": "",
+    "date": "2010-02-22 04:25:58 +0000",
+    
+
+
+
+
+
+    "snippet": "Those who know me know how much I love to bake bread. Most do not know why though. I had originally learned to bake bread because it was one thing my mom felt she couldn’t do that well. She taught me to cook when I was little, and more so as I got older. I never did that much cooking for the fami..."
+  },
+  
+  {
+    "title": "Tivo Upgrade...",
+    "url": "/posts/tivo-upgrade/",
+    "categories": "Family, Tech",
+    "tags": "",
+    "date": "2010-02-14 21:04:22 +0000",
+    
+
+
+
+
+
+    "snippet": "With the Olympics being broadcast in HD on NBC, we wanted to get all of it on the TiVo. But our HD TiVo is basically out of room with the digital feed already on it. (We get OTA HD) So, I wanted to get a new 1TB drive external to it. Well, I simply could not find a ‘supported’ one. (No to Best Bu..."
+  },
+  
+  {
+    "title": "Federated tweets...",
+    "url": "/posts/federated-tweets/",
+    "categories": "",
+    "tags": "",
+    "date": "2010-02-10 15:12:31 +0000",
+    
+
+
+
+
+
+    "snippet": "Facebook pretends to be twitter, and now so does Google Mail via Buzz. If these microblogs, public status notifications, or whatever you want to call it is something people really use, then it needs to be federated the same way XMPP and email is federated. You should be able to sign up for any se..."
+  },
+  
+  {
+    "title": "Database locks and ActiveMQ",
+    "url": "/posts/database-locks-and-activemq/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2010-01-14 21:53:52 +0000",
+    
+
+
+
+
+
+    "snippet": "If you are using a database with your ActiveMQ installation, you may want to set useDatabaseLock to “false” in the journaledJDBC element of your configuration. This is there so that you can have a master/slave configuration and the instance that can lock a specific table gets to be the master. If..."
+  },
+  
+  {
+    "title": "Migo...",
+    "url": "/posts/migo/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2010-01-14 02:39:59 +0000",
+    
+
+
+
+
+
+    "snippet": "Here is something that will only interest a few people. I’ve restarted my ‘Migo Experiment’ tonight. This is a variation of my ‘bees’, swarm AI project. First goal, 1K neurons on one computer."
+  },
+  
+  {
+    "title": "Code Head...",
+    "url": "/posts/code-head/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2010-01-01 01:02:07 +0000",
+    
+
+
+
+
+
+    "snippet": "While I watch my kitchen being remodels (which is a nice way to say, destroyed and rebuild) I decided on two projects that I want to work on in the new year, completely unrelated to my kitchen. The first is a palm pre application, and the second is a web application, using RoR. I’m keeping these ..."
+  },
+  
+  {
+    "title": "End of the year...",
+    "url": "/posts/end-of-the-year/",
+    "categories": "",
+    "tags": "",
+    "date": "2009-12-29 04:18:07 +0000",
+    
+
+
+
+
+
+    "snippet": "Ah yes… its the end of the year… you know what that means? Useless predictions and meaningless attempts at changing ones lifestyle. Here are my predictions…The government of Iran will continue to abuse their own people. Security on US flights will continue to get harsher, without apparent positiv..."
+  },
+  
+  {
+    "title": "Ubuntu upgrade notification back (by force)",
+    "url": "/posts/ubuntu-upgrade-notification-back-by-force/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2009-11-06 15:54:21 +0000",
+    
+
+
+
+
+
+    "snippet": "I’m not found of the notification ‘pop-up’ in Ubuntu. Rather, I miss the old icon in the notification area. Executing the following line in a terminal can fix this back to the way it was, pre-9.04. (As found on ubuntumini)gconftool -s –type bool /apps/update-notifier/auto_launch false"
+  },
+  
+  {
+    "title": "Auto-completion for grails on Linux (Ubuntu)",
+    "url": "/posts/auto-completion-for-gails-on-linux-ubuntu/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2009-09-29 19:39:29 +0000",
+    
+
+
+
+
+
+    "snippet": "Starting to be full time on grails, I wanted to get bash command line completion to work. I took code from Fernando Takai and made very minor changes so it works on Ubuntu. You need to install gawk to get it to work. Just copy it to the /etc/bash_completion.d/ directory and you should be gold. He..."
+  },
+  
+  {
+    "title": "A great potatoes and spinach recipe",
+    "url": "/posts/a-great-potatoes-and-spinach-recipe/",
+    "categories": "Family",
+    "tags": "",
+    "date": "2009-09-21 01:13:42 +0000",
+    
+
+
+
+
+
+    "snippet": "I made some potatoes and spinach recipe for the family using a great recipe from Vegan Dad. Jacob liked it a lot, even if he’s not into spicy food. It’s not that spicy of a recipe, but I have a tendency to overdo it a bit. I highly recommend this recipe."
+  },
+  
+  {
+    "title": "Palm Pre homebrew apps",
+    "url": "/posts/palm-pre-homebrew-apps/",
+    "categories": "",
+    "tags": "",
+    "date": "2009-08-31 01:49:05 +0000",
+    
+
+
+
+
+
+    "snippet": "So I ended up adding in some homebrew apps. Some of them are pretty good. Some, not so much. And yes, they have the light-saber app. And no, its not worth it."
+  },
+  
+  {
+    "title": "August 21 is Vegetarian Day!",
+    "url": "/posts/august-21-is-vegetarian-day/",
+    "categories": "Family",
+    "tags": "",
+    "date": "2009-08-20 03:45:45 +0000",
+    
+
+
+
+
+
+    "snippet": "August 21 is Vegetarian Day! That’s right, you heard right… So this Friday, eat no meat and have some drinks. Martini’s for all!"
+  },
+  
+  {
+    "title": "Rethinking the kindle",
+    "url": "/posts/rethinking-the-kindle/",
+    "categories": "Business",
+    "tags": "",
+    "date": "2009-07-17 20:16:35 +0000",
+    
+
+
+
+
+
+    "snippet": "According to NY Times, Amazon is remotely deleting purchased books by Orwell. Apparently the publisher no longer wants electronic copies on the kindle, so Amazon is deleting already purchased copies remotely, and giving credits in accounts when they do.Okay, so now I’m rethinking that Amazon’s ap..."
+  },
+  
+  {
+    "title": "First app on my palm pre...",
+    "url": "/posts/first-app-on-my-palm-pre/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2009-07-17 01:10:34 +0000",
+    
+
+
+
+
+
+    "snippet": "Finally got the Palm Pre SDK today. Palm released it like 10 months sooner then Apple did for their smartphone, and 15 months later then Google did for their smartphone. VirtualBox is used for the emulator, and Eclipse makes the SDK developer-friendly. Note that the recommended versions of both a..."
+  },
+  
+  {
+    "title": "Ruby, ActiveMessaging and ActiveMQ",
+    "url": "/posts/ruby-activemessaging-and-activemq/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2009-07-08 23:18:29 +0000",
+    
+
+
+
+
+
+    "snippet": "Just wanted to have a quick post on how we switched to ActiveMQ for our ruby app. We ran into problems that were easy to fix though hard to see where the error was. The first was a problem with idle connections and firewalls, and the second was how slow consumers ‘ate’ off the ActiveMQ queue.In o..."
+  },
+  
+  {
+    "title": "Goldman Sachs has record profit this year?",
+    "url": "/posts/goldman-sachs-has-record-profit-this-year/",
+    "categories": "Business",
+    "tags": "",
+    "date": "2009-06-23 01:29:21 +0000",
+    
+
+
+
+
+
+    "snippet": "If the news is to be believed, Goldman Sachs had a record profit this ‘year’ and will be paying out the largest bonuses ever. To quote the original article:&quot;...it seemed inconceivable that a firm owing the US government $10bn would be looking to break all-time records in 2009.&quot;I’m compl..."
+  },
+  
+  {
+    "title": "Palm Pre &#39;hard close shutoff&#39; fix...",
+    "url": "/posts/palm-pre-hard-close-shutoff-fix/",
+    "categories": "Tech",
+    "tags": "",
+    "date": "2009-06-11 01:45:59 +0000",
+    
+
+
+
+
+
+    "snippet": "One hardware issue seen with the new pre is that if you close the keyboard ‘firmly’ it seems to jiggle the battery enough that the disruption in power causes the pre to shutdown completely. One person’s fix was to put a piece of paper between the pre and the battery so its tighter. Another was to..."
+  },
+  
+  {
+    "title": "I have this idea...",
+    "url": "/posts/i-have-this-idea/",
+    "categories": "Tech",
+    "tags": "",
+    "date": "2009-06-10 03:31:33 +0000",
+    
+
+
+
+
+
+    "snippet": "I have this idea on what application I want to write for the Palm Pre. It’d be fine for the other smartphones too, but I have a pre, so that’s what I want to write for. But the damn Mojo (Palm Pre Developers Kit) is still unavailable for public consumption…Just had to complain… open up Palm… we’r..."
+  },
+  
+  {
+    "title": "Palm Pre calendar",
+    "url": "/posts/palm-pre-calendar/",
+    "categories": "",
+    "tags": "",
+    "date": "2009-06-09 16:23:42 +0000",
+    
+
+
+
+
+
+    "snippet": "For the last weekend, I couldn’t see my calendar on my pre, even though it was alerting me to my events. Finally figured out that the problem was I had too many calendars. My work Google calendar lists 20 calendars in total, and home has about 8… so the display was just over-whelmed. On the pre I..."
+  },
+  
+  {
+    "title": "Palm Pre... day one",
+    "url": "/posts/palm-pre-day-one/",
+    "categories": "Tech",
+    "tags": "",
+    "date": "2009-06-07 17:03:01 +0000",
+    
+
+
+
+
+
+    "snippet": "So I stood in line for a palm pre… two actually. My current plan has the 1500 family with unlimited data plan already, and the phones my wife and I use contract was ready for new phones, so we were good to go for new phones.Decided to go to Sprint store rather then risk BestBuy not having enough...."
+  },
+  
+  {
+    "title": "Migo Experiment...",
+    "url": "/posts/migo-experiment/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2009-05-26 15:32:02 +0000",
+    
+
+
+
+
+
+    "snippet": "I’m starting my evolutionary programming again after a 2+ year hiatus. I decided to change my approach somewhat. Some of you may remember that my EP swarm I built was referred to as ‘my bees’. However, they were somewhat suicidal for reasons that I still do not understand, and the results they ga..."
+  },
+  
+  {
+    "title": "Rcov versions...",
+    "url": "/posts/rcov-versions/",
+    "categories": "",
+    "tags": "",
+    "date": "2009-05-21 19:03:29 +0000",
+    
+
+
+
+
+
+    "snippet": "Rcov is a great tool to verify what code is touched by test cases. Its only C0 testing, in that it checks that the code is hit for a test but not testing for all possible permitations.The original project is all but abandonded and several forks on github.com have come out. The latest one that I l..."
+  },
+  
+  {
+    "title": "The Dell Mini9",
+    "url": "/posts/the-dell-mini9/",
+    "categories": "",
+    "tags": "",
+    "date": "2009-03-25 03:08:51 +0000",
+    
+
+
+
+
+
+    "snippet": "So the Mini9 came today, and I moved it into place on my wifes desk. Its a pretty nice machine. This model has the faster processor, 2 Gigs of ram, 32Gig hard drive and blue-tooth support. At some point well get her a blue-tooth mouse and keyboard, but for now we’re using the one she used to have..."
+  },
+  
+  {
+    "title": "Sun may live...",
+    "url": "/posts/sun-may-live/",
+    "categories": "",
+    "tags": "",
+    "date": "2009-03-18 14:27:47 +0000",
+    
+
+
+
+
+
+    "snippet": "It looks like Big Blue may purchase the Sun. This would only be good for Sun and specifically, benefit Java developers big time, as IBM is really one reason why Java is as successful as it is today.But at my core, I wonder what would happen to the recently purchased MySQL folks compared to DB2 an..."
+  },
+  
+  {
+    "title": "Amazon pretends to be apple: DMCA",
+    "url": "/posts/amazon-pretends-to-be-apple-dmca/",
+    "categories": "",
+    "tags": "",
+    "date": "2009-03-16 19:59:34 +0000",
+    
+
+
+
+
+
+    "snippet": "Amazon has taken a page from the Apple playbook and issued a DMCA take down request against a python file that reveals the ‘pid’ of the kindle. Basically, each kindle has a unique serial id. When you buy a DRM book, Amazon encrypts it against that id. So those books will only be viewable on your ..."
+  },
+  
+  {
+    "title": "The September 2008 gold spike...",
+    "url": "/posts/the-september-2008-gold-spike/",
+    "categories": "",
+    "tags": "",
+    "date": "2009-02-11 14:37:31 +0000",
+    
+
+
+
+
+
+    "snippet": "Not sure how many people read my tumblr log… its basically a dumping ground of random stuff. But last Sept 17, 2008 I noticed a huge spike in the price of gold that came out of nowhere, and posted it. It seemed like someone was manipulating the market.  Well, thanks to one of the 2 people who act..."
+  },
+  
+  {
+    "title": "Netflix and Tivo",
+    "url": "/posts/netflix-and-tivo/",
+    "categories": "",
+    "tags": "",
+    "date": "2008-12-09 02:54:03 +0000",
+    
+
+
+
+
+
+    "snippet": "Just a note that most movie geeks already know by now. You can get Netflix on your Tivo. It just appeared on my Tivo box today. We were planning on going back to Netflix once they did this."
+  },
+  
+  {
+    "title": "A little about Ted...",
+    "url": "/posts/a-little-about-ted/",
+    "categories": "Business",
+    "tags": "",
+    "date": "2008-10-29 03:34:49 +0000",
+    
+
+
+
+
+
+    "snippet": "Recently, the Ted Spread, an index the measures how easy (cheap) it is for banks to borrow from banks has gotten better. Recent chart here which shows the latest at around 2.70%:However, it is important to note that Ted needs to be around 25 basis points… or 0.25%. This is good progress, of cours..."
+  },
+  
+  {
+    "title": "Rails 2.1.2 security fix release",
+    "url": "/posts/rails-212-security-fix-release/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2008-10-23 18:38:17 +0000",
+    
+
+
+
+
+
+    "snippet": "Just an FYI, Rails 2.1.2 has been released, which contains some security fixes."
+  },
+  
+  {
+    "title": "Views in Rails",
+    "url": "/posts/views-in-rails/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2008-10-23 17:51:38 +0000",
+    
+
+
+
+
+
+    "snippet": "I had to create a view for a join table of a many-to-many relationship in my model. To do this, I had to have a database migration use the ‘execute’ command to create the view. Tests failed because the schema.rb dump file does not deal with views. To fix, I had to set the following in my environm..."
+  },
+  
+  {
+    "title": "Mercurial...",
+    "url": "/posts/mercurial/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2008-10-17 17:30:00 +0000",
+    
+
+
+
+
+
+    "snippet": "At this point, we’ve switched over to mercurial from subversion for a few months which impacted two separate projects directly, one of which is in production. I wanted to post about the impact of the switch.Using mercurial has been so easy. Cloning repositories is quicker then it is to download a..."
+  },
+  
+  {
+    "title": "Buy Gold",
+    "url": "/posts/buy-gold/",
+    "categories": "",
+    "tags": "",
+    "date": "2008-10-10 00:41:11 +0000",
+    
+
+
+
+
+
+    "snippet": "Governments around the world pumping ‘cash’ into the market.  Current stock crash creates a hyper-deflationary period. Stocks and commodities are dropping. Even oil is falling.Once that cash filters into the system, inflation worldwide will shoot up.In a roller coaster, this is the first drop, we..."
+  },
+  
+  {
+    "title": "Bailout...",
+    "url": "/posts/bailout/",
+    "categories": "Business",
+    "tags": "",
+    "date": "2008-09-23 02:34:59 +0000",
+    
+
+
+
+
+
+    "snippet": "I get the feeling that the US is screwed with or without the current bailout. So why is Bush and company pushing it so hard? I think it benefits them most after they are out of office but I have no clue how. This does not protect people’s money and this does not protect home-owners. This only pro..."
+  },
+  
+  {
+    "title": "Short Kindle Review",
+    "url": "/posts/short-kindle-review/",
+    "categories": "Tech",
+    "tags": "",
+    "date": "2008-07-21 15:39:45 +0000",
+    
+
+
+
+
+
+    "snippet": "I received my kindle on Friday, and after using it for the weekend, I have to say that this thing is awesome.Reading books on the kindle is actually superior to paper books for me. I may be a poor example for most people as I’m used to reading books on my laptop. But what I enjoy is really simple..."
+  },
+  
+  {
+    "title": "Cage Match: Zero Punctuation vs. CAD",
+    "url": "/posts/cage-match-zero-punctuation-vs-cad/",
+    "categories": "Games",
+    "tags": "",
+    "date": "2008-07-03 04:25:02 +0000",
+    
+
+
+
+
+
+    "snippet": "Some of you may read Ctrl+Alt+Del and some may watch Zero Punctuation game reviews. Now you can watch Zero complain about CAD. Its kinda funny, not Zero’s best work, but does make a decent point. Game comics should be about games. The current CAD ‘theme’ doesn’t bother me. But it does seem obviou..."
+  },
+  
+  {
+    "title": "Assembla for Mercurial/Project hosting",
+    "url": "/posts/assembla-for-mercurialproject-hosting/",
+    "categories": "",
+    "tags": "",
+    "date": "2008-07-01 16:12:22 +0000",
+    
+
+
+
+
+
+    "snippet": "Just found Assembla, which provides team/project hosting. Handles Subversion, Mercurial, Git, trac, tickets, blogs, job posting, etc. You can even make your projects protected from the public. Free accounts give you just about everything, and 500M of disk space. $12.50/Month gives you 5Gigs of sp..."
+  },
+  
+  {
+    "title": "Gearman and MogileFS?",
+    "url": "/posts/gearman-and-mogilefs/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2008-06-19 15:48:32 +0000",
+    
+
+
+
+
+
+    "snippet": "I’ve been looking at how places like Digg scale up their systems lately…Gearman is a queueing system used by Digg. Unlike JMS or other systems, it has the ability for clients to create a tasklist of parallel tasks. That means that the client defines three things to do, the server finds 3 workers ..."
+  },
+  
+  {
+    "title": "Moving my website...",
+    "url": "/posts/moving-my-website/",
+    "categories": "Code, Family",
+    "tags": "",
+    "date": "2008-06-17 02:08:46 +0000",
+    
+
+
+
+
+
+    "snippet": "Just an FYI, I’m moving my website to here."
+  },
+  
+  {
+    "title": "Git versus mercurial...",
+    "url": "/posts/git-versus-mercurial/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2008-05-10 20:35:37 +0000",
+    
+
+
+
+
+
+    "snippet": "I’ve been playing now with git and mercurial lately. Between rails developers choosing git and all of Sun switching to mercurial, I wanted to see which made more sense. What I liked about CVS was the ability to tag things. Tags were cheap, but branching ‘felt’ expensive. Subversion was faster the..."
+  },
+  
+  {
+    "title": "LYME, The Erlang Stack",
+    "url": "/posts/lyme-the-erlang-stack/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2008-04-04 20:35:10 +0000",
+    
+
+
+
+
+
+    "snippet": "An article was recently published where someone suggested an Erlang based web-app stack. Now, so me this sounds cool, and of course, highly scalable. I was going to ‘review’ git and mercurial as svn replacements, but honestly I have no real need to do that. I have no real need to review LYME eith..."
+  },
+  
+  {
+    "title": "Taxes and failed US Economy",
+    "url": "/posts/taxes-and-failed-us-economy/",
+    "categories": "Business",
+    "tags": "",
+    "date": "2008-02-23 20:33:50 +0000",
+    
+
+
+
+
+
+    "snippet": "So, in doing my taxes this year via Turbo Tax, you enter into it all your info, and it spits out what you owe or what you get back. Lots of people use it. While you enter in your stuff, it gives you an on-going running total of that cash value. It so happened that this year I put in my home loan ..."
+  },
+  
+  {
+    "title": "Rails in pre-J2EE state...",
+    "url": "/posts/rails-in-pre-j2ee-state/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2008-01-24 20:34:15 +0000",
+    
+
+
+
+
+
+    "snippet": "A line was crossed recently. I don’t mind this line, its actually a good one. But its one that many in the Rails community don’t think to much about.  Thanks to a new Simple Service, Rails has transaction demarcation in a service model. You define a ‘stateless service’ in your rails application w..."
+  },
+  
+  {
+    "title": "Upgraded my router...",
+    "url": "/posts/upgraded-my-router/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2008-01-16 20:34:42 +0000",
+    
+
+
+
+
+
+    "snippet": "So, I got tired of my laptop bailing out at my kitchen bar, which is about as far away from my wireless router as you can get in my house. I decided that it was time to either upgrade the router to dd-wrt, or brick it. Those that don’t know, dd-wrt is an open-source firmware for routers which exp..."
+  },
+  
+  {
+    "title": "iLazyGeek",
+    "url": "/posts/ilazygeek/",
+    "categories": "Family",
+    "tags": "",
+    "date": "2008-01-12 20:32:43 +0000",
+    
+
+
+
+
+
+    "snippet": "We went to CostCo and bought the iRobot Roomba. I justify it this way: I’m lazy. I like things that automate my life. Its why I went into computers… I like to automate things that are boring. This isn’t just a way for me to increase my laziness, rather its also a way to increase the wonderment of..."
+  },
+  
+  {
+    "title": "Victims of the infection...",
+    "url": "/posts/victims-of-the-infection/",
+    "categories": "Family",
+    "tags": "",
+    "date": "2007-12-27 20:33:11 +0000",
+    
+
+
+
+
+
+    "snippet": "Most folks know about how Sudafed, real Sudafed, is sold in the USA in a way so that every person who buys it is cataloged for the government. And you can get arrested if you buy too much of the stuff. But here is a good article from someone who followed a money trail on who really benefits from ..."
+  },
+  
+  {
+    "title": "Git?",
+    "url": "/posts/git/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2007-12-18 20:32:15 +0000",
+    
+
+
+
+
+
+    "snippet": "I do like subversion. Its basically an apache module, follows standard HTTP protocols and webdav. It deals with whole directories like CVS deals with files, and transaction-savvy.But subversion really doesn’t know anything about branches or tags. You can have a subversion repository without the b..."
+  },
+  
+  {
+    "title": "A modest proposal...",
+    "url": "/posts/a-modest-proposal/",
+    "categories": "Business",
+    "tags": "",
+    "date": "2007-12-01 20:31:20 +0000",
+    
+
+
+
+
+
+    "snippet": "I think I finally have the solution that can help business and people in the US from a political perspective. And its blindly obvious, proposed many times by others but generally ignored. However, the real beneficiary is also the group that can make it happen. Reduce the governance of the federal..."
+  },
+  
+  {
+    "title": "When you eat it, it’s like dying...",
+    "url": "/posts/when-you-eat-it-it-e2-80-99s-like-dying/",
+    "categories": "Family",
+    "tags": "",
+    "date": "2007-11-09 20:30:44 +0000",
+    
+
+
+
+
+
+    "snippet": "The Ghost Chili Pepper is the hottest chili pepper in the world. Damn hot.Below here is a video of an ESPN personality chomping on one without knowing what it is. I love hot food, but that’s insane.[youtube=http://www.youtube.com/watch?v=MvK2Y1hv9mY&amp;amp;rel=1]BTW, in case some folks don’t kno..."
+  },
+  
+  {
+    "title": "Rats",
+    "url": "/posts/rats/",
+    "categories": "Family",
+    "tags": "",
+    "date": "2007-07-20 20:30:11 +0000",
+    
+
+
+
+
+
+    "snippet": "Ignorance is a happy thing… and what I love about computers is that they really are not that messy. Its neat and tidy… and easy to keep it such. I’m not really that neat of a person, but what I love about computers is keeping them ‘neat’. I’m not good with things that are messy… especially things..."
+  },
+  
+  {
+    "title": "Google blew it?",
+    "url": "/posts/google-blew-it/",
+    "categories": "Business",
+    "tags": "",
+    "date": "2007-07-03 20:28:57 +0000",
+    
+
+
+
+
+
+    "snippet": "Apparently, Google apologized for crappy blog posts even after the original poster tried to unsuccessfully distance their opinion from Googles. This was further reported by the Inquirer and even the New York Times… though it was likely the Time’s article that caused Google to ‘step up’ and say th..."
+  },
+  
+  {
+    "title": "PR RELEASE: Kaiser Permanente VP of Online Services Appointed to Google Council",
+    "url": "/posts/pr-release-kaiser-permanente-vp-of-online-services-appointed-to-google-council/",
+    "categories": "Business",
+    "tags": "",
+    "date": "2007-07-03 20:28:20 +0000",
+    
+
+
+
+
+
+    "snippet": "I’ve mentioned Google’s “original” response to the movie Sicko before, and then their failed apology for it, and even their real ‘official one’. I wanted to say this loud and clear; I do not trust Google’s official word is meaningful.  Check out this article which mentions that Kaiser themselves ..."
+  },
+  
+  {
+    "title": "Advertising is not democratic...",
+    "url": "/posts/advertising-is-not-democratic/",
+    "categories": "Business",
+    "tags": "",
+    "date": "2007-07-01 20:29:36 +0000",
+    
+
+
+
+
+
+    "snippet": "Google recently posted an advertisement/blog entry that is highly unfortunate.  Its specifically targeting ads to run against search results that returns references to the movie Sicko.  I’m not against target advertising, but I found the nature of the blog post/advertising highly tuned to health ..."
+  },
+  
+  {
+    "title": "Breaking glass...",
+    "url": "/posts/breaking-glass/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2007-03-10 20:27:46 +0000",
+    
+
+
+
+
+
+    "snippet": "My wifes computer got a worm, and that computer is the same one we use for Quicken and TurboTax.  Further checks saw that a rootkit got installed.  All from some 2-bit knitting program. So I’ve had it. I convinced her to let me install Ubuntu.  “Would I have everything I already use?” “Yes, Firef..."
+  },
+  
+  {
+    "title": "Quitting",
+    "url": "/posts/quitting/",
+    "categories": "Business",
+    "tags": "",
+    "date": "2006-10-31 20:26:18 +0000",
+    
+
+
+
+
+
+    "snippet": "I quit the other day.  It was actually more difficult then that sounds.  I wrote the letter and sent it to my boss.  I swear it took me 20 minutes to write it.  It consisted only of three sentences.The hard part of quiting was leaving my friends.  Its one thing to leave co-workers.  That sucks to..."
+  },
+  
+  {
+    "title": "Great Quote",
+    "url": "/posts/great-quote/",
+    "categories": "Family",
+    "tags": "",
+    "date": "2006-10-10 20:27:19 +0000",
+    
+
+
+
+
+
+    "snippet": "So, here it is, 8:45pm.  We put Jacob to bed about an hour ago.  The DVR taped Daily Show and Family Guy.  Half-way into the Family guy episode, Jacob calls from his room, “What’s so funny?”  Guess I was laughing fairly loud, and he never did go to sleep.  After explaining that the show on the TV..."
+  },
+  
+  {
+    "title": "With great difficulity...",
+    "url": "/posts/with-great-difficulity/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2006-03-23 20:22:33 +0000",
+    
+
+
+
+
+
+    "snippet": "I’m finding it much more difficult to discuss things these days.  Finding the correct sequence of words to make a coherent thought that can be understood by those around me is troubling at best, and impossible in most cases.  Those that know me may find this hard to believe as I’m told its hard t..."
+  },
+  
+  {
+    "title": "One more Chicago memory...",
+    "url": "/posts/one-more-chicago-memory/",
+    "categories": "Family",
+    "tags": "",
+    "date": "2006-02-26 20:23:12 +0000",
+    
+
+
+
+
+
+    "snippet": "Before I disengage myself from these memories of Chicago, allow me the luxury of one more.  Friday night my father and I went to a concert at a church near their soon to be sold condo.  It was a small string orchestra doing three pieces from Mozart in celebration of his 250 birthday.  They brough..."
+  },
+  
+  {
+    "title": "My little trip...",
+    "url": "/posts/my-little-trip/",
+    "categories": "Family",
+    "tags": "",
+    "date": "2006-02-25 20:23:56 +0000",
+    
+
+
+
+
+
+    "snippet": "Went to Chicago this weekend to visit my folks.  I do miss Chicago, though I could never move back.  Its alot of fun, and the people are good.  You have to break through the ‘city gaze’ to talk to anyone, but once through that wall you are rewarded richly in conversation.My parents have their pla..."
+  },
+  
+  {
+    "title": "The Agnus Dei",
+    "url": "/posts/the-agnus-dei/",
+    "categories": "Family",
+    "tags": "",
+    "date": "2006-02-24 20:24:35 +0000",
+    
+
+
+
+
+
+    "snippet": "We had the Agnus Dei sent from Chicago to Scottsdale.  Its a gorgeous sculpture given to my parents from the artist Jean Tock years ago. I’ve always loved it; a modern piece of a boy holding a lamb.  I’ve wanted it for years, and after my brother decided against having the piece, my parents gave ..."
+  },
+  
+  {
+    "title": "Martini?",
+    "url": "/posts/martini/",
+    "categories": "Family",
+    "tags": "",
+    "date": "2006-01-16 20:20:45 +0000",
+    
+
+
+
+
+
+    "snippet": "I want a martini.  I’m blogging about it because one of my new years resolutions was to blog more.  But I actually have something to say here which I call the death of the dry martini.Originally, like 100 years ago or so, martini’s used regular vermouth.  The first ‘dry’ martini used dry vermouth..."
+  },
+  
+  {
+    "title": "System Admin and Config Files",
+    "url": "/posts/system-admin-and-config-files/",
+    "categories": "Business",
+    "tags": "",
+    "date": "2006-01-04 20:21:44 +0000",
+    
+
+
+
+
+
+    "snippet": "I think I can go on a limb and say that the major part of a system administrator’s job is caring for configuration files.  (Warning, what follows is a rant.)You add a new user?  Modify the /etc/password file.  Adding a new domain name? bind gets its configuration files updated.  Apache?  Yeah, yo..."
+  },
+  
+  {
+    "title": "Specter of pestilence...",
+    "url": "/posts/specter-of-pestilence/",
+    "categories": "Family",
+    "tags": "",
+    "date": "2005-12-11 20:18:53 +0000",
+    
+
+
+
+
+
+    "snippet": "The specter of pestilence made an early appearance at the Wolpert household this season.  Not only was everyone in this house infected, but also the Kellys and surrounding relatives.  People at work fell ill, some at the same time as me, some later.  And only a few infected had no symptoms past 1..."
+  },
+  
+  {
+    "title": "Reports of my death have been greatly exaggerated...",
+    "url": "/posts/reports-of-my-death-have-been-greatly-exaggerated/",
+    "categories": "Family",
+    "tags": "",
+    "date": "2005-11-07 20:19:59 +0000",
+    
+
+
+
+
+
+    "snippet": "It was a very good day today."
+  },
+  
+  {
+    "title": "Code Compliance",
+    "url": "/posts/code-compliance/",
+    "categories": "Code",
+    "tags": "",
+    "date": "2005-08-19 20:17:25 +0000",
+    
+
+
+
+
+
+    "snippet": "An interesting couple of days this week at work.  Wed started with me talking to one of the admins at work first thing in the morning.  When I got to his cubical, he was very busy with two guys at his desk.  Instead of me asking him questions about something I had with our servers, he starts talk..."
+  }
+  
+]
+

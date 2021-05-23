@@ -1,0 +1,198 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://blog.codeheadsystems.com//</id>
+  <title>CodeHead Systems</title>
+  <subtitle>Details on the latest.</subtitle>
+  <updated>2021-05-23T17:53:59+00:00</updated>
+  <author>
+    <name>Ned Wolpert</name>
+    <uri>http://blog.codeheadsystems.com//</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://blog.codeheadsystems.com//feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en-US"
+    href="http://blog.codeheadsystems.com//"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
+  <rights> © 2021 Ned Wolpert </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>So it goes...</title>
+    <link href="http://blog.codeheadsystems.com//posts/So-it-goes/" rel="alternate" type="text/html" title="So it goes..." />
+    <published>2021-05-23T17:00:00+00:00</published>
+  
+    <updated>2021-05-23T17:00:00+00:00</updated>
+  
+    <id>http://blog.codeheadsystems.com//posts/So-it-goes/</id>
+    <content src="http://blog.codeheadsystems.com//posts/So-it-goes/" />
+    <author>
+      <name>wolpert</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      For years I’ve wanted to get rid of wordpress. And I started the Jekyll webiste here years ago… just never got it to where I wanted. Now I’ve made the switch.
+
+Is this gonna get me to write more?  Maybe. Not by itself. Rather what I’m doing is making it easy for me to write new posts. That was always my goal. We’ll see if this works.
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Google releases assertion library</title>
+    <link href="http://blog.codeheadsystems.com//posts/google-releases-assertion-library/" rel="alternate" type="text/html" title="Google releases assertion library" />
+    <published>2019-07-09T14:12:07+00:00</published>
+  
+    <updated>2019-07-09T14:12:07+00:00</updated>
+  
+    <id>http://blog.codeheadsystems.com//posts/google-releases-assertion-library/</id>
+    <content src="http://blog.codeheadsystems.com//posts/google-releases-assertion-library/" />
+    <author>
+      <name>wolpert</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Google’s internal library Truth has been released as version 1.0. It maintained by the Guava people, and is designed to work for both Java and Android according to their page. (Though not sure exactly what the Android tweaks are.)
+
+I like the API for Truth and AssertJ and their error messages. Honestly I’ve been using jUnit’s assertion library mostly because I’m lazy. Though I’m considering swi...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Something is rotten in the state of Denmark</title>
+    <link href="http://blog.codeheadsystems.com//posts/something-is-rotten-in-the-state-of-denmark/" rel="alternate" type="text/html" title="Something is rotten in the state of Denmark" />
+    <published>2019-05-10T04:00:28+00:00</published>
+  
+    <updated>2019-05-10T04:00:28+00:00</updated>
+  
+    <id>http://blog.codeheadsystems.com//posts/something-is-rotten-in-the-state-of-denmark/</id>
+    <content src="http://blog.codeheadsystems.com//posts/something-is-rotten-in-the-state-of-denmark/" />
+    <author>
+      <name>wolpert</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+I don’t get it. Typically I cannot handle most modern shows. Take Game of Thrones. Its filled with violence and incest. I’m not a prude by any standard, but it’s simply too much for me. To be fair, most shows these days I’d rather not watch. So it’s nice when the rare show pops up that I can handle watching.
+
+Last year Netflix came up with the “The Curious Creations of Christine McConnell” wh...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Three weeks in...</title>
+    <link href="http://blog.codeheadsystems.com//posts/three-weeks-in/" rel="alternate" type="text/html" title="Three weeks in..." />
+    <published>2019-04-26T02:34:09+00:00</published>
+  
+    <updated>2019-04-26T02:34:09+00:00</updated>
+  
+    <id>http://blog.codeheadsystems.com//posts/three-weeks-in/</id>
+    <content src="http://blog.codeheadsystems.com//posts/three-weeks-in/" />
+    <author>
+      <name>wolpert</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      tl; dr… still I enjoy the leaf.
+
+
+
+The leaf lends itself to my schedule. I still haven’t gotten the fast-charger installed. I will soon. But that means for now I’m just using the trickle charger. Work is only like 12 miles away, so nightly charging is completely fine for me.
+
+For ref, this is a used 2016 leaf. SL trim so its ‘upscale’ in the sense that it has leather. The newer leafs are more d...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>2016 Leaf...</title>
+    <link href="http://blog.codeheadsystems.com//posts/2016-leaf/" rel="alternate" type="text/html" title="2016 Leaf..." />
+    <published>2019-04-07T00:19:08+00:00</published>
+  
+    <updated>2019-04-07T00:19:08+00:00</updated>
+  
+    <id>http://blog.codeheadsystems.com//posts/2016-leaf/</id>
+    <content src="http://blog.codeheadsystems.com//posts/2016-leaf/" />
+    <author>
+      <name>wolpert</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      I recently bought a used Nissan Leaf, 2016 SL.  The place that sold it was a dealership, but not a Nissan one. When I saw it, it had 10 out of 12 bars on the battery. The site included free CarFax which indicated that the battery was given a maintenance notice of the battery firmware needing an update, but that never happened. The leaf was 3 years old now, so the 30kWh battery had 5 years left ...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
