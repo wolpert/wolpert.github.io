@@ -1,0 +1,14 @@
+---
+author: wolpert
+comments: true
+date: 2010-01-14 02:39:59+00:00
+layout: post
+link: https://codeheadsystems.wordpress.com/2010/01/13/migo/
+slug: migo
+title: Migo...
+wordpress_id: 176
+categories:
+- Code
+---
+
+Here is something that will only interest a few people. I've restarted my 'Migo Experiment' tonight. This is a variation of my 'bees', swarm AI project. First goal, 1K neurons on one computer.

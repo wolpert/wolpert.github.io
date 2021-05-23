@@ -1,0 +1,18 @@
+---
+author: wolpert
+comments: true
+date: 2007-12-18 20:32:15+00:00
+layout: post
+link: https://codeheadsystems.wordpress.com/2007/12/18/git/
+slug: git
+title: Git?
+wordpress_id: 48
+categories:
+- Code
+---
+
+<!-- s9ymdb:62 --><img width="72" height="27" style="float: left; border: 0px; padding-left: 5px; padding-right: 5px;" src="/blog/uploads/git-logo.serendipityThumb.png" alt="" />I do like subversion. Its basically an apache module, follows standard HTTP protocols and webdav. It deals with whole directories like CVS deals with files, and transaction-savvy.
+
+But subversion really doesn't know anything about branches or tags. You can have a subversion repository without the branches, tags or even the trunk directory. Those are just conventions. And likewise, tags doesn't really exist as a tag, but a copy of a revision. That means you can check out the tag, update it, and commit it. That's not a tag, thats a branch. And funnier is that if I 'tag' revision 51, and then make a few more commits to the trunk... say to rev 54, the 'head' of the 'tag' is rev 54. And what's the best way to query a svn repository? Trac. Trac looks great but its simply too slow.
+
+So... I'm looking at <a href="http://git.or.cz/">git</a>, which is used for active development of the Linux kernel. Not only does it have branching and tagging in the CVS style, directory and transaction management in the subversion style, its also a 'distributed' revision control system. (You clone the repository, and push updates) The GUI treatments of it don't seem to be done, or IDE integration, but I'm more of a command-line kinda of guy anyways. This may really make more sense in the long run, but I'm still not sure if going from svn to git passes the 'inertia' test... that the pain in upgrading the repository and backup scripts and team learning of git is worth the upgrade.

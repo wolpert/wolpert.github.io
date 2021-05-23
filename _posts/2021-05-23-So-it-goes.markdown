@@ -1,0 +1,11 @@
+---
+author: wolpert
+comments: true
+date: 2021-05-23 10:00:00-07:00
+layout: post
+slug: So it goes...
+title: So it goes...
+---
+For years I've wanted to get rid of wordpress. And I started the Jekyll webiste here years ago... just never got it to where I wanted. Now I've made the switch.
+
+Is this gonna get me to write more?  Maybe. Not by itself. Rather what I'm doing is making it easy for me to write new posts. That was always my goal. We'll see if this works.

@@ -1,0 +1,14 @@
+---
+author: wolpert
+comments: true
+date: 2010-01-01 01:02:07+00:00
+layout: post
+link: https://codeheadsystems.wordpress.com/2009/12/31/code-head/
+slug: code-head
+title: Code Head...
+wordpress_id: 173
+categories:
+- Code
+---
+
+While I watch my kitchen being remodels (which is a nice way to say, destroyed and rebuild) I decided on two projects that I want to work on in the new year, completely unrelated to my kitchen. The first is a palm pre application, and the second is a web application, using RoR. I'm keeping these projects small to  increase the chance that they get done. I'm starting to go back to my roots and code for recreation again. Watching someone work hard on my kitchen has re-invigorated my desire not to do hard labor. I love programming.

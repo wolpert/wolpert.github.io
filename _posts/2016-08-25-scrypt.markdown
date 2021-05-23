@@ -1,0 +1,12 @@
+---
+author: wolpert
+comments: true
+date: 2016-08-25 15:22:17+00:00
+layout: post
+link: https://codeheadsystems.wordpress.com/2016/08/25/scrypt/
+slug: scrypt
+title: Scrypt
+wordpress_id: 494
+---
+
+Trying to decide if [scrypt](https://en.wikipedia.org/wiki/Scrypt) is useful for creating a hash from a password to encrypt documents with. (AES-256)
