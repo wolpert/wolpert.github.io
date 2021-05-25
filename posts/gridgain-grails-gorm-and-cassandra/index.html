@@ -42,7 +42,7 @@
 <meta name="twitter:creator" content="@wolpert" />
 <meta name="google-site-verification" content="google_meta_tag_verification" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://www.codeheadsystems.com//posts/gridgain-grails-gorm-and-cassandra/"},"description":"I have grails working to submit jobs to gridgain nodes. The grid tasks execute and send out jobs that run on the grid nodes just fine. The grid jobs are able to make use of a cassandra service (provided by the cassandra plugin I wrote) just fine, thanks to Hector reconnecting blindly on the grid job. Interesting tidbit is that GridTasks (which execute on the node that submits the task) are able to make use of standard GORM methods like list(). But GridJobs cannot make use of these methods. Odds are this is due to how the method list() is added to the GORM object… the method simply isn’t added on the grid node when it loads up the class.","dateModified":"2010-06-15T23:05:58+00:00","author":{"@type":"Person","name":"wolpert"},"url":"http://www.codeheadsystems.com//posts/gridgain-grails-gorm-and-cassandra/","headline":"Gridgain, Grails, GORM and Cassandra","datePublished":"2010-06-15T23:05:58+00:00","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","description":"I have grails working to submit jobs to gridgain nodes. The grid tasks execute and send out jobs that run on the grid nodes just fine. The grid jobs are able to make use of a cassandra service (provided by the cassandra plugin I wrote) just fine, thanks to Hector reconnecting blindly on the grid job. Interesting tidbit is that GridTasks (which execute on the node that submits the task) are able to make use of standard GORM methods like list(). But GridJobs cannot make use of these methods. Odds are this is due to how the method list() is added to the GORM object… the method simply isn’t added on the grid node when it loads up the class.","headline":"Gridgain, Grails, GORM and Cassandra","dateModified":"2010-06-15T23:05:58+00:00","datePublished":"2010-06-15T23:05:58+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://www.codeheadsystems.com//posts/gridgain-grails-gorm-and-cassandra/"},"url":"http://www.codeheadsystems.com//posts/gridgain-grails-gorm-and-cassandra/","author":{"@type":"Person","name":"wolpert"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -525,6 +525,22 @@
 
 
 
+
+  
+
+    <div id="access-lastmod" class="post">
+      <span>Recent Update</span>
+      <ul class="post-content pl-0 pb-1 ml-1 mt-2">
+
+      
+        
+        
+        
+        <li><a href="/posts/Github-or-S3/">Github or S3</a></li>
+      
+
+      </ul>
+    </div> <!-- #access-lastmod -->
 
   
 

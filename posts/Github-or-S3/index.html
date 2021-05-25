@@ -42,7 +42,7 @@
 <meta name="twitter:creator" content="@wolpert" />
 <meta name="google-site-verification" content="google_meta_tag_verification" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://www.codeheadsystems.com//posts/Github-or-S3/"},"description":"The new website is really just jekyll on github right now. I’m not using github pages itself, rather just running the jekyll engine to build the site and post it on github.io raw. The idea is I could move the website anywhere I wanted to if github got annoying.","dateModified":"2021-05-25T14:00:00+00:00","author":{"@type":"Person","name":"wolpert"},"url":"http://www.codeheadsystems.com//posts/Github-or-S3/","headline":"Github or S3","datePublished":"2021-05-25T14:00:00+00:00","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","description":"The new website is really just jekyll on github right now. I’m not using github pages itself, rather just running the jekyll engine to build the site and post it on github.io raw. The idea is I could move the website anywhere I wanted to if github got annoying.","headline":"Github or S3","dateModified":"2021-05-25T15:16:11+00:00","datePublished":"2021-05-25T14:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://www.codeheadsystems.com//posts/Github-or-S3/"},"url":"http://www.codeheadsystems.com//posts/Github-or-S3/","author":{"@type":"Person","name":"wolpert"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -398,6 +398,39 @@
         <div>
           <!-- lastmod -->
           
+          <span>
+            <!--
+  Date format snippet
+  See: /assets/js/_utils/timeage.js
+-->
+
+
+
+
+
+<span class="timeago lastmod"
+  
+    data-toggle="tooltip"
+    data-placement="bottom"
+    title="Tue, May 25, 2021,  8:16 AM -0700"
+  
+
+  prefix="Updated "
+   >
+
+  
+  
+
+  
+    May 25
+  
+
+  <i class="unloaded">2021-05-25T15:16:11+00:00</i>
+
+</span>
+
+          </span>
+          
 
           <!-- read time -->
           <!--
@@ -414,7 +447,7 @@
 
 
 <!-- return element -->
-<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="284 words">1 min</span>
+<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="428 words">2 min</span>
 
 
           <!-- page views -->
@@ -442,6 +475,18 @@
 <p>To be fair, I could have paid wordpress and they would have removed it. I just never saw the point of most of wordpress’s features beyond that. In fact, PHP itself is a liability… but at least having their company maintain it meant I didn’t have to worry about their code base. But it still wasn’t the look I wanted.</p>
 
 <p>So github.io or S3 became my options to leave. (I really didn’t want to run my own servers for just static content.) Jekyll is a reasonable system to maintain pages if there is no backend for your site. In this case, its just static content updated whenever. For now it is really just hosted on github.io until there is a need to move it. I like that option though… eventually ever free service dies just as fast as the paid one. This one will too.</p>
+
+<p>One other thing to point out. I added zero tracking to my site. If you look at the network connections you get when loading this page, besides from my domain, you see:</p>
+
+<ul>
+  <li>cdn.jsdelivr.net</li>
+  <li>fonts.googleapis.com</li>
+  <li>fonts.gstatic.com</li>
+</ul>
+
+<p>Beyond that, the only backend components that see how you got here are github.io since they host the site, and the domain name resolvers that link ‘www.codeheadsystems.com’ to the IP addresses served by github.io. I plan on pulling in the fonts so they do not link back to google… and undecided about jsdelivr.net. They are an open-source CDN. Unless someone has a reason to avoid them, I’d rather continue to use them.</p>
+
+<p>Finally… one bad thing about jekyll… everytime I add a new post, their metadata update changes orders on each page. This means a new post is an update to every post. I need to fix that. :/</p>
 
 
       </div>
@@ -536,6 +581,22 @@
 
 
 
+
+  
+
+    <div id="access-lastmod" class="post">
+      <span>Recent Update</span>
+      <ul class="post-content pl-0 pb-1 ml-1 mt-2">
+
+      
+        
+        
+        
+        <li><a href="/posts/Github-or-S3/">Github or S3</a></li>
+      
+
+      </ul>
+    </div> <!-- #access-lastmod -->
 
   
 
