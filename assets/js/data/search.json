@@ -1,6 +1,21 @@
 [
   
   {
+    "title": "Github or S3",
+    "url": "/posts/Github-or-S3/",
+    "categories": "",
+    "tags": "",
+    "date": "2021-05-25 14:00:00 +0000",
+    
+
+
+
+
+
+    "snippet": "The new website is really just jekyll on github right now. I’m not using github pages itself, rather just running the jekyll engine to build the site and post it on github.io raw. The idea is I could move the website anywhere I wanted to if github got annoying.The advantage of hosting on github.i..."
+  },
+  
+  {
     "title": "So it goes...",
     "url": "/posts/So-it-goes/",
     "categories": "",

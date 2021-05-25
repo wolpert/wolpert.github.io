@@ -4,7 +4,7 @@
   <id>http://www.codeheadsystems.com//</id>
   <title>CodeHead Systems</title>
   <subtitle>Details on the latest.</subtitle>
-  <updated>2021-05-25T14:16:02+00:00</updated>
+  <updated>2021-05-25T14:45:14+00:00</updated>
   <author>
     <name>Ned Wolpert</name>
     <uri>http://www.codeheadsystems.com//</uri>
@@ -17,6 +17,44 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Github or S3</title>
+    <link href="http://www.codeheadsystems.com//posts/Github-or-S3/" rel="alternate" type="text/html" title="Github or S3" />
+    <published>2021-05-25T14:00:00+00:00</published>
+  
+    <updated>2021-05-25T14:00:00+00:00</updated>
+  
+    <id>http://www.codeheadsystems.com//posts/Github-or-S3/</id>
+    <content src="http://www.codeheadsystems.com//posts/Github-or-S3/" />
+    <author>
+      <name>wolpert</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      The new website is really just jekyll on github right now. I’m not using github pages itself, rather just running the jekyll engine to build the site and post it on github.io raw. The idea is I could move the website anywhere I wanted to if github got annoying.
+
+The advantage of hosting on github.io like I do now is two fold:
+
+
+  It’s free.
+  If I don’t use gitpages engine, then there are no ‘a...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -156,38 +194,6 @@ Last year Netflix came up with the “The Curious Creations of Christine McConne
 The leaf lends itself to my schedule. I still haven’t gotten the fast-charger installed. I will soon. But that means for now I’m just using the trickle charger. Work is only like 12 miles away, so nightly charging is completely fine for me.
 
 For ref, this is a used 2016 leaf. SL trim so its ‘upscale’ in the sense that it has leather. The newer leafs are more d...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>2016 Leaf...</title>
-    <link href="http://www.codeheadsystems.com//posts/2016-leaf/" rel="alternate" type="text/html" title="2016 Leaf..." />
-    <published>2019-04-07T00:19:08+00:00</published>
-  
-    <updated>2019-04-07T00:19:08+00:00</updated>
-  
-    <id>http://www.codeheadsystems.com//posts/2016-leaf/</id>
-    <content src="http://www.codeheadsystems.com//posts/2016-leaf/" />
-    <author>
-      <name>wolpert</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      I recently bought a used Nissan Leaf, 2016 SL.  The place that sold it was a dealership, but not a Nissan one. When I saw it, it had 10 out of 12 bars on the battery. The site included free CarFax which indicated that the battery was given a maintenance notice of the battery firmware needing an update, but that never happened. The leaf was 3 years old now, so the 30kWh battery had 5 years left ...
     </summary>
   
 
