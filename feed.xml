@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://blog.codeheadsystems.com//</id>
+  <id>http://www.codeheadsystems.com//</id>
   <title>CodeHead Systems</title>
   <subtitle>Details on the latest.</subtitle>
-  <updated>2021-05-23T17:53:59+00:00</updated>
+  <updated>2021-05-25T14:16:02+00:00</updated>
   <author>
     <name>Ned Wolpert</name>
-    <uri>http://blog.codeheadsystems.com//</uri>
+    <uri>http://www.codeheadsystems.com//</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://blog.codeheadsystems.com//feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://www.codeheadsystems.com//feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en-US"
-    href="http://blog.codeheadsystems.com//"/>
+    href="http://www.codeheadsystems.com//"/>
   <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
   <rights> © 2021 Ned Wolpert </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>So it goes...</title>
-    <link href="http://blog.codeheadsystems.com//posts/So-it-goes/" rel="alternate" type="text/html" title="So it goes..." />
+    <link href="http://www.codeheadsystems.com//posts/So-it-goes/" rel="alternate" type="text/html" title="So it goes..." />
     <published>2021-05-23T17:00:00+00:00</published>
   
     <updated>2021-05-23T17:00:00+00:00</updated>
   
-    <id>http://blog.codeheadsystems.com//posts/So-it-goes/</id>
-    <content src="http://blog.codeheadsystems.com//posts/So-it-goes/" />
+    <id>http://www.codeheadsystems.com//posts/So-it-goes/</id>
+    <content src="http://www.codeheadsystems.com//posts/So-it-goes/" />
     <author>
       <name>wolpert</name>
     </author>
@@ -56,13 +56,13 @@ Is this gonna get me to write more?  Maybe. Not by itself. Rather what I’m doi
   
   <entry>
     <title>Google releases assertion library</title>
-    <link href="http://blog.codeheadsystems.com//posts/google-releases-assertion-library/" rel="alternate" type="text/html" title="Google releases assertion library" />
+    <link href="http://www.codeheadsystems.com//posts/google-releases-assertion-library/" rel="alternate" type="text/html" title="Google releases assertion library" />
     <published>2019-07-09T14:12:07+00:00</published>
   
     <updated>2019-07-09T14:12:07+00:00</updated>
   
-    <id>http://blog.codeheadsystems.com//posts/google-releases-assertion-library/</id>
-    <content src="http://blog.codeheadsystems.com//posts/google-releases-assertion-library/" />
+    <id>http://www.codeheadsystems.com//posts/google-releases-assertion-library/</id>
+    <content src="http://www.codeheadsystems.com//posts/google-releases-assertion-library/" />
     <author>
       <name>wolpert</name>
     </author>
@@ -90,13 +90,13 @@ I like the API for Truth and AssertJ and their error messages. Honestly I’ve b
   
   <entry>
     <title>Something is rotten in the state of Denmark</title>
-    <link href="http://blog.codeheadsystems.com//posts/something-is-rotten-in-the-state-of-denmark/" rel="alternate" type="text/html" title="Something is rotten in the state of Denmark" />
+    <link href="http://www.codeheadsystems.com//posts/something-is-rotten-in-the-state-of-denmark/" rel="alternate" type="text/html" title="Something is rotten in the state of Denmark" />
     <published>2019-05-10T04:00:28+00:00</published>
   
     <updated>2019-05-10T04:00:28+00:00</updated>
   
-    <id>http://blog.codeheadsystems.com//posts/something-is-rotten-in-the-state-of-denmark/</id>
-    <content src="http://blog.codeheadsystems.com//posts/something-is-rotten-in-the-state-of-denmark/" />
+    <id>http://www.codeheadsystems.com//posts/something-is-rotten-in-the-state-of-denmark/</id>
+    <content src="http://www.codeheadsystems.com//posts/something-is-rotten-in-the-state-of-denmark/" />
     <author>
       <name>wolpert</name>
     </author>
@@ -126,13 +126,13 @@ Last year Netflix came up with the “The Curious Creations of Christine McConne
   
   <entry>
     <title>Three weeks in...</title>
-    <link href="http://blog.codeheadsystems.com//posts/three-weeks-in/" rel="alternate" type="text/html" title="Three weeks in..." />
+    <link href="http://www.codeheadsystems.com//posts/three-weeks-in/" rel="alternate" type="text/html" title="Three weeks in..." />
     <published>2019-04-26T02:34:09+00:00</published>
   
     <updated>2019-04-26T02:34:09+00:00</updated>
   
-    <id>http://blog.codeheadsystems.com//posts/three-weeks-in/</id>
-    <content src="http://blog.codeheadsystems.com//posts/three-weeks-in/" />
+    <id>http://www.codeheadsystems.com//posts/three-weeks-in/</id>
+    <content src="http://www.codeheadsystems.com//posts/three-weeks-in/" />
     <author>
       <name>wolpert</name>
     </author>
@@ -164,13 +164,13 @@ For ref, this is a used 2016 leaf. SL trim so its ‘upscale’ in the sense tha
   
   <entry>
     <title>2016 Leaf...</title>
-    <link href="http://blog.codeheadsystems.com//posts/2016-leaf/" rel="alternate" type="text/html" title="2016 Leaf..." />
+    <link href="http://www.codeheadsystems.com//posts/2016-leaf/" rel="alternate" type="text/html" title="2016 Leaf..." />
     <published>2019-04-07T00:19:08+00:00</published>
   
     <updated>2019-04-07T00:19:08+00:00</updated>
   
-    <id>http://blog.codeheadsystems.com//posts/2016-leaf/</id>
-    <content src="http://blog.codeheadsystems.com//posts/2016-leaf/" />
+    <id>http://www.codeheadsystems.com//posts/2016-leaf/</id>
+    <content src="http://www.codeheadsystems.com//posts/2016-leaf/" />
     <author>
       <name>wolpert</name>
     </author>

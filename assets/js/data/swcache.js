@@ -45,7 +45,7 @@ const resource = [
 const allowedDomains = [
   
 
-  'blog.codeheadsystems.com/',
+  'www.codeheadsystems.com/',
 
   'fonts.gstatic.com',
   'fonts.googleapis.com',

@@ -31,8 +31,8 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A line was crossed recently. I don’t mind this line, its actually a good one. But its one that many in the Rails community don’t think to much about.  Thanks to a new Simple Service, Rails has transaction demarcation in a service model. You define a ‘stateless service’ in your rails application where it handles a bit of business logic. It could impact multiple objects and multiple save points. If one of them fails, they all fail and the transaction is rolled back.  Yes, that’s right, its the start of a framework needed for a primitive stateless EJB session bean." />
 <meta property="og:description" content="A line was crossed recently. I don’t mind this line, its actually a good one. But its one that many in the Rails community don’t think to much about.  Thanks to a new Simple Service, Rails has transaction demarcation in a service model. You define a ‘stateless service’ in your rails application where it handles a bit of business logic. It could impact multiple objects and multiple save points. If one of them fails, they all fail and the transaction is rolled back.  Yes, that’s right, its the start of a framework needed for a primitive stateless EJB session bean." />
-<link rel="canonical" href="http://blog.codeheadsystems.com//posts/rails-in-pre-j2ee-state/" />
-<meta property="og:url" content="http://blog.codeheadsystems.com//posts/rails-in-pre-j2ee-state/" />
+<link rel="canonical" href="http://www.codeheadsystems.com//posts/rails-in-pre-j2ee-state/" />
+<meta property="og:url" content="http://www.codeheadsystems.com//posts/rails-in-pre-j2ee-state/" />
 <meta property="og:site_name" content="CodeHead Systems" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2008-01-24T20:34:15+00:00" />
@@ -42,7 +42,7 @@
 <meta name="twitter:creator" content="@wolpert" />
 <meta name="google-site-verification" content="google_meta_tag_verification" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","description":"A line was crossed recently. I don’t mind this line, its actually a good one. But its one that many in the Rails community don’t think to much about.  Thanks to a new Simple Service, Rails has transaction demarcation in a service model. You define a ‘stateless service’ in your rails application where it handles a bit of business logic. It could impact multiple objects and multiple save points. If one of them fails, they all fail and the transaction is rolled back.  Yes, that’s right, its the start of a framework needed for a primitive stateless EJB session bean.","headline":"Rails in pre-J2EE state…","dateModified":"2008-01-24T20:34:15+00:00","datePublished":"2008-01-24T20:34:15+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://blog.codeheadsystems.com//posts/rails-in-pre-j2ee-state/"},"url":"http://blog.codeheadsystems.com//posts/rails-in-pre-j2ee-state/","author":{"@type":"Person","name":"wolpert"},"@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://www.codeheadsystems.com//posts/rails-in-pre-j2ee-state/"},"description":"A line was crossed recently. I don’t mind this line, its actually a good one. But its one that many in the Rails community don’t think to much about.  Thanks to a new Simple Service, Rails has transaction demarcation in a service model. You define a ‘stateless service’ in your rails application where it handles a bit of business logic. It could impact multiple objects and multiple save points. If one of them fails, they all fail and the transaction is rolled back.  Yes, that’s right, its the start of a framework needed for a primitive stateless EJB session bean.","dateModified":"2008-01-24T20:34:15+00:00","author":{"@type":"Person","name":"wolpert"},"url":"http://www.codeheadsystems.com//posts/rails-in-pre-j2ee-state/","headline":"Rails in pre-J2EE state…","datePublished":"2008-01-24T20:34:15+00:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -471,19 +471,19 @@
 
     
       
-        <a href="https://twitter.com/intent/tweet?text=Rails in pre-J2EE state... - CodeHead Systems&url=http://blog.codeheadsystems.com//posts/rails-in-pre-j2ee-state/" data-toggle="tooltip" data-placement="top"
+        <a href="https://twitter.com/intent/tweet?text=Rails in pre-J2EE state... - CodeHead Systems&url=http://www.codeheadsystems.com//posts/rails-in-pre-j2ee-state/" data-toggle="tooltip" data-placement="top"
           title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
           <i class="fa-fw fab fa-twitter"></i>
         </a>
     
       
-        <a href="https://www.facebook.com/sharer/sharer.php?title=Rails in pre-J2EE state... - CodeHead Systems&u=http://blog.codeheadsystems.com//posts/rails-in-pre-j2ee-state/" data-toggle="tooltip" data-placement="top"
+        <a href="https://www.facebook.com/sharer/sharer.php?title=Rails in pre-J2EE state... - CodeHead Systems&u=http://www.codeheadsystems.com//posts/rails-in-pre-j2ee-state/" data-toggle="tooltip" data-placement="top"
           title="Facebook" target="_blank" rel="noopener" aria-label="Facebook">
           <i class="fa-fw fab fa-facebook-square"></i>
         </a>
     
       
-        <a href="https://telegram.me/share?text=Rails in pre-J2EE state... - CodeHead Systems&url=http://blog.codeheadsystems.com//posts/rails-in-pre-j2ee-state/" data-toggle="tooltip" data-placement="top"
+        <a href="https://telegram.me/share?text=Rails in pre-J2EE state... - CodeHead Systems&url=http://www.codeheadsystems.com//posts/rails-in-pre-j2ee-state/" data-toggle="tooltip" data-placement="top"
           title="Telegram" target="_blank" rel="noopener" aria-label="Telegram">
           <i class="fa-fw fab fa-telegram"></i>
         </a>
@@ -2660,7 +2660,7 @@ SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('search-results'),
   json: '/assets/js/data/search.json',
-  searchResultTemplate: '<div class="pl-1 pr-1 pl-sm-2 pr-sm-2 pl-lg-4 pr-lg-4 pl-xl-0 pr-xl-0">  <a href="http://blog.codeheadsystems.com/{url}">{title}</a>  <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">    {categories}    {tags}  </div>  <p>{snippet}</p></div>',
+  searchResultTemplate: '<div class="pl-1 pr-1 pl-sm-2 pr-sm-2 pl-lg-4 pr-lg-4 pl-xl-0 pr-xl-0">  <a href="http://www.codeheadsystems.com/{url}">{title}</a>  <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">    {categories}    {tags}  </div>  <p>{snippet}</p></div>',
   noResultsText: '<p class="mt-5">Oops! No result founds.</p>',
   templateMiddleware: function(prop, value, template) {
     if (prop === 'categories') {

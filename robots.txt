@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: http://blog.codeheadsystems.com//sitemap.xml
+Sitemap: http://www.codeheadsystems.com//sitemap.xml
