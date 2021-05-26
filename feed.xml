@@ -4,7 +4,7 @@
   <id>http://www.codeheadsystems.com//</id>
   <title>CodeHead Systems</title>
   <subtitle>Details on the latest.</subtitle>
-  <updated>2021-05-26T15:04:43+00:00</updated>
+  <updated>2021-05-26T15:06:51+00:00</updated>
   <author>
     <name>Ned Wolpert</name>
     <uri>http://www.codeheadsystems.com//</uri>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>org-mode</title>
-    <link href="http://www.codeheadsystems.com//posts/Org-Mode/.-how-I-started-taking-notes-again" rel="alternate" type="text/html" title="org-mode" />
+    <link href="http://www.codeheadsystems.com//posts/org-mode-and-how-I-started-taking-notes-again" rel="alternate" type="text/html" title="org-mode" />
     <published>2021-05-26T14:00:00+00:00</published>
   
     <updated>2021-05-26T14:00:00+00:00</updated>
   
-    <id>http://www.codeheadsystems.com//posts/Org-Mode/.-how-I-started-taking-notes-again</id>
-    <content src="http://www.codeheadsystems.com//posts/Org-Mode/.-how-I-started-taking-notes-again" />
+    <id>http://www.codeheadsystems.com//posts/org-mode-and-how-I-started-taking-notes-again</id>
+    <content src="http://www.codeheadsystems.com//posts/org-mode-and-how-I-started-taking-notes-again" />
     <author>
       <name>wolpert</name>
     </author>
