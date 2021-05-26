@@ -4,7 +4,7 @@
   <id>http://www.codeheadsystems.com//</id>
   <title>CodeHead Systems</title>
   <subtitle>Details on the latest.</subtitle>
-  <updated>2021-05-25T15:18:40+00:00</updated>
+  <updated>2021-05-26T15:04:43+00:00</updated>
   <author>
     <name>Ned Wolpert</name>
     <uri>http://www.codeheadsystems.com//</uri>
@@ -20,11 +20,45 @@
 
   
   <entry>
+    <title>org-mode</title>
+    <link href="http://www.codeheadsystems.com//posts/Org-Mode/.-how-I-started-taking-notes-again" rel="alternate" type="text/html" title="org-mode" />
+    <published>2021-05-26T14:00:00+00:00</published>
+  
+    <updated>2021-05-26T14:00:00+00:00</updated>
+  
+    <id>http://www.codeheadsystems.com//posts/Org-Mode/.-how-I-started-taking-notes-again</id>
+    <content src="http://www.codeheadsystems.com//posts/Org-Mode/.-how-I-started-taking-notes-again" />
+    <author>
+      <name>wolpert</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      I’ve been an emacs user since 1992. Back then I was a chemist… and taking notes meant having a physical lab notebook with a specific page format. The notebook was always away from the experiments… which ensured that in case of an accident those who remain could see what I did wrong by reading my notebook.
+
+Using a computer for those notes was not allowed back then. (Fear of not easily being abl...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Github or S3</title>
     <link href="http://www.codeheadsystems.com//posts/Github-or-S3/" rel="alternate" type="text/html" title="Github or S3" />
     <published>2021-05-25T14:00:00+00:00</published>
   
-    <updated>2021-05-25T15:16:11+00:00</updated>
+    <updated>2021-05-25T15:19:08+00:00</updated>
   
     <id>http://www.codeheadsystems.com//posts/Github-or-S3/</id>
     <content src="http://www.codeheadsystems.com//posts/Github-or-S3/" />
@@ -156,44 +190,6 @@ I like the API for Truth and AssertJ and their error messages. Honestly I’ve b
 I don’t get it. Typically I cannot handle most modern shows. Take Game of Thrones. Its filled with violence and incest. I’m not a prude by any standard, but it’s simply too much for me. To be fair, most shows these days I’d rather not watch. So it’s nice when the rare show pops up that I can handle watching.
 
 Last year Netflix came up with the “The Curious Creations of Christine McConnell” wh...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Three weeks in...</title>
-    <link href="http://www.codeheadsystems.com//posts/three-weeks-in/" rel="alternate" type="text/html" title="Three weeks in..." />
-    <published>2019-04-26T02:34:09+00:00</published>
-  
-    <updated>2019-04-26T02:34:09+00:00</updated>
-  
-    <id>http://www.codeheadsystems.com//posts/three-weeks-in/</id>
-    <content src="http://www.codeheadsystems.com//posts/three-weeks-in/" />
-    <author>
-      <name>wolpert</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      tl; dr… still I enjoy the leaf.
-
-
-
-The leaf lends itself to my schedule. I still haven’t gotten the fast-charger installed. I will soon. But that means for now I’m just using the trickle charger. Work is only like 12 miles away, so nightly charging is completely fine for me.
-
-For ref, this is a used 2016 leaf. SL trim so its ‘upscale’ in the sense that it has leather. The newer leafs are more d...
     </summary>
   
 

@@ -1,6 +1,21 @@
 [
   
   {
+    "title": "org-mode",
+    "url": "/posts/Org-Mode/.-how-I-started-taking-notes-again",
+    "categories": "",
+    "tags": "emacs",
+    "date": "2021-05-26 14:00:00 +0000",
+    
+
+
+
+
+
+    "snippet": "I’ve been an emacs user since 1992. Back then I was a chemist… and taking notes meant having a physical lab notebook with a specific page format. The notebook was always away from the experiments… which ensured that in case of an accident those who remain could see what I did wrong by reading my ..."
+  },
+  
+  {
     "title": "Github or S3",
     "url": "/posts/Github-or-S3/",
     "categories": "",
