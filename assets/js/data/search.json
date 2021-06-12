@@ -1,6 +1,21 @@
 [
   
   {
+    "title": "Topgrade",
+    "url": "/posts/Topgrade-is-becoming-a-must-have",
+    "categories": "",
+    "tags": "",
+    "date": "2021-06-12 14:00:00 +0000",
+    
+
+
+
+
+
+    "snippet": "A friend introduced me to a little rust app called (topgrade)[https://github.com/r-darwish/topgrade] which runs all the update commands on your system. This is surprisingly good and wanted to post it here. Runs on Unix/Linux, Mac and windows.This is really more than automating a package manager… ..."
+  },
+  
+  {
     "title": "org-mode",
     "url": "/posts/org-mode-and-how-I-started-taking-notes-again",
     "categories": "",
