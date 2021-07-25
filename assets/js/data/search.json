@@ -1,6 +1,21 @@
 [
   
   {
+    "title": "Rusty",
+    "url": "/posts/How-to-get-everything-you-want/",
+    "categories": "",
+    "tags": "",
+    "date": "2021-07-24 00:00:00 +0000",
+    
+
+
+
+
+
+    "snippet": "For years I’ve had this love affair with Java. It’s like an old friend that I can hang with all night. I did stray for a few years with Ruby, but I always came back. Java was stable, repeatable, and everyone else knew what to expect.I started playing with Rust. It’s annotations feel like pound(#)..."
+  },
+  
+  {
     "title": "Topgrade",
     "url": "/posts/Topgrade-is-becoming-a-must-have",
     "categories": "",
@@ -12,7 +27,7 @@
 
 
 
-    "snippet": "A friend introduced me to a little rust app called (topgrade)[https://github.com/r-darwish/topgrade] which runs all the update commands on your system. This is surprisingly good and wanted to post it here. Runs on Unix/Linux, Mac and windows.This is really more than automating a package manager… ..."
+    "snippet": "A friend introduced me to a little rust app called topgrade which runs all the update commands on your system. This is surprisingly good and wanted to post it here. Runs on Unix/Linux, Mac and windows.This is really more than automating a package manager… though it makes sure everything is up-to-..."
   },
   
   {
