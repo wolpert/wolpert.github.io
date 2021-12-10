@@ -1,6 +1,21 @@
 [
   
   {
+    "title": "Framework?",
+    "url": "/posts/After-all,-why-shouldn't-I-upgrade-my-laptop/",
+    "categories": "",
+    "tags": "",
+    "date": "2021-12-10 14:00:00 +0000",
+    
+
+
+
+
+
+    "snippet": "I’ve been using a 2017 pixelbook as my laptop for years. This is the maxedout version; i7, 16G RAM, 512G drive, and runs linux on a VM internally via Crostini. I can run Intelij on it, Emacs, and everything else I need just fine.Well, no… I’m lying.It’s definitely slow. Since 2017 it’s been getti..."
+  },
+  
+  {
     "title": "Rusty",
     "url": "/posts/How-to-get-everything-you-want/",
     "categories": "",

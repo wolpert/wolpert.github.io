@@ -4,7 +4,7 @@
   <id>http://www.codeheadsystems.com//</id>
   <title>CodeHead Systems</title>
   <subtitle>Details on the latest.</subtitle>
-  <updated>2021-07-25T01:01:10+00:00</updated>
+  <updated>2021-12-10T14:43:35+00:00</updated>
   <author>
     <name>Ned Wolpert</name>
     <uri>http://www.codeheadsystems.com//</uri>
@@ -17,6 +17,43 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Framework?</title>
+    <link href="http://www.codeheadsystems.com//posts/After-all,-why-shouldn't-I-upgrade-my-laptop/" rel="alternate" type="text/html" title="Framework?" />
+    <published>2021-12-10T14:00:00+00:00</published>
+  
+    <updated>2021-12-10T14:00:00+00:00</updated>
+  
+    <id>http://www.codeheadsystems.com//posts/After-all,-why-shouldn't-I-upgrade-my-laptop/</id>
+    <content src="http://www.codeheadsystems.com//posts/After-all,-why-shouldn't-I-upgrade-my-laptop/" />
+    <author>
+      <name>wolpert</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      I’ve been using a 2017 pixelbook as my laptop for years. This is the maxed
+out version; i7, 16G RAM, 512G drive, and runs linux on a VM internally via Crostini. I can run Intelij on it, Emacs, and everything else I need just fine.
+
+Well, no… I’m lying.
+
+It’s definitely slow. Since 2017 it’s been getting slower all the time as everything else is getting larger. Intelij is really just a hog these...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -153,41 +190,6 @@ The advantage of hosting on github.io like I do now is two fold:
 
   It’s free.
   If I don’t use gitpages engine, then there are no ‘a...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>So it goes...</title>
-    <link href="http://www.codeheadsystems.com//posts/So-it-goes/" rel="alternate" type="text/html" title="So it goes..." />
-    <published>2021-05-23T17:00:00+00:00</published>
-  
-    <updated>2021-05-23T17:00:00+00:00</updated>
-  
-    <id>http://www.codeheadsystems.com//posts/So-it-goes/</id>
-    <content src="http://www.codeheadsystems.com//posts/So-it-goes/" />
-    <author>
-      <name>wolpert</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      For years I’ve wanted to get rid of wordpress. And I started the Jekyll webiste here years ago… just never got it to where I wanted. Now I’ve made the switch.
-
-Is this gonna get me to write more?  Maybe. Not by itself. Rather what I’m doing is making it easy for me to write new posts. That was always my goal. We’ll see if this works.
-
     </summary>
   
 
