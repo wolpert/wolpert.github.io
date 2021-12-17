@@ -1,6 +1,21 @@
 [
   
   {
+    "title": "Day three and Framework",
+    "url": "/posts/Framework-and-5.14-kernel/",
+    "categories": "",
+    "tags": "",
+    "date": "2021-12-16 14:00:00 +0000",
+    
+
+
+
+
+
+    "snippet": "Got the framework laptop a few days ago… put it together and installed Ubuntu 21.10. Pretty much everything worked very well. There was some video issues where it would pause a bit for half a second then continue. But everything else including the track-pad and WiFi were great.To fix the video is..."
+  },
+  
+  {
     "title": "Framework?",
     "url": "/posts/After-all,-why-shouldn't-I-upgrade-my-laptop/",
     "categories": "",
