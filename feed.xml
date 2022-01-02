@@ -4,7 +4,7 @@
   <id>http://www.codeheadsystems.com//</id>
   <title>CodeHead Systems</title>
   <subtitle>Details on the latest.</subtitle>
-  <updated>2021-12-17T02:12:44+00:00</updated>
+  <updated>2022-01-02T16:36:28+00:00</updated>
   <author>
     <name>Ned Wolpert</name>
     <uri>http://www.codeheadsystems.com//</uri>
@@ -13,10 +13,42 @@
   <link rel="alternate" type="text/html" hreflang="en-US"
     href="http://www.codeheadsystems.com//"/>
   <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
-  <rights> © 2021 Ned Wolpert </rights>
+  <rights> © 2022 Ned Wolpert </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Framework review continued...</title>
+    <link href="http://www.codeheadsystems.com//posts/Framework-continued/" rel="alternate" type="text/html" title="Framework review continued..." />
+    <published>2022-01-02T14:00:00+00:00</published>
+  
+    <updated>2022-01-02T14:00:00+00:00</updated>
+  
+    <id>http://www.codeheadsystems.com//posts/Framework-continued/</id>
+    <content src="http://www.codeheadsystems.com//posts/Framework-continued/" />
+    <author>
+      <name>wolpert</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      My framework laptop continues to impress me. Does it replace my monster desktop? No. (8 cores versus 32, 32G versus 128G) But it can definitely hold it’s own. It’s not fair to compare it to my old maxed out pixelbook, and the pixelbook was underpowered. But what is more important is this: I would not have bought that desktop if I already had this laptop. I cannot say that for any other laptop I...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -152,40 +184,6 @@ I started playing with Rust. It’s annotations feel like pound(#) defines left 
       A friend introduced me to a little rust app called topgrade which runs all the update commands on your system. This is surprisingly good and wanted to post it here. Runs on Unix/Linux, Mac and windows.
 
 This is really more than automating a package manager… though it makes sure everything is up-to-date for the system first. It also looks for updates with other installed managers, like sdkman or...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>org-mode</title>
-    <link href="http://www.codeheadsystems.com//posts/org-mode-and-how-I-started-taking-notes-again" rel="alternate" type="text/html" title="org-mode" />
-    <published>2021-05-26T14:00:00+00:00</published>
-  
-    <updated>2021-05-26T14:00:00+00:00</updated>
-  
-    <id>http://www.codeheadsystems.com//posts/org-mode-and-how-I-started-taking-notes-again</id>
-    <content src="http://www.codeheadsystems.com//posts/org-mode-and-how-I-started-taking-notes-again" />
-    <author>
-      <name>wolpert</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      I’ve been an emacs user since 1992. Back then I was a chemist… and taking notes meant having a physical lab notebook with a specific page format. The notebook was always away from the experiments… which ensured that in case of an accident those who remain could see what I did wrong by reading my notebook.
-
-Using a computer for those notes was not allowed back then. (Fear of not easily being abl...
     </summary>
   
 
