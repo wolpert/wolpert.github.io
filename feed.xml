@@ -4,7 +4,7 @@
   <id>http://www.codeheadsystems.com//</id>
   <title>CodeHead Systems</title>
   <subtitle>Details on the latest.</subtitle>
-  <updated>2022-01-02T16:36:28+00:00</updated>
+  <updated>2022-01-29T18:41:46+00:00</updated>
   <author>
     <name>Ned Wolpert</name>
     <uri>http://www.codeheadsystems.com//</uri>
@@ -17,6 +17,38 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Breaking up with Google</title>
+    <link href="http://www.codeheadsystems.com//posts/Good-Bye-Mr.-Google/" rel="alternate" type="text/html" title="Breaking up with Google" />
+    <published>2022-01-29T17:00:00+00:00</published>
+  
+    <updated>2022-01-29T17:00:00+00:00</updated>
+  
+    <id>http://www.codeheadsystems.com//posts/Good-Bye-Mr.-Google/</id>
+    <content src="http://www.codeheadsystems.com//posts/Good-Bye-Mr.-Google/" />
+    <author>
+      <name>wolpert</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      For the past 15 years, I’ve had CodeHead Systems hosted on G Suites, the Google office domain apps. What was a free service is now forcing users to upgrade to a paid plan. I cannot say I blame them; rather I’m impressed they still have the service and didn’t just shut it down. But my company/pet-project ‘CodeHead’ does not benefit from G Suites at this rate, save the publishing of Android apps....
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -150,40 +182,6 @@ It’s definitely slow. Since 2017 it’s been getting slower all the time as ev
       For years I’ve had this love affair with Java. It’s like an old friend that I can hang with all night. I did stray for a few years with Ruby, but I always came back. Java was stable, repeatable, and everyone else knew what to expect.
 
 I started playing with Rust. It’s annotations feel like pound(#) defines left over from C… and you are forced to identify how you’ll use every variable to avoid h...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Topgrade</title>
-    <link href="http://www.codeheadsystems.com//posts/Topgrade-is-becoming-a-must-have" rel="alternate" type="text/html" title="Topgrade" />
-    <published>2021-06-12T14:00:00+00:00</published>
-  
-    <updated>2021-07-25T01:00:36+00:00</updated>
-  
-    <id>http://www.codeheadsystems.com//posts/Topgrade-is-becoming-a-must-have</id>
-    <content src="http://www.codeheadsystems.com//posts/Topgrade-is-becoming-a-must-have" />
-    <author>
-      <name>wolpert</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      A friend introduced me to a little rust app called topgrade which runs all the update commands on your system. This is surprisingly good and wanted to post it here. Runs on Unix/Linux, Mac and windows.
-
-This is really more than automating a package manager… though it makes sure everything is up-to-date for the system first. It also looks for updates with other installed managers, like sdkman or...
     </summary>
   
 
