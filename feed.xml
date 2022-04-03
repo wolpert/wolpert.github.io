@@ -4,7 +4,7 @@
   <id>http://www.codeheadsystems.com//</id>
   <title>CodeHead Systems</title>
   <subtitle>Details on the latest.</subtitle>
-  <updated>2022-01-29T18:41:46+00:00</updated>
+  <updated>2022-04-03T15:51:30+00:00</updated>
   <author>
     <name>Ned Wolpert</name>
     <uri>http://www.codeheadsystems.com//</uri>
@@ -17,6 +17,43 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Violet Keys</title>
+    <link href="http://www.codeheadsystems.com//posts/Violet-Keys-Baseline/" rel="alternate" type="text/html" title="Violet Keys" />
+    <published>2022-03-03T14:00:00+00:00</published>
+  
+    <updated>2022-03-03T14:00:00+00:00</updated>
+  
+    <id>http://www.codeheadsystems.com//posts/Violet-Keys-Baseline/</id>
+    <content src="http://www.codeheadsystems.com//posts/Violet-Keys-Baseline/" />
+    <author>
+      <name>wolpert</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      I spent almost 5 years at Amazon… and learned so much there. I
+really do appreciate that experience. The tooling available for
+developers was quite good, and really focused on providing benefits to
+the developers and then getting out of the way. Everything existed as
+an optional component. If you had a better way to do something you
+could. Though there are many things I miss from Amazon, like t...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -148,40 +185,6 @@ out version; i7, 16G RAM, 512G drive, and runs linux on a VM internally via Cros
 Well, no… I’m lying.
 
 It’s definitely slow. Since 2017 it’s been getting slower all the time as everything else is getting larger. Intelij is really just a hog these...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Rusty</title>
-    <link href="http://www.codeheadsystems.com//posts/How-to-get-everything-you-want/" rel="alternate" type="text/html" title="Rusty" />
-    <published>2021-07-24T00:00:00+00:00</published>
-  
-    <updated>2021-07-24T00:00:00+00:00</updated>
-  
-    <id>http://www.codeheadsystems.com//posts/How-to-get-everything-you-want/</id>
-    <content src="http://www.codeheadsystems.com//posts/How-to-get-everything-you-want/" />
-    <author>
-      <name>wolpert</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      For years I’ve had this love affair with Java. It’s like an old friend that I can hang with all night. I did stray for a few years with Ruby, but I always came back. Java was stable, repeatable, and everyone else knew what to expect.
-
-I started playing with Rust. It’s annotations feel like pound(#) defines left over from C… and you are forced to identify how you’ll use every variable to avoid h...
     </summary>
   
 
