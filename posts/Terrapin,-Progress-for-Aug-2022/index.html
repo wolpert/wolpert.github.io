@@ -26,27 +26,27 @@
 
   <!-- Begin Jekyll SEO tag v2.7.1 -->
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="Migo…" />
+<meta property="og:title" content="Terrapin keeps moving" />
 <meta name="author" content="wolpert" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Here is something that will only interest a few people. I’ve restarted my ‘Migo Experiment’ tonight. This is a variation of my ‘bees’, swarm AI project. First goal, 1K neurons on one computer." />
-<meta property="og:description" content="Here is something that will only interest a few people. I’ve restarted my ‘Migo Experiment’ tonight. This is a variation of my ‘bees’, swarm AI project. First goal, 1K neurons on one computer." />
-<link rel="canonical" href="http://www.codeheadsystems.com//posts/migo/" />
-<meta property="og:url" content="http://www.codeheadsystems.com//posts/migo/" />
+<meta name="description" content="I’ve made a bunch of progress on Terrapin but I still have a ways to go." />
+<meta property="og:description" content="I’ve made a bunch of progress on Terrapin but I still have a ways to go." />
+<link rel="canonical" href="http://www.codeheadsystems.com//posts/Terrapin,-Progress-for-Aug-2022/" />
+<meta property="og:url" content="http://www.codeheadsystems.com//posts/Terrapin,-Progress-for-Aug-2022/" />
 <meta property="og:site_name" content="CodeHead Systems" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2010-01-14T02:39:59+00:00" />
+<meta property="article:published_time" content="2022-08-05T14:00:00+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Migo…" />
+<meta property="twitter:title" content="Terrapin keeps moving" />
 <meta name="twitter:site" content="@wolpert" />
 <meta name="twitter:creator" content="@wolpert" />
 <meta name="google-site-verification" content="google_meta_tag_verification" />
 <script type="application/ld+json">
-{"description":"Here is something that will only interest a few people. I’ve restarted my ‘Migo Experiment’ tonight. This is a variation of my ‘bees’, swarm AI project. First goal, 1K neurons on one computer.","headline":"Migo…","dateModified":"2010-01-14T02:39:59+00:00","datePublished":"2010-01-14T02:39:59+00:00","url":"http://www.codeheadsystems.com//posts/migo/","mainEntityOfPage":{"@type":"WebPage","@id":"http://www.codeheadsystems.com//posts/migo/"},"author":{"@type":"Person","name":"wolpert"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"description":"I’ve made a bunch of progress on Terrapin but I still have a ways to go.","headline":"Terrapin keeps moving","dateModified":"2022-08-05T14:00:00+00:00","datePublished":"2022-08-05T14:00:00+00:00","url":"http://www.codeheadsystems.com//posts/Terrapin,-Progress-for-Aug-2022/","mainEntityOfPage":{"@type":"WebPage","@id":"http://www.codeheadsystems.com//posts/Terrapin,-Progress-for-Aug-2022/"},"author":{"@type":"Person","name":"wolpert"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Migo... | CodeHead Systems
+  <title>Terrapin keeps moving | CodeHead Systems
   </title>
 
   <!--
@@ -292,7 +292,7 @@
       
 
         
-          <span>Migo...</span>
+          <span>Terrapin keeps moving</span>
 
         
 
@@ -355,7 +355,7 @@
 
     <div class="post pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4">
 
-      <h1 data-toc-skip>Migo...</h1>
+      <h1 data-toc-skip>Terrapin keeps moving</h1>
 
       <div class="post-meta text-muted d-flex flex-column">
         <!-- Published date and author -->
@@ -376,7 +376,7 @@
   
     data-toggle="tooltip"
     data-placement="bottom"
-    title="Thu, Jan 14, 2010,  2:39 AM +0000"
+    title="Fri, Aug  5, 2022,  2:00 PM +0000"
   
 
   
@@ -386,10 +386,10 @@
   
 
   
-    Jan 14, 2010
+    Aug  5
   
 
-  <i class="unloaded">2010-01-14T02:39:59+00:00</i>
+  <i class="unloaded">2022-08-05T14:00:00+00:00</i>
 
 </span>
 
@@ -414,7 +414,7 @@
 
 
 <!-- return element -->
-<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="33 words">1 min</span>
+<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="431 words">2 min</span>
 
 
           <!-- page views -->
@@ -428,7 +428,21 @@
 
         
 
-        <p>Here is something that will only interest a few people. I’ve restarted my ‘Migo Experiment’ tonight. This is a variation of my ‘bees’, swarm AI project. First goal, 1K neurons on one computer.</p>
+        <p>I’ve made a bunch of progress on <a href="https://github.com/wolpert/terrapin">Terrapin</a> but I still have a ways to go.</p>
+
+<p>Terrapin is a third-party data management service. Specifically, it manages access and availability to data about any 3rd party using terms required by that third party. It does not store the data itself, rather ensures safe encryption of the data, and access only when all parties agree to the terms.</p>
+
+<p>If you are having trouble parsing that, you are not alone. On my list of TODOs is a better description. Basically, when someone wants to have access to your data, personal or business, the data can be encrypted and stored in such a way that requires the data owner (not the data collector) to agree to give access to the data. Terrapin is not itself a data store of that data, just the keys for access. And terrapin attempts to ensure safety of those keys and reduces blast radius on exposure events by using different techniques including data federation.</p>
+
+<p>So how is it going? As the project name implies, slowly. It’s just me. Terrapin is a set of micro-services that work together to provide the core functionality. Most of the micro-services have a purpose on their own. I spend a few hours a day at most on it. The basic ‘keystore’ exists with a DynamoDB back end, but I need to support other back ends as well. Keystore is a fairly basic RESTful service and has zero logic into the key management aspect, and real key customization doesn’t exist yet.</p>
+
+<p>I’ve being also trying to use newer tech for some components. Resilience4J for example. Okay, new to me. I was in Amazon for 5 years so everything was internal there.) Once I got the basic layout for how the services are setup movement on the code is fast. Example, I wrote a jUnit5 extension for automatically starting/stop databases and including connection details to jUnit tests. (And before you complain about that, I got so tired of folks writing DynamoDB DAOs without testing them I gave up on mocks for that. At least with DynamoDB, the tests are fast. Cassandra start/stop is slow and painful.)</p>
+
+<p>One thing I need to do is layout my full plan for the micro-services today. My old CodeHead docs don’t cut it anymore. And I still plan on using the <a href="https://github.com/VioletKeys/">VioletKeys</a> project to manage out-of-process onsite data encryption. Maybe this weekend I’ll document terrapin better and start trying to get help from others.</p>
+
+<p>At some point, progress for terrapin will be found <a href="https://www.codeheadsystems.com/terrapin/">here</a></p>
+
+<p>Let me know if you want to help.</p>
 
 
       </div>
@@ -436,12 +450,6 @@
       <div class="post-tail-wrapper text-muted">
 
         <!-- categories -->
-        
-        <div class="post-meta mb-3">
-          <i class="far fa-folder-open fa-fw mr-1"></i>
-          
-            <a href='/categories/code/'>Code</a>
-        </div>
         
 
         <!-- tags -->
@@ -469,19 +477,19 @@
 
     
       
-        <a href="https://twitter.com/intent/tweet?text=Migo... - CodeHead Systems&url=http://www.codeheadsystems.com//posts/migo/" data-toggle="tooltip" data-placement="top"
+        <a href="https://twitter.com/intent/tweet?text=Terrapin keeps moving - CodeHead Systems&url=http://www.codeheadsystems.com//posts/Terrapin,-Progress-for-Aug-2022/" data-toggle="tooltip" data-placement="top"
           title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
           <i class="fa-fw fab fa-twitter"></i>
         </a>
     
       
-        <a href="https://www.facebook.com/sharer/sharer.php?title=Migo... - CodeHead Systems&u=http://www.codeheadsystems.com//posts/migo/" data-toggle="tooltip" data-placement="top"
+        <a href="https://www.facebook.com/sharer/sharer.php?title=Terrapin keeps moving - CodeHead Systems&u=http://www.codeheadsystems.com//posts/Terrapin,-Progress-for-Aug-2022/" data-toggle="tooltip" data-placement="top"
           title="Facebook" target="_blank" rel="noopener" aria-label="Facebook">
           <i class="fa-fw fab fa-facebook-square"></i>
         </a>
     
       
-        <a href="https://telegram.me/share?text=Migo... - CodeHead Systems&url=http://www.codeheadsystems.com//posts/migo/" data-toggle="tooltip" data-placement="top"
+        <a href="https://telegram.me/share?text=Terrapin keeps moving - CodeHead Systems&url=http://www.codeheadsystems.com//posts/Terrapin,-Progress-for-Aug-2022/" data-toggle="tooltip" data-placement="top"
           title="Telegram" target="_blank" rel="noopener" aria-label="Telegram">
           <i class="fa-fw fab fa-telegram"></i>
         </a>
@@ -701,1047 +709,1047 @@
   
 
   
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
   
 
   
@@ -2520,6 +2528,41 @@
 
 
 
+  
+    
+    
+  
+    
+    
+      
+      
+        
+        
+        
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+          
+
+
+
 
 
   <div id="related-posts" class="mt-5 mb-2 mb-sm-4">
@@ -2530,7 +2573,7 @@
       
       
       <div class="card">
-        <a href="/posts/migo-experiment/">
+        <a href="/posts/Kebele-Gotiti/">
           <div class="card-body">
             <!--
   Date format snippet
@@ -2551,14 +2594,14 @@
   
 
   
-    May 26, 2009
+    Jun 12
   
 
-  <i class="unloaded">2009-05-26T15:32:02+00:00</i>
+  <i class="unloaded">2022-06-12T14:00:00+00:00</i>
 
 </span>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Migo Experiment...</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Coffee Roasting, Kebele Gotiti</h3>
             <div class="text-muted small">
               <p>
                 
@@ -2567,7 +2610,9 @@
 
 
 
-                I’m starting my evolutionary programming again after a 2+ year hiatus. I decided to change my approach somewhat. Some of you may remember that my EP swarm I built was referred to as ‘my bees’. Howe...
+                Last weekend I switched to roasting a new Ethiopia Yirga Cheffe called
+Kebele Gotiti.
+I’m using my Behmor 2000AB which has been working well for the last few months. I get city+ or full city roasts...
               </p>
             </div>
           </div>
@@ -2577,7 +2622,7 @@
       
       
       <div class="card">
-        <a href="/posts/ruby-activemessaging-and-activemq/">
+        <a href="/posts/Violet-Keys-Baseline/">
           <div class="card-body">
             <!--
   Date format snippet
@@ -2598,14 +2643,14 @@
   
 
   
-    Jul  8, 2009
+    Mar  3
   
 
-  <i class="unloaded">2009-07-08T23:18:29+00:00</i>
+  <i class="unloaded">2022-03-03T14:00:00+00:00</i>
 
 </span>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Ruby, ActiveMessaging and ActiveMQ</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Violet Keys</h3>
             <div class="text-muted small">
               <p>
                 
@@ -2614,7 +2659,9 @@
 
 
 
-                Just wanted to have a quick post on how we switched to ActiveMQ for our ruby app. We ran into problems that were easy to fix though hard to see where the error was. The first was a problem with idl...
+                I spent almost 5 years at Amazon… and learned so much there. I
+really do appreciate that experience. The tooling available for
+developers was quite good, and really focused on providing benefits to...
               </p>
             </div>
           </div>
@@ -2624,7 +2671,7 @@
       
       
       <div class="card">
-        <a href="/posts/first-app-on-my-palm-pre/">
+        <a href="/posts/Good-Bye-Mr.-Google/">
           <div class="card-body">
             <!--
   Date format snippet
@@ -2645,14 +2692,14 @@
   
 
   
-    Jul 17, 2009
+    Jan 29
   
 
-  <i class="unloaded">2009-07-17T01:10:34+00:00</i>
+  <i class="unloaded">2022-01-29T17:00:00+00:00</i>
 
 </span>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>First app on my palm pre...</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Breaking up with Google</h3>
             <div class="text-muted small">
               <p>
                 
@@ -2661,7 +2708,7 @@
 
 
 
-                Finally got the Palm Pre SDK today. Palm released it like 10 months sooner then Apple did for their smartphone, and 15 months later then Google did for their smartphone. VirtualBox is used for the ...
+                For the past 15 years, I’ve had CodeHead Systems hosted on G Suites, the Google office domain apps. What was a free service is now forcing users to upgrade to a paid plan. I cannot say I blame them...
               </p>
             </div>
           </div>
@@ -2679,17 +2726,17 @@
 
 <div class="post-navigation d-flex justify-content-between">
   
-  <a href="/posts/code-head/" class="btn btn-outline-primary"
+  <a href="/posts/Kebele-Gotiti/" class="btn btn-outline-primary"
     prompt="Older">
-    <p>Code Head...</p>
+    <p>Coffee Roasting, Kebele Gotiti</p>
   </a>
   
 
   
-  <a href="/posts/database-locks-and-activemq/" class="btn btn-outline-primary"
+  <span class="btn btn-outline-primary disabled"
     prompt="Newer">
-    <p>Database locks and ActiveMQ</p>
-  </a>
+    <p>-</p>
+  </span>
   
 
 </div>
