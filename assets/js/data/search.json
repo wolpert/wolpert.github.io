@@ -1,6 +1,21 @@
 [
   
   {
+    "title": "Tools of the trade",
+    "url": "/posts/Terrapin-and-tools/",
+    "categories": "",
+    "tags": "",
+    "date": "2022-08-07 18:00:00 +0000",
+    
+
+
+
+
+
+    "snippet": "The tooling available internally at Amazon was great, but after spending closeto five years there, I realized I’m not well versed in tooling for modern Javaprojects as much. Working on terrapin has forced me to look at availabletooling for reuse, and rebuild what I missed. Here are some of my cur..."
+  },
+  
+  {
     "title": "Terrapin keeps moving",
     "url": "/posts/Terrapin,-Progress-for-Aug-2022/",
     "categories": "",
