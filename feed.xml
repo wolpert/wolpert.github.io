@@ -4,7 +4,7 @@
   <id>http://www.codeheadsystems.com//</id>
   <title>CodeHead Systems</title>
   <subtitle>Details on the latest.</subtitle>
-  <updated>2022-08-07T19:41:08+00:00</updated>
+  <updated>2022-09-20T14:36:26+00:00</updated>
   <author>
     <name>Ned Wolpert</name>
     <uri>http://www.codeheadsystems.com//</uri>
@@ -17,6 +17,46 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Gamelib</title>
+    <link href="http://www.codeheadsystems.com//posts/Gamelib/" rel="alternate" type="text/html" title="Gamelib" />
+    <published>2022-09-20T14:00:00+00:00</published>
+  
+    <updated>2022-09-20T14:00:00+00:00</updated>
+  
+    <id>http://www.codeheadsystems.com//posts/Gamelib/</id>
+    <content src="http://www.codeheadsystems.com//posts/Gamelib/" />
+    <author>
+      <name>wolpert</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      I decided to make my internal libGDX library available on
+github. There is nothing
+proprietary about it and it could be useful to others. I used it for a
+few games on Android back when I had my CodeHead google account.  It
+got the job done. Basically has the following features:
+
+
+  Unlike the default libGDX project, it uses Dagger for IOC by default.
+  The project structure is more inline with ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -159,38 +199,6 @@ developers was quite good, and really focused on providing benefits to
 the developers and then getting out of the way. Everything existed as
 an optional component. If you had a better way to do something you
 could. Though there are many things I miss from Amazon, like t...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Breaking up with Google</title>
-    <link href="http://www.codeheadsystems.com//posts/Good-Bye-Mr.-Google/" rel="alternate" type="text/html" title="Breaking up with Google" />
-    <published>2022-01-29T17:00:00+00:00</published>
-  
-    <updated>2022-01-29T17:00:00+00:00</updated>
-  
-    <id>http://www.codeheadsystems.com//posts/Good-Bye-Mr.-Google/</id>
-    <content src="http://www.codeheadsystems.com//posts/Good-Bye-Mr.-Google/" />
-    <author>
-      <name>wolpert</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      For the past 15 years, I’ve had CodeHead Systems hosted on G Suites, the Google office domain apps. What was a free service is now forcing users to upgrade to a paid plan. I cannot say I blame them; rather I’m impressed they still have the service and didn’t just shut it down. But my company/pet-project ‘CodeHead’ does not benefit from G Suites at this rate, save the publishing of Android apps....
     </summary>
   
 
