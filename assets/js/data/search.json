@@ -1,6 +1,36 @@
 [
   
   {
+    "title": "dStore self registeration",
+    "url": "/posts/dStore-self-registration/",
+    "categories": "",
+    "tags": "",
+    "date": "2023-02-06 14:00:00 +0000",
+    
+
+
+
+
+
+    "snippet": "I’ve been working on dStore formonths.  dStore is a rewrite of an enterprise-grade, multi-tenantdistributed no-sql data store; It’s my personal DynamoDB.Anyways, there are 3 main parts I want to get done before I can reallystart showing off the project. The data node itself, the control planeand ..."
+  },
+  
+  {
+    "title": "DynamoDB Redux",
+    "url": "/posts/DyanmoDB-Redux/",
+    "categories": "",
+    "tags": "",
+    "date": "2022-12-27 14:00:00 +0000",
+    
+
+
+
+
+
+    "snippet": "I’m writing DynamoDB. Well, re-writing it. Not that I wrote it thefirst time.  But I’m creating a ‘weak reference’ clone based on theoriginal. The idea is you could have the benefits of a multi-tenantkey/value datastore with the features of DynamoDB includingscalability, security and reliability...."
+  },
+  
+  {
     "title": "Twitter Burns",
     "url": "/posts/Twitter-Burns/",
     "categories": "",

@@ -4,7 +4,7 @@
   <id>http://www.codeheadsystems.com//</id>
   <title>CodeHead Systems</title>
   <subtitle>Details on the latest.</subtitle>
-  <updated>2022-11-21T14:56:05+00:00</updated>
+  <updated>2023-02-06T15:16:03+00:00</updated>
   <author>
     <name>Ned Wolpert</name>
     <uri>http://www.codeheadsystems.com//</uri>
@@ -13,10 +13,88 @@
   <link rel="alternate" type="text/html" hreflang="en-US"
     href="http://www.codeheadsystems.com//"/>
   <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
-  <rights> © 2022 Ned Wolpert </rights>
+  <rights> © 2023 Ned Wolpert </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>dStore self registeration</title>
+    <link href="http://www.codeheadsystems.com//posts/dStore-self-registration/" rel="alternate" type="text/html" title="dStore self registeration" />
+    <published>2023-02-06T14:00:00+00:00</published>
+  
+    <updated>2023-02-06T14:00:00+00:00</updated>
+  
+    <id>http://www.codeheadsystems.com//posts/dStore-self-registration/</id>
+    <content src="http://www.codeheadsystems.com//posts/dStore-self-registration/" />
+    <author>
+      <name>wolpert</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      I’ve been working on dStore for
+months.  dStore is a rewrite of an enterprise-grade, multi-tenant
+distributed no-sql data store; It’s my personal DynamoDB.
+
+Anyways, there are 3 main parts I want to get done before I can really
+start showing off the project. The data node itself, the control plane
+and the proxy.  Once they are done, then I’m going to start closing
+the gaps between this and Dyna...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>DynamoDB Redux</title>
+    <link href="http://www.codeheadsystems.com//posts/DyanmoDB-Redux/" rel="alternate" type="text/html" title="DynamoDB Redux" />
+    <published>2022-12-27T14:00:00+00:00</published>
+  
+    <updated>2022-12-27T14:00:00+00:00</updated>
+  
+    <id>http://www.codeheadsystems.com//posts/DyanmoDB-Redux/</id>
+    <content src="http://www.codeheadsystems.com//posts/DyanmoDB-Redux/" />
+    <author>
+      <name>wolpert</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      I’m writing DynamoDB. Well, re-writing it. Not that I wrote it the
+first time.  But I’m creating a ‘weak reference’ clone based on the
+original. The idea is you could have the benefits of a multi-tenant
+key/value datastore with the features of DynamoDB including
+scalability, security and reliability.
+
+Really, this started because I wanted to write a control plane that
+manages hash ranges for in...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -133,76 +211,6 @@ open-source tools I’m using today. Some old, some new.
 
 Resilence4J is a multi-purpose
 retry...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Terrapin keeps moving</title>
-    <link href="http://www.codeheadsystems.com//posts/Terrapin,-Progress-for-Aug-2022/" rel="alternate" type="text/html" title="Terrapin keeps moving" />
-    <published>2022-08-05T14:00:00+00:00</published>
-  
-    <updated>2022-08-05T14:00:00+00:00</updated>
-  
-    <id>http://www.codeheadsystems.com//posts/Terrapin,-Progress-for-Aug-2022/</id>
-    <content src="http://www.codeheadsystems.com//posts/Terrapin,-Progress-for-Aug-2022/" />
-    <author>
-      <name>wolpert</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      I’ve made a bunch of progress on Terrapin but I still have a ways to go.
-
-Terrapin is a third-party data management service. Specifically, it manages access and availability to data about any 3rd party using terms required by that third party. It does not store the data itself, rather ensures safe encryption of the data, and access only when all parties agree to the terms.
-
-If you are having tr...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Coffee Roasting, Kebele Gotiti</title>
-    <link href="http://www.codeheadsystems.com//posts/Kebele-Gotiti/" rel="alternate" type="text/html" title="Coffee Roasting, Kebele Gotiti" />
-    <published>2022-06-12T14:00:00+00:00</published>
-  
-    <updated>2022-06-12T14:00:00+00:00</updated>
-  
-    <id>http://www.codeheadsystems.com//posts/Kebele-Gotiti/</id>
-    <content src="http://www.codeheadsystems.com//posts/Kebele-Gotiti/" />
-    <author>
-      <name>wolpert</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Last weekend I switched to roasting a new Ethiopia Yirga Cheffe called
-Kebele Gotiti.
-I’m using my Behmor 2000AB which has been working well for the last few months. I get city+ or full city roasts typically. But last week I ran out of my old Yirga Cheffe and switched to this new one. I have 10 pounds to go through, and I basically use 12oz a week, so this will take at least 2 months to use. At...
     </summary>
   
 

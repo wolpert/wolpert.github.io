@@ -28,27 +28,27 @@
 
   <!-- Begin Jekyll SEO tag v2.7.1 -->
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="Data modeling" />
+<meta property="og:title" content="DynamoDB Redux" />
 <meta name="author" content="wolpert" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Interesting post about still needing a data model when dealing with non-SQL based datastores. I remember watching a video about using Cassandra and when talking about designing with it, the speaker mentioned that with Cassandra, you have to know how your going to model the data and access it ‘more so’ then you would with a RDBMS." />
-<meta property="og:description" content="Interesting post about still needing a data model when dealing with non-SQL based datastores. I remember watching a video about using Cassandra and when talking about designing with it, the speaker mentioned that with Cassandra, you have to know how your going to model the data and access it ‘more so’ then you would with a RDBMS." />
-<link rel="canonical" href="http://www.codeheadsystems.com//posts/data-modeling/" />
-<meta property="og:url" content="http://www.codeheadsystems.com//posts/data-modeling/" />
+<meta name="description" content="I’m writing DynamoDB. Well, re-writing it. Not that I wrote it the first time. But I’m creating a ‘weak reference’ clone based on the original. The idea is you could have the benefits of a multi-tenant key/value datastore with the features of DynamoDB including scalability, security and reliability." />
+<meta property="og:description" content="I’m writing DynamoDB. Well, re-writing it. Not that I wrote it the first time. But I’m creating a ‘weak reference’ clone based on the original. The idea is you could have the benefits of a multi-tenant key/value datastore with the features of DynamoDB including scalability, security and reliability." />
+<link rel="canonical" href="http://www.codeheadsystems.com//posts/DyanmoDB-Redux/" />
+<meta property="og:url" content="http://www.codeheadsystems.com//posts/DyanmoDB-Redux/" />
 <meta property="og:site_name" content="CodeHead Systems" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2010-03-16T18:58:20+00:00" />
+<meta property="article:published_time" content="2022-12-27T14:00:00+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Data modeling" />
+<meta property="twitter:title" content="DynamoDB Redux" />
 <meta name="twitter:site" content="@twitter_username" />
 <meta name="twitter:creator" content="@wolpert" />
 <meta name="google-site-verification" content="google_meta_tag_verification" />
 <script type="application/ld+json">
-{"description":"Interesting post about still needing a data model when dealing with non-SQL based datastores. I remember watching a video about using Cassandra and when talking about designing with it, the speaker mentioned that with Cassandra, you have to know how your going to model the data and access it ‘more so’ then you would with a RDBMS.","headline":"Data modeling","dateModified":"2010-03-16T18:58:20+00:00","datePublished":"2010-03-16T18:58:20+00:00","url":"http://www.codeheadsystems.com//posts/data-modeling/","mainEntityOfPage":{"@type":"WebPage","@id":"http://www.codeheadsystems.com//posts/data-modeling/"},"author":{"@type":"Person","name":"wolpert"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"description":"I’m writing DynamoDB. Well, re-writing it. Not that I wrote it the first time. But I’m creating a ‘weak reference’ clone based on the original. The idea is you could have the benefits of a multi-tenant key/value datastore with the features of DynamoDB including scalability, security and reliability.","headline":"DynamoDB Redux","dateModified":"2022-12-27T14:00:00+00:00","datePublished":"2022-12-27T14:00:00+00:00","url":"http://www.codeheadsystems.com//posts/DyanmoDB-Redux/","mainEntityOfPage":{"@type":"WebPage","@id":"http://www.codeheadsystems.com//posts/DyanmoDB-Redux/"},"author":{"@type":"Person","name":"wolpert"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Data modeling | CodeHead Systems
+  <title>DynamoDB Redux | CodeHead Systems
   </title>
 
   <!--
@@ -294,7 +294,7 @@
       
 
         
-          <span>Data modeling</span>
+          <span>DynamoDB Redux</span>
 
         
 
@@ -357,7 +357,7 @@
 
     <div class="post pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4">
 
-      <h1 data-toc-skip>Data modeling</h1>
+      <h1 data-toc-skip>DynamoDB Redux</h1>
 
       <div class="post-meta text-muted d-flex flex-column">
         <!-- Published date and author -->
@@ -378,7 +378,7 @@
   
     data-toggle="tooltip"
     data-placement="bottom"
-    title="Tue, Mar 16, 2010,  6:58 PM +0000"
+    title="Tue, Dec 27, 2022,  2:00 PM +0000"
   
 
   
@@ -388,10 +388,10 @@
   
 
   
-    Mar 16, 2010
+    Dec 27, 2022
   
 
-  <i class="unloaded">2010-03-16T18:58:20+00:00</i>
+  <i class="unloaded">2022-12-27T14:00:00+00:00</i>
 
 </span>
 
@@ -416,7 +416,7 @@
 
 
 <!-- return element -->
-<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="57 words">1 min</span>
+<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="242 words">1 min</span>
 
 
           <!-- page views -->
@@ -430,7 +430,31 @@
 
         
 
-        <p>Interesting <a href="http://nosql.mypopescu.com/post/451094148/nosql-data-modeling">post about still needing a data model</a> when dealing with non-SQL based datastores. I remember watching a video about using Cassandra and when talking about designing with it, the speaker mentioned that with Cassandra, you have to <a href="http://soa.dzone.com/print/18775">know how your going to model the data and access it </a>‘more so’ then you would with a RDBMS.</p>
+        <p>I’m writing DynamoDB. Well, re-writing it. Not that I wrote it the
+first time.  But I’m creating a ‘weak reference’ clone based on the
+original. The idea is you could have the benefits of a multi-tenant
+key/value datastore with the features of DynamoDB including
+scalability, security and reliability.</p>
+
+<p>Really, this started because I wanted to write a control plane that
+manages hash ranges for independent nodes. This provides the building
+blocks of a highly scalable system. Think what Cassandra does
+internally. But instead of a node providing all the things, I wanted
+the control plane external to the data plane. Enterprise like. I
+figure once I had this control plane, I could use it for a DDB clone,
+or SQS or any other highly scalable system. I figure it would be
+easier to start with DynamoDB. Technically, this is true.</p>
+
+<p>I’ve got a proxy layer infront of the data nodes that make up the
+distributed data store I’m making. They authenticate/authorize the
+clients, find the correct data nodes from the control plane, and make
+the requests. I’m ‘trying’ to keep it simple but we’ll see. I’ve got
+the core database on each node locked down tight. Each node has their
+own AES256 bit key which is XOR’d with the control plane one. They
+have their own tenant’s key as does the control plane. So if one tier
+gets compromised, you cannot decrypt the data. That took a bit of time
+to use.</p>
+
 
 
       </div>
@@ -438,12 +462,6 @@
       <div class="post-tail-wrapper text-muted">
 
         <!-- categories -->
-        
-        <div class="post-meta mb-3">
-          <i class="far fa-folder-open fa-fw mr-1"></i>
-          
-            <a href='/categories/code/'>Code</a>
-        </div>
         
 
         <!-- tags -->
@@ -471,19 +489,19 @@
 
     
       
-        <a href="https://twitter.com/intent/tweet?text=Data modeling - CodeHead Systems&url=http://www.codeheadsystems.com//posts/data-modeling/" data-toggle="tooltip" data-placement="top"
+        <a href="https://twitter.com/intent/tweet?text=DynamoDB Redux - CodeHead Systems&url=http://www.codeheadsystems.com//posts/DyanmoDB-Redux/" data-toggle="tooltip" data-placement="top"
           title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
           <i class="fa-fw fab fa-twitter"></i>
         </a>
     
       
-        <a href="https://www.facebook.com/sharer/sharer.php?title=Data modeling - CodeHead Systems&u=http://www.codeheadsystems.com//posts/data-modeling/" data-toggle="tooltip" data-placement="top"
+        <a href="https://www.facebook.com/sharer/sharer.php?title=DynamoDB Redux - CodeHead Systems&u=http://www.codeheadsystems.com//posts/DyanmoDB-Redux/" data-toggle="tooltip" data-placement="top"
           title="Facebook" target="_blank" rel="noopener" aria-label="Facebook">
           <i class="fa-fw fab fa-facebook-square"></i>
         </a>
     
       
-        <a href="https://telegram.me/share?text=Data modeling - CodeHead Systems&url=http://www.codeheadsystems.com//posts/data-modeling/" data-toggle="tooltip" data-placement="top"
+        <a href="https://telegram.me/share?text=DynamoDB Redux - CodeHead Systems&url=http://www.codeheadsystems.com//posts/DyanmoDB-Redux/" data-toggle="tooltip" data-placement="top"
           title="Telegram" target="_blank" rel="noopener" aria-label="Telegram">
           <i class="fa-fw fab fa-telegram"></i>
         </a>
@@ -716,956 +734,956 @@
   
 
   
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
   
 
   
@@ -2587,6 +2605,41 @@
 
 
 
+  
+    
+    
+      
+      
+        
+        
+        
+      
+    
+  
+    
+    
+  
+    
+    
+      
+      
+        
+        
+        
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+          
+
+
+
 
 
   <div id="related-posts" class="mt-5 mb-2 mb-sm-4">
@@ -2597,7 +2650,7 @@
       
       
       <div class="card">
-        <a href="/posts/ruby-activemessaging-and-activemq/">
+        <a href="/posts/dStore-self-registration/">
           <div class="card-body">
             <!--
   Date format snippet
@@ -2618,14 +2671,14 @@
   
 
   
-    Jul  8, 2009
+    Feb  6
   
 
-  <i class="unloaded">2009-07-08T23:18:29+00:00</i>
+  <i class="unloaded">2023-02-06T14:00:00+00:00</i>
 
 </span>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Ruby, ActiveMessaging and ActiveMQ</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>dStore self registeration</h3>
             <div class="text-muted small">
               <p>
                 
@@ -2634,7 +2687,11 @@
 
 
 
-                Just wanted to have a quick post on how we switched to ActiveMQ for our ruby app. We ran into problems that were easy to fix though hard to see where the error was. The first was a problem with idl...
+                I’ve been working on dStore for
+months.  dStore is a rewrite of an enterprise-grade, multi-tenant
+distributed no-sql data store; It’s my personal DynamoDB.
+
+Anyways, there are 3 main parts I want t...
               </p>
             </div>
           </div>
@@ -2644,7 +2701,7 @@
       
       
       <div class="card">
-        <a href="/posts/first-app-on-my-palm-pre/">
+        <a href="/posts/Twitter-Burns/">
           <div class="card-body">
             <!--
   Date format snippet
@@ -2665,14 +2722,14 @@
   
 
   
-    Jul 17, 2009
+    Nov 21, 2022
   
 
-  <i class="unloaded">2009-07-17T01:10:34+00:00</i>
+  <i class="unloaded">2022-11-21T14:00:00+00:00</i>
 
 </span>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>First app on my palm pre...</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Twitter Burns</h3>
             <div class="text-muted small">
               <p>
                 
@@ -2681,7 +2738,13 @@
 
 
 
-                Finally got the Palm Pre SDK today. Palm released it like 10 months sooner then Apple did for their smartphone, and 15 months later then Google did for their smartphone. VirtualBox is used for the ...
+                Yeah, so… I deleted my twitter account.
+
+I know, no one really cares.  If you want to follow me now, go to my
+Mastodon account. But this post
+isn’t really about that.
+
+I created my Twitter account ...
               </p>
             </div>
           </div>
@@ -2691,7 +2754,7 @@
       
       
       <div class="card">
-        <a href="/posts/auto-completion-for-gails-on-linux-ubuntu/">
+        <a href="/posts/Gamelib/">
           <div class="card-body">
             <!--
   Date format snippet
@@ -2712,14 +2775,14 @@
   
 
   
-    Sep 29, 2009
+    Sep 20, 2022
   
 
-  <i class="unloaded">2009-09-29T19:39:29+00:00</i>
+  <i class="unloaded">2022-09-20T14:00:00+00:00</i>
 
 </span>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Auto-completion for grails on Linux (Ubuntu)</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Gamelib</h3>
             <div class="text-muted small">
               <p>
                 
@@ -2728,7 +2791,10 @@
 
 
 
-                Starting to be full time on grails, I wanted to get bash command line completion to work. I took code from Fernando Takai and made very minor changes so it works on Ubuntu. You need to install gawk...
+                I decided to make my internal libGDX library available on
+github. There is nothing
+proprietary about it and it could be useful to others. I used it for a
+few games on Android back when I had my Cod...
               </p>
             </div>
           </div>
@@ -2746,16 +2812,16 @@
 
 <div class="post-navigation d-flex justify-content-between">
   
-  <a href="/posts/cassandra-and-idms/" class="btn btn-outline-primary"
+  <a href="/posts/Twitter-Burns/" class="btn btn-outline-primary"
     prompt="Older">
-    <p>Cassandra and IDMS</p>
+    <p>Twitter Burns</p>
   </a>
   
 
   
-  <a href="/posts/apples-appstore-its-just-business/" class="btn btn-outline-primary"
+  <a href="/posts/dStore-self-registration/" class="btn btn-outline-primary"
     prompt="Newer">
-    <p>Apple's AppStore. Its just business...</p>
+    <p>dStore self registeration</p>
   </a>
   
 

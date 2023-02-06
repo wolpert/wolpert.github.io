@@ -28,27 +28,27 @@
 
   <!-- Begin Jekyll SEO tag v2.7.1 -->
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="Data modeling" />
+<meta property="og:title" content="dStore self registeration" />
 <meta name="author" content="wolpert" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Interesting post about still needing a data model when dealing with non-SQL based datastores. I remember watching a video about using Cassandra and when talking about designing with it, the speaker mentioned that with Cassandra, you have to know how your going to model the data and access it ‘more so’ then you would with a RDBMS." />
-<meta property="og:description" content="Interesting post about still needing a data model when dealing with non-SQL based datastores. I remember watching a video about using Cassandra and when talking about designing with it, the speaker mentioned that with Cassandra, you have to know how your going to model the data and access it ‘more so’ then you would with a RDBMS." />
-<link rel="canonical" href="http://www.codeheadsystems.com//posts/data-modeling/" />
-<meta property="og:url" content="http://www.codeheadsystems.com//posts/data-modeling/" />
+<meta name="description" content="I’ve been working on dStore for months. dStore is a rewrite of an enterprise-grade, multi-tenant distributed no-sql data store; It’s my personal DynamoDB." />
+<meta property="og:description" content="I’ve been working on dStore for months. dStore is a rewrite of an enterprise-grade, multi-tenant distributed no-sql data store; It’s my personal DynamoDB." />
+<link rel="canonical" href="http://www.codeheadsystems.com//posts/dStore-self-registration/" />
+<meta property="og:url" content="http://www.codeheadsystems.com//posts/dStore-self-registration/" />
 <meta property="og:site_name" content="CodeHead Systems" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2010-03-16T18:58:20+00:00" />
+<meta property="article:published_time" content="2023-02-06T14:00:00+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Data modeling" />
+<meta property="twitter:title" content="dStore self registeration" />
 <meta name="twitter:site" content="@twitter_username" />
 <meta name="twitter:creator" content="@wolpert" />
 <meta name="google-site-verification" content="google_meta_tag_verification" />
 <script type="application/ld+json">
-{"description":"Interesting post about still needing a data model when dealing with non-SQL based datastores. I remember watching a video about using Cassandra and when talking about designing with it, the speaker mentioned that with Cassandra, you have to know how your going to model the data and access it ‘more so’ then you would with a RDBMS.","headline":"Data modeling","dateModified":"2010-03-16T18:58:20+00:00","datePublished":"2010-03-16T18:58:20+00:00","url":"http://www.codeheadsystems.com//posts/data-modeling/","mainEntityOfPage":{"@type":"WebPage","@id":"http://www.codeheadsystems.com//posts/data-modeling/"},"author":{"@type":"Person","name":"wolpert"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"description":"I’ve been working on dStore for months. dStore is a rewrite of an enterprise-grade, multi-tenant distributed no-sql data store; It’s my personal DynamoDB.","headline":"dStore self registeration","dateModified":"2023-02-06T14:00:00+00:00","datePublished":"2023-02-06T14:00:00+00:00","url":"http://www.codeheadsystems.com//posts/dStore-self-registration/","mainEntityOfPage":{"@type":"WebPage","@id":"http://www.codeheadsystems.com//posts/dStore-self-registration/"},"author":{"@type":"Person","name":"wolpert"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Data modeling | CodeHead Systems
+  <title>dStore self registeration | CodeHead Systems
   </title>
 
   <!--
@@ -294,7 +294,7 @@
       
 
         
-          <span>Data modeling</span>
+          <span>dStore self registeration</span>
 
         
 
@@ -357,7 +357,7 @@
 
     <div class="post pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4">
 
-      <h1 data-toc-skip>Data modeling</h1>
+      <h1 data-toc-skip>dStore self registeration</h1>
 
       <div class="post-meta text-muted d-flex flex-column">
         <!-- Published date and author -->
@@ -378,7 +378,7 @@
   
     data-toggle="tooltip"
     data-placement="bottom"
-    title="Tue, Mar 16, 2010,  6:58 PM +0000"
+    title="Mon, Feb  6, 2023,  2:00 PM +0000"
   
 
   
@@ -388,10 +388,10 @@
   
 
   
-    Mar 16, 2010
+    Feb  6
   
 
-  <i class="unloaded">2010-03-16T18:58:20+00:00</i>
+  <i class="unloaded">2023-02-06T14:00:00+00:00</i>
 
 </span>
 
@@ -416,7 +416,7 @@
 
 
 <!-- return element -->
-<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="57 words">1 min</span>
+<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="218 words">1 min</span>
 
 
           <!-- page views -->
@@ -430,7 +430,30 @@
 
         
 
-        <p>Interesting <a href="http://nosql.mypopescu.com/post/451094148/nosql-data-modeling">post about still needing a data model</a> when dealing with non-SQL based datastores. I remember watching a video about using Cassandra and when talking about designing with it, the speaker mentioned that with Cassandra, you have to <a href="http://soa.dzone.com/print/18775">know how your going to model the data and access it </a>‘more so’ then you would with a RDBMS.</p>
+        <p>I’ve been working on <a href="https://github.com/wolpert/dstore">dStore</a> for
+months.  dStore is a rewrite of an enterprise-grade, multi-tenant
+distributed no-sql data store; It’s my personal DynamoDB.</p>
+
+<p>Anyways, there are 3 main parts I want to get done before I can really
+start showing off the project. The data node itself, the control plane
+and the proxy.  Once they are done, then I’m going to start closing
+the gaps between this and DynamoDB. And to be sure, there are
+plenty. It may never be fully compatible but I wanted to give it a
+shot.</p>
+
+<p>I have the node itself able to function, and it can work without the
+control plane. As of now, I stood up the control plane and, via my
+end-to-end tests, got the node to self-register with the control
+plane.  The next step is when a new table is added, the control plane
+configures the nodes via etcd. When the nodes are ready they tell the
+control plane. So self-registering was an important first step.</p>
+
+<p>Once I have the ability for the control plane to create and drop
+tables and the nodes are correctly impacted, proxy is next. Then with
+a MVP, I can finish the initial ddocumentation and define better the
+end-state. Then I can broadcast this and look for helpers.</p>
+
+<p>This project has been so much fun.</p>
 
 
       </div>
@@ -438,12 +461,6 @@
       <div class="post-tail-wrapper text-muted">
 
         <!-- categories -->
-        
-        <div class="post-meta mb-3">
-          <i class="far fa-folder-open fa-fw mr-1"></i>
-          
-            <a href='/categories/code/'>Code</a>
-        </div>
         
 
         <!-- tags -->
@@ -471,19 +488,19 @@
 
     
       
-        <a href="https://twitter.com/intent/tweet?text=Data modeling - CodeHead Systems&url=http://www.codeheadsystems.com//posts/data-modeling/" data-toggle="tooltip" data-placement="top"
+        <a href="https://twitter.com/intent/tweet?text=dStore self registeration - CodeHead Systems&url=http://www.codeheadsystems.com//posts/dStore-self-registration/" data-toggle="tooltip" data-placement="top"
           title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
           <i class="fa-fw fab fa-twitter"></i>
         </a>
     
       
-        <a href="https://www.facebook.com/sharer/sharer.php?title=Data modeling - CodeHead Systems&u=http://www.codeheadsystems.com//posts/data-modeling/" data-toggle="tooltip" data-placement="top"
+        <a href="https://www.facebook.com/sharer/sharer.php?title=dStore self registeration - CodeHead Systems&u=http://www.codeheadsystems.com//posts/dStore-self-registration/" data-toggle="tooltip" data-placement="top"
           title="Facebook" target="_blank" rel="noopener" aria-label="Facebook">
           <i class="fa-fw fab fa-facebook-square"></i>
         </a>
     
       
-        <a href="https://telegram.me/share?text=Data modeling - CodeHead Systems&url=http://www.codeheadsystems.com//posts/data-modeling/" data-toggle="tooltip" data-placement="top"
+        <a href="https://telegram.me/share?text=dStore self registeration - CodeHead Systems&url=http://www.codeheadsystems.com//posts/dStore-self-registration/" data-toggle="tooltip" data-placement="top"
           title="Telegram" target="_blank" rel="noopener" aria-label="Telegram">
           <i class="fa-fw fab fa-telegram"></i>
         </a>
@@ -703,969 +720,969 @@
   
 
   
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
   
 
   
@@ -2587,6 +2604,41 @@
 
 
 
+  
+    
+    
+  
+    
+    
+      
+      
+        
+        
+        
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+          
+
+
+
 
 
   <div id="related-posts" class="mt-5 mb-2 mb-sm-4">
@@ -2597,7 +2649,7 @@
       
       
       <div class="card">
-        <a href="/posts/ruby-activemessaging-and-activemq/">
+        <a href="/posts/DyanmoDB-Redux/">
           <div class="card-body">
             <!--
   Date format snippet
@@ -2618,14 +2670,14 @@
   
 
   
-    Jul  8, 2009
+    Dec 27, 2022
   
 
-  <i class="unloaded">2009-07-08T23:18:29+00:00</i>
+  <i class="unloaded">2022-12-27T14:00:00+00:00</i>
 
 </span>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Ruby, ActiveMessaging and ActiveMQ</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>DynamoDB Redux</h3>
             <div class="text-muted small">
               <p>
                 
@@ -2634,7 +2686,9 @@
 
 
 
-                Just wanted to have a quick post on how we switched to ActiveMQ for our ruby app. We ran into problems that were easy to fix though hard to see where the error was. The first was a problem with idl...
+                I’m writing DynamoDB. Well, re-writing it. Not that I wrote it the
+first time.  But I’m creating a ‘weak reference’ clone based on the
+original. The idea is you could have the benefits of a multi-t...
               </p>
             </div>
           </div>
@@ -2644,7 +2698,7 @@
       
       
       <div class="card">
-        <a href="/posts/first-app-on-my-palm-pre/">
+        <a href="/posts/Twitter-Burns/">
           <div class="card-body">
             <!--
   Date format snippet
@@ -2665,14 +2719,14 @@
   
 
   
-    Jul 17, 2009
+    Nov 21, 2022
   
 
-  <i class="unloaded">2009-07-17T01:10:34+00:00</i>
+  <i class="unloaded">2022-11-21T14:00:00+00:00</i>
 
 </span>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>First app on my palm pre...</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Twitter Burns</h3>
             <div class="text-muted small">
               <p>
                 
@@ -2681,7 +2735,13 @@
 
 
 
-                Finally got the Palm Pre SDK today. Palm released it like 10 months sooner then Apple did for their smartphone, and 15 months later then Google did for their smartphone. VirtualBox is used for the ...
+                Yeah, so… I deleted my twitter account.
+
+I know, no one really cares.  If you want to follow me now, go to my
+Mastodon account. But this post
+isn’t really about that.
+
+I created my Twitter account ...
               </p>
             </div>
           </div>
@@ -2691,7 +2751,7 @@
       
       
       <div class="card">
-        <a href="/posts/auto-completion-for-gails-on-linux-ubuntu/">
+        <a href="/posts/Gamelib/">
           <div class="card-body">
             <!--
   Date format snippet
@@ -2712,14 +2772,14 @@
   
 
   
-    Sep 29, 2009
+    Sep 20, 2022
   
 
-  <i class="unloaded">2009-09-29T19:39:29+00:00</i>
+  <i class="unloaded">2022-09-20T14:00:00+00:00</i>
 
 </span>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Auto-completion for grails on Linux (Ubuntu)</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Gamelib</h3>
             <div class="text-muted small">
               <p>
                 
@@ -2728,7 +2788,10 @@
 
 
 
-                Starting to be full time on grails, I wanted to get bash command line completion to work. I took code from Fernando Takai and made very minor changes so it works on Ubuntu. You need to install gawk...
+                I decided to make my internal libGDX library available on
+github. There is nothing
+proprietary about it and it could be useful to others. I used it for a
+few games on Android back when I had my Cod...
               </p>
             </div>
           </div>
@@ -2746,17 +2809,17 @@
 
 <div class="post-navigation d-flex justify-content-between">
   
-  <a href="/posts/cassandra-and-idms/" class="btn btn-outline-primary"
+  <a href="/posts/DyanmoDB-Redux/" class="btn btn-outline-primary"
     prompt="Older">
-    <p>Cassandra and IDMS</p>
+    <p>DynamoDB Redux</p>
   </a>
   
 
   
-  <a href="/posts/apples-appstore-its-just-business/" class="btn btn-outline-primary"
+  <span class="btn btn-outline-primary disabled"
     prompt="Newer">
-    <p>Apple's AppStore. Its just business...</p>
-  </a>
+    <p>-</p>
+  </span>
   
 
 </div>
