@@ -4,7 +4,7 @@
   <id>http://www.codeheadsystems.com//</id>
   <title>CodeHead Systems</title>
   <subtitle>Details on the latest.</subtitle>
-  <updated>2023-02-06T15:16:03+00:00</updated>
+  <updated>2023-07-29T16:05:31+00:00</updated>
   <author>
     <name>Ned Wolpert</name>
     <uri>http://www.codeheadsystems.com//</uri>
@@ -17,6 +17,45 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Notes from July 2023</title>
+    <link href="http://www.codeheadsystems.com//posts/July-2023/" rel="alternate" type="text/html" title="Notes from July 2023" />
+    <published>2023-07-29T14:00:00+00:00</published>
+  
+    <updated>2023-07-29T14:00:00+00:00</updated>
+  
+    <id>http://www.codeheadsystems.com//posts/July-2023/</id>
+    <content src="http://www.codeheadsystems.com//posts/July-2023/" />
+    <author>
+      <name>wolpert</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      These last few months started strong but ended up slowing down
+code-wise. I renamed dStore to
+svarm and got lots done with
+it. When I last left it, I was working on the data replication
+logic. I have a plan in place, but I got distracted.  A friend and I
+decided to start a different project. I won’t go into too much detail
+on it since it is not an open-source project, but I will say it was a
+se...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -172,45 +211,6 @@ got the job done. Basically has the following features:
 
   Unlike the default libGDX project, it uses Dagger for IOC by default.
   The project structure is more inline with ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Tools of the trade</title>
-    <link href="http://www.codeheadsystems.com//posts/Terrapin-and-tools/" rel="alternate" type="text/html" title="Tools of the trade" />
-    <published>2022-08-07T18:00:00+00:00</published>
-  
-    <updated>2022-08-07T18:00:00+00:00</updated>
-  
-    <id>http://www.codeheadsystems.com//posts/Terrapin-and-tools/</id>
-    <content src="http://www.codeheadsystems.com//posts/Terrapin-and-tools/" />
-    <author>
-      <name>wolpert</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      The tooling available internally at Amazon was great, but after spending close
-to five years there, I realized I’m not well versed in tooling for modern Java
-projects as much. Working on terrapin has forced me to look at available
-tooling for reuse, and rebuild what I missed. Here are some of my current
-open-source tools I’m using today. Some old, some new.
-
-Resilence4J is a multi-purpose
-retry...
     </summary>
   
 

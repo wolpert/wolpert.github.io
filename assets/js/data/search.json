@@ -1,6 +1,21 @@
 [
   
   {
+    "title": "Notes from July 2023",
+    "url": "/posts/July-2023/",
+    "categories": "",
+    "tags": "",
+    "date": "2023-07-29 14:00:00 +0000",
+    
+
+
+
+
+
+    "snippet": "These last few months started strong but ended up slowing downcode-wise. I renamed dStore tosvarm and got lots done withit. When I last left it, I was working on the data replicationlogic. I have a plan in place, but I got distracted.  A friend and Idecided to start a different project. I won’t g..."
+  },
+  
+  {
     "title": "dStore self registeration",
     "url": "/posts/dStore-self-registration/",
     "categories": "",
