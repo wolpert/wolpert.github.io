@@ -28,27 +28,27 @@
 
   <!-- Begin Jekyll SEO tag v2.7.1 -->
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="Gridgain, Grails, GORM and Cassandra" />
+<meta property="og:title" content="Starting Flutter" />
 <meta name="author" content="wolpert" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="I have grails working to submit jobs to gridgain nodes. The grid tasks execute and send out jobs that run on the grid nodes just fine. The grid jobs are able to make use of a cassandra service (provided by the cassandra plugin I wrote) just fine, thanks to Hector reconnecting blindly on the grid job. Interesting tidbit is that GridTasks (which execute on the node that submits the task) are able to make use of standard GORM methods like list(). But GridJobs cannot make use of these methods. Odds are this is due to how the method list() is added to the GORM object… the method simply isn’t added on the grid node when it loads up the class." />
-<meta property="og:description" content="I have grails working to submit jobs to gridgain nodes. The grid tasks execute and send out jobs that run on the grid nodes just fine. The grid jobs are able to make use of a cassandra service (provided by the cassandra plugin I wrote) just fine, thanks to Hector reconnecting blindly on the grid job. Interesting tidbit is that GridTasks (which execute on the node that submits the task) are able to make use of standard GORM methods like list(). But GridJobs cannot make use of these methods. Odds are this is due to how the method list() is added to the GORM object… the method simply isn’t added on the grid node when it loads up the class." />
-<link rel="canonical" href="http://www.codeheadsystems.com//posts/gridgain-grails-gorm-and-cassandra/" />
-<meta property="og:url" content="http://www.codeheadsystems.com//posts/gridgain-grails-gorm-and-cassandra/" />
+<meta name="description" content="With the demise of Authy’s desktop app, I’ve spent the last few days trying to rebuild it. I have the codes I need, and can totally do this with a command line utility. But what I want is the app on desktop and mobile device. For a moment I considered rust, but rust GUI isn’t really a thing. Flutter, however, basically works everywhere. Did a few tests and I can totally do what I want with it." />
+<meta property="og:description" content="With the demise of Authy’s desktop app, I’ve spent the last few days trying to rebuild it. I have the codes I need, and can totally do this with a command line utility. But what I want is the app on desktop and mobile device. For a moment I considered rust, but rust GUI isn’t really a thing. Flutter, however, basically works everywhere. Did a few tests and I can totally do what I want with it." />
+<link rel="canonical" href="http://www.codeheadsystems.com//posts/starting-flutter/" />
+<meta property="og:url" content="http://www.codeheadsystems.com//posts/starting-flutter/" />
 <meta property="og:site_name" content="CodeHead Systems" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2010-06-15T23:05:58+00:00" />
+<meta property="article:published_time" content="2024-03-08T08:00:00+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Gridgain, Grails, GORM and Cassandra" />
+<meta property="twitter:title" content="Starting Flutter" />
 <meta name="twitter:site" content="@twitter_username" />
 <meta name="twitter:creator" content="@wolpert" />
 <meta name="google-site-verification" content="google_meta_tag_verification" />
 <script type="application/ld+json">
-{"description":"I have grails working to submit jobs to gridgain nodes. The grid tasks execute and send out jobs that run on the grid nodes just fine. The grid jobs are able to make use of a cassandra service (provided by the cassandra plugin I wrote) just fine, thanks to Hector reconnecting blindly on the grid job. Interesting tidbit is that GridTasks (which execute on the node that submits the task) are able to make use of standard GORM methods like list(). But GridJobs cannot make use of these methods. Odds are this is due to how the method list() is added to the GORM object… the method simply isn’t added on the grid node when it loads up the class.","headline":"Gridgain, Grails, GORM and Cassandra","dateModified":"2010-06-15T23:05:58+00:00","datePublished":"2010-06-15T23:05:58+00:00","url":"http://www.codeheadsystems.com//posts/gridgain-grails-gorm-and-cassandra/","mainEntityOfPage":{"@type":"WebPage","@id":"http://www.codeheadsystems.com//posts/gridgain-grails-gorm-and-cassandra/"},"author":{"@type":"Person","name":"wolpert"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"description":"With the demise of Authy’s desktop app, I’ve spent the last few days trying to rebuild it. I have the codes I need, and can totally do this with a command line utility. But what I want is the app on desktop and mobile device. For a moment I considered rust, but rust GUI isn’t really a thing. Flutter, however, basically works everywhere. Did a few tests and I can totally do what I want with it.","headline":"Starting Flutter","dateModified":"2024-03-08T08:00:00+00:00","datePublished":"2024-03-08T08:00:00+00:00","url":"http://www.codeheadsystems.com//posts/starting-flutter/","mainEntityOfPage":{"@type":"WebPage","@id":"http://www.codeheadsystems.com//posts/starting-flutter/"},"author":{"@type":"Person","name":"wolpert"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Gridgain, Grails, GORM and Cassandra | CodeHead Systems
+  <title>Starting Flutter | CodeHead Systems
   </title>
 
   <!--
@@ -294,7 +294,7 @@
       
 
         
-          <span>Gridgain, Grails, GORM and Cassandra</span>
+          <span>Starting Flutter</span>
 
         
 
@@ -357,7 +357,7 @@
 
     <div class="post pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4">
 
-      <h1 data-toc-skip>Gridgain, Grails, GORM and Cassandra</h1>
+      <h1 data-toc-skip>Starting Flutter</h1>
 
       <div class="post-meta text-muted d-flex flex-column">
         <!-- Published date and author -->
@@ -378,7 +378,7 @@
   
     data-toggle="tooltip"
     data-placement="bottom"
-    title="Tue, Jun 15, 2010, 11:05 PM +0000"
+    title="Fri, Mar  8, 2024,  8:00 AM +0000"
   
 
   
@@ -388,10 +388,10 @@
   
 
   
-    Jun 15, 2010
+    Mar  8
   
 
-  <i class="unloaded">2010-06-15T23:05:58+00:00</i>
+  <i class="unloaded">2024-03-08T08:00:00+00:00</i>
 
 </span>
 
@@ -416,7 +416,7 @@
 
 
 <!-- return element -->
-<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="131 words">1 min</span>
+<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="151 words">1 min</span>
 
 
           <!-- page views -->
@@ -430,9 +430,19 @@
 
         
 
-        <p>I have grails working to submit jobs to gridgain nodes. The grid tasks execute and send out jobs that run on the grid nodes just fine. The grid jobs are able to make use of a cassandra service (provided by the cassandra plugin I wrote) just fine, thanks to Hector reconnecting blindly on the grid job. Interesting tidbit is that GridTasks (which execute on the node that submits the task) are able to make use of standard GORM methods like list(). But GridJobs cannot make use of these methods. Odds are this is due to how the method list() is added to the GORM object… the method simply isn’t added on the grid node when it loads up the class.</p>
+        <p>With the demise of Authy’s desktop app, I’ve spent the last few days
+trying to rebuild it.  I have the codes I need, and can totally do
+this with a command line utility.  But what I want is the app on desktop
+and mobile device. For a moment I considered rust, but rust GUI isn’t
+really a thing. Flutter, however, basically works everywhere. Did a few
+tests and I can totally do what I want with it.</p>
 
-<p>I should also note that this is using the GAR deployment.</p>
+<p>I’ve not really built any GUI from scratch for years. Back then it was
+with Java’s Swing framework. Any web work I did was painfully updating an
+existing system. Now I find my self learning flutter from scratch like a
+real newbie. I kinda like it so far, but again, that’s coming from
+someone who’s been a backend developer for almost 30 years. I’ll start
+posting my thoughts as I continue this toy project.</p>
 
 
       </div>
@@ -467,19 +477,19 @@
 
     
       
-        <a href="https://twitter.com/intent/tweet?text=Gridgain, Grails, GORM and Cassandra - CodeHead Systems&url=http://www.codeheadsystems.com//posts/gridgain-grails-gorm-and-cassandra/" data-toggle="tooltip" data-placement="top"
+        <a href="https://twitter.com/intent/tweet?text=Starting Flutter - CodeHead Systems&url=http://www.codeheadsystems.com//posts/starting-flutter/" data-toggle="tooltip" data-placement="top"
           title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
           <i class="fa-fw fab fa-twitter"></i>
         </a>
     
       
-        <a href="https://www.facebook.com/sharer/sharer.php?title=Gridgain, Grails, GORM and Cassandra - CodeHead Systems&u=http://www.codeheadsystems.com//posts/gridgain-grails-gorm-and-cassandra/" data-toggle="tooltip" data-placement="top"
+        <a href="https://www.facebook.com/sharer/sharer.php?title=Starting Flutter - CodeHead Systems&u=http://www.codeheadsystems.com//posts/starting-flutter/" data-toggle="tooltip" data-placement="top"
           title="Facebook" target="_blank" rel="noopener" aria-label="Facebook">
           <i class="fa-fw fab fa-facebook-square"></i>
         </a>
     
       
-        <a href="https://telegram.me/share?text=Gridgain, Grails, GORM and Cassandra - CodeHead Systems&url=http://www.codeheadsystems.com//posts/gridgain-grails-gorm-and-cassandra/" data-toggle="tooltip" data-placement="top"
+        <a href="https://telegram.me/share?text=Starting Flutter - CodeHead Systems&url=http://www.codeheadsystems.com//posts/starting-flutter/" data-toggle="tooltip" data-placement="top"
           title="Telegram" target="_blank" rel="noopener" aria-label="Telegram">
           <i class="fa-fw fab fa-telegram"></i>
         </a>
@@ -699,839 +709,839 @@
   
 
   
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
   
 
   
@@ -2612,6 +2622,9 @@
   
     
     
+  
+    
+    
       
       
         
@@ -2647,55 +2660,6 @@
     <h3 class="pt-2 mt-1 mb-4 ml-1"
       data-toc-skip>Further Reading</h3>
     <div class="card-deck mb-4">
-    
-      
-      
-      <div class="card">
-        <a href="/posts/starting-flutter/">
-          <div class="card-body">
-            <!--
-  Date format snippet
-  See: /assets/js/_utils/timeage.js
--->
-
-
-
-
-
-<span class="timeago small"
-  
-
-  
-   >
-
-  
-  
-
-  
-    Mar  8
-  
-
-  <i class="unloaded">2024-03-08T08:00:00+00:00</i>
-
-</span>
-
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Starting Flutter</h3>
-            <div class="text-muted small">
-              <p>
-                
-
-
-
-
-
-                With the demise of Authy’s desktop app, I’ve spent the last few days
-trying to rebuild it.  I have the codes I need, and can totally do
-this with a command line utility.  But what I want is the app...
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
     
       
       
@@ -2799,6 +2763,55 @@ Anyways, there are 3 main parts I want t...
         </a>
       </div>
     
+      
+      
+      <div class="card">
+        <a href="/posts/DyanmoDB-Redux/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: /assets/js/_utils/timeage.js
+-->
+
+
+
+
+
+<span class="timeago small"
+  
+
+  
+   >
+
+  
+  
+
+  
+    Dec 27, 2022
+  
+
+  <i class="unloaded">2022-12-27T14:00:00+00:00</i>
+
+</span>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>DynamoDB Redux</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                I’m writing DynamoDB. Well, re-writing it. Not that I wrote it the
+first time.  But I’m creating a ‘weak reference’ clone based on the
+original. The idea is you could have the benefits of a multi-t...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
     </div> <!-- .card-deck -->
   </div> <!-- #related-posts -->
 
@@ -2810,17 +2823,17 @@ Anyways, there are 3 main parts I want t...
 
 <div class="post-navigation d-flex justify-content-between">
   
-  <a href="/posts/android-scenes-and-webos/" class="btn btn-outline-primary"
+  <a href="/posts/July-2023/" class="btn btn-outline-primary"
     prompt="Older">
-    <p>Android scenes and WebOS</p>
+    <p>Notes from July 2023</p>
   </a>
   
 
   
-  <a href="/posts/the-problems-of-food-in-america/" class="btn btn-outline-primary"
+  <span class="btn btn-outline-primary disabled"
     prompt="Newer">
-    <p>The problems of food in America...</p>
-  </a>
+    <p>-</p>
+  </span>
   
 
 </div>

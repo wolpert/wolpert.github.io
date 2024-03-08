@@ -1,6 +1,21 @@
 [
   
   {
+    "title": "Starting Flutter",
+    "url": "/posts/starting-flutter/",
+    "categories": "",
+    "tags": "",
+    "date": "2024-03-08 08:00:00 +0000",
+    
+
+
+
+
+
+    "snippet": "With the demise of Authy’s desktop app, I’ve spent the last few daystrying to rebuild it.  I have the codes I need, and can totally dothis with a command line utility.  But what I want is the app on desktopand mobile device. For a moment I considered rust, but rust GUI isn’treally a thing. Flutte..."
+  },
+  
+  {
     "title": "Notes from July 2023",
     "url": "/posts/July-2023/",
     "categories": "",

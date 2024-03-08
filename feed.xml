@@ -4,7 +4,7 @@
   <id>http://www.codeheadsystems.com//</id>
   <title>CodeHead Systems</title>
   <subtitle>Details on the latest.</subtitle>
-  <updated>2023-07-29T16:11:18+00:00</updated>
+  <updated>2024-03-08T15:39:06+00:00</updated>
   <author>
     <name>Ned Wolpert</name>
     <uri>http://www.codeheadsystems.com//</uri>
@@ -13,10 +13,47 @@
   <link rel="alternate" type="text/html" hreflang="en-US"
     href="http://www.codeheadsystems.com//"/>
   <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
-  <rights> © 2023 Ned Wolpert </rights>
+  <rights> © 2024 Ned Wolpert </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Starting Flutter</title>
+    <link href="http://www.codeheadsystems.com//posts/starting-flutter/" rel="alternate" type="text/html" title="Starting Flutter" />
+    <published>2024-03-08T08:00:00+00:00</published>
+  
+    <updated>2024-03-08T08:00:00+00:00</updated>
+  
+    <id>http://www.codeheadsystems.com//posts/starting-flutter/</id>
+    <content src="http://www.codeheadsystems.com//posts/starting-flutter/" />
+    <author>
+      <name>wolpert</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      With the demise of Authy’s desktop app, I’ve spent the last few days
+trying to rebuild it.  I have the codes I need, and can totally do
+this with a command line utility.  But what I want is the app on desktop
+and mobile device. For a moment I considered rust, but rust GUI isn’t
+really a thing. Flutter, however, basically works everywhere. Did a few
+tests and I can totally do what I want with it...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -171,46 +208,6 @@ I created my Twitter account in 2008. A bunch of folks I worked with
 at Corpedia did and I joined them to keep in touch. Some of the
 people I worked with knew others at Twitter at the time too, so I got
 to learn a bit about what ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Gamelib</title>
-    <link href="http://www.codeheadsystems.com//posts/Gamelib/" rel="alternate" type="text/html" title="Gamelib" />
-    <published>2022-09-20T14:00:00+00:00</published>
-  
-    <updated>2022-09-20T14:00:00+00:00</updated>
-  
-    <id>http://www.codeheadsystems.com//posts/Gamelib/</id>
-    <content src="http://www.codeheadsystems.com//posts/Gamelib/" />
-    <author>
-      <name>wolpert</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      I decided to make my internal libGDX library available on
-github. There is nothing
-proprietary about it and it could be useful to others. I used it for a
-few games on Android back when I had my CodeHead google account.  It
-got the job done. Basically has the following features:
-
-
-  Unlike the default libGDX project, it uses Dagger for IOC by default.
-  The project structure is more inline with ...
     </summary>
   
 
