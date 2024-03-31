@@ -44,7 +44,7 @@
 <meta name="twitter:creator" content="@wolpert" />
 <meta name="google-site-verification" content="google_meta_tag_verification" />
 <script type="application/ld+json">
-{"dateModified":"2024-03-31T16:48:01+00:00","datePublished":"2024-03-31T07:00:00+00:00","description":"Purpose","headline":"XZ Attack","mainEntityOfPage":{"@type":"WebPage","@id":"http://www.codeheadsystems.com//posts/XZ-Attack/"},"url":"http://www.codeheadsystems.com//posts/XZ-Attack/","author":{"@type":"Person","name":"wolpert"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"dateModified":"2024-03-31T16:52:57+00:00","datePublished":"2024-03-31T07:00:00+00:00","description":"Purpose","headline":"XZ Attack","mainEntityOfPage":{"@type":"WebPage","@id":"http://www.codeheadsystems.com//posts/XZ-Attack/"},"url":"http://www.codeheadsystems.com//posts/XZ-Attack/","author":{"@type":"Person","name":"wolpert"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -414,7 +414,7 @@
   
     data-toggle="tooltip"
     data-placement="bottom"
-    title="Sun, Mar 31, 2024,  9:48 AM -0700"
+    title="Sun, Mar 31, 2024,  9:52 AM -0700"
   
 
   prefix="Updated "
@@ -427,7 +427,7 @@
     Mar 31
   
 
-  <i class="unloaded">2024-03-31T16:48:01+00:00</i>
+  <i class="unloaded">2024-03-31T16:52:57+00:00</i>
 
 </span>
 
@@ -449,7 +449,7 @@
 
 
 <!-- return element -->
-<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="366 words">2 min</span>
+<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="365 words">2 min</span>
 
 
           <!-- page views -->
@@ -475,15 +475,15 @@ that helped prevent this from becoming a horrible thing.</p>
 <h1 id="tldr">tl;dr</h1>
 
 <p>What happened was someone gained the trust of the developer for the xz
-compression utility for the last 3 years. Over that time, the made
+compression utility for the last 3 years. Over that time, they made
 patches, both good and bad… including secretly adding a backdoor
-that would have impacted OpenSSH daemon process, apparently thanks to
-systemd dependency list. They also included a function that used a
-known google bug to convince google to turn off their security tool on
-xz itself. The backdoor itself limited who could access it by using
-cryptography routines. Essentially, this was a long-con that got
-caught because of the performance impact it caused to ssh in the
-process.</p>
+that impacted the OpenSSH daemon process, apparently thanks to systemd
+dependency list. They also included a function that used a known
+google bug to convince google to turn off their security tool on xz
+itself. The backdoor limited who could access it by using
+non-replayable cryptographic routines. Essentially, this was a
+long-con that got caught because of the performance impact it caused
+to ssh in the process.</p>
 
 <h1 id="links">Links</h1>
 <p><a href="https://www.openwall.com/lists/oss-security/2024/03/29/4">Discovery thread</a>:
