@@ -28,27 +28,27 @@
 
   <!-- Begin Jekyll SEO tag v2.7.1 -->
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="Flour, rice and potato" />
+<meta property="og:title" content="XZ Attack" />
 <meta name="author" content="wolpert" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="I lost twelve pounds. I have eight to go. I stopped eating flour, rice and potato." />
-<meta property="og:description" content="I lost twelve pounds. I have eight to go. I stopped eating flour, rice and potato." />
-<link rel="canonical" href="http://www.codeheadsystems.com//posts/flour-rice-and-potato/" />
-<meta property="og:url" content="http://www.codeheadsystems.com//posts/flour-rice-and-potato/" />
+<meta name="description" content="Purpose" />
+<meta property="og:description" content="Purpose" />
+<link rel="canonical" href="http://www.codeheadsystems.com//posts/XZ-Attack/" />
+<meta property="og:url" content="http://www.codeheadsystems.com//posts/XZ-Attack/" />
 <meta property="og:site_name" content="CodeHead Systems" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2015-10-03T16:12:05+00:00" />
+<meta property="article:published_time" content="2024-03-31T07:00:00+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Flour, rice and potato" />
+<meta property="twitter:title" content="XZ Attack" />
 <meta name="twitter:site" content="@twitter_username" />
 <meta name="twitter:creator" content="@wolpert" />
 <meta name="google-site-verification" content="google_meta_tag_verification" />
 <script type="application/ld+json">
-{"description":"I lost twelve pounds. I have eight to go. I stopped eating flour, rice and potato.","headline":"Flour, rice and potato","dateModified":"2015-10-03T16:12:05+00:00","datePublished":"2015-10-03T16:12:05+00:00","url":"http://www.codeheadsystems.com//posts/flour-rice-and-potato/","mainEntityOfPage":{"@type":"WebPage","@id":"http://www.codeheadsystems.com//posts/flour-rice-and-potato/"},"author":{"@type":"Person","name":"wolpert"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"description":"Purpose","headline":"XZ Attack","dateModified":"2024-03-31T07:00:00+00:00","datePublished":"2024-03-31T07:00:00+00:00","url":"http://www.codeheadsystems.com//posts/XZ-Attack/","mainEntityOfPage":{"@type":"WebPage","@id":"http://www.codeheadsystems.com//posts/XZ-Attack/"},"author":{"@type":"Person","name":"wolpert"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Flour, rice and potato | CodeHead Systems
+  <title>XZ Attack | CodeHead Systems
   </title>
 
   <!--
@@ -294,7 +294,7 @@
       
 
         
-          <span>Flour, rice and potato</span>
+          <span>XZ Attack</span>
 
         
 
@@ -357,7 +357,7 @@
 
     <div class="post pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4">
 
-      <h1 data-toc-skip>Flour, rice and potato</h1>
+      <h1 data-toc-skip>XZ Attack</h1>
 
       <div class="post-meta text-muted d-flex flex-column">
         <!-- Published date and author -->
@@ -378,7 +378,7 @@
   
     data-toggle="tooltip"
     data-placement="bottom"
-    title="Sat, Oct  3, 2015,  4:12 PM +0000"
+    title="Sun, Mar 31, 2024,  7:00 AM +0000"
   
 
   
@@ -388,10 +388,10 @@
   
 
   
-    Oct  3, 2015
+    Mar 31
   
 
-  <i class="unloaded">2015-10-03T16:12:05+00:00</i>
+  <i class="unloaded">2024-03-31T07:00:00+00:00</i>
 
 </span>
 
@@ -416,7 +416,7 @@
 
 
 <!-- return element -->
-<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="269 words">1 min</span>
+<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="319 words">1 min</span>
 
 
           <!-- page views -->
@@ -430,19 +430,41 @@
 
         
 
-        <p>I lost twelve pounds. I have eight to go. I stopped eating flour, rice and potato.</p>
+        <h1 id="purpose">Purpose</h1>
 
-<p>When I was a vegetarian, flour, rice and potato was mostly my diet. Tastes good, but you never really feel full. A while ago my doctor was concerned that my triglycerides were too high, and surprisingly, my cholesterol was too. Overweight and had high blood pressure. He started talking about needing medicine to control it.</p>
+<p>The recent backdoor discovered in XZ is pretty interesting. I wanted
+to have this post here not to re-explain what is going on with the
+attack, but rather to catalog the history of how it was discovered and
+decomposed by sharing links to the folks who caught this.  This is a
+testament to the OSS security community, but lots of luck was here
+that helped prevent this from becoming a horrible thing.</p>
 
-<p>I kinda snapped.</p>
+<h1 id="tldr">tl;dr</h1>
 
-<p>I changed my diet.1500 calories a day. No flour, rice or potatoes. Walk 2.5+ miles a day, five days a week. I monitor my blood pressure with an online-enabled blood pressure cuff. Tracking my caloric intake… weight with a scale that narcs on me. Its been working.</p>
+<p>What happened was someone gained trust with the developer of the XZ
+compression utility for the last 3 years, and secretly made patches
+that added in a backdoor that would have impacted OpenSSH daemon
+process. This includes the attacker linking XZ to SSHD through the
+build process, which is not only linked, convincing google to turn off
+their security tool on XZ itself, and a complicated backdoor that
+limited how it would work. Essentially, this was a long-con that got
+caught because of the performance impact it caused to SSH in the
+process.</p>
 
-<p>Now for the real trick. I have to normalize my diet.</p>
+<h1 id="links">Links</h1>
+<p><a href="https://www.openwall.com/lists/oss-security/2024/03/29/4">Discovery thread</a>: This is the email that alerted everyone in the OSS world about the backdoor. Andres is a PostgreSQL developer who was debugging performance issues, and did the initial analysis of the backdoor in XZ.</p>
 
-<p>I cannot eat 1500 calories a day forever. I have to adjust it to the proper amount considering my height, desired weight and activity. When I have lost 20 pounds, I need to be eating the right amount for that weight. I have to keep tracking the calories I consume. Add minor weight-training to keep my muscles working… and quite frankly, get to a point where I’m doing this all naturally… as if it’s just second nature.</p>
+<p><a href="https://boehs.org/node/everything-i-know-about-the-xz-backdoor">Timeline Analysis</a> about the history of the backdoor going back 3 years. (Some links below come from here)</p>
 
-<p>Just one question… what do I do with flour, rice and potatoes? When I’m starting to increase my caloric intake to a normal level, where do those go? Potatoes are too easy to overdo… I’ll avoid them. Rice… well, maybe I’ll limit that to sushi. Flour? Bread? All my recipes… can I really re-introduce that again? Flour will be a real challenge.</p>
+<p><a href="https://gist.github.com/thesamesam/223949d5a074ebc3dce9ee78baad9e27">backdoor analysis</a>: detailed low-level insight into the backdoor itself.</p>
+
+<p><a href="https://gynvael.coldwind.pl/?lang=en&amp;id=782">Bast script explained</a>: A very good detailed analysis of the bash script itself.</p>
+
+<p><a href="https://github.com/systemd/systemd/issues/32028">libsystemd, xz and increasing vulnerabilities</a>: A discussion on github about reducing the dependencies of systemd since it can become a mechanism used by threat actors on supply-chain attacks.</p>
+
+<p><a href="https://robmensching.com/blog/posts/2024/03/30/a-microcosm-of-the-interactions-in-open-source-projects/">Social engineering</a> a discussion on the social engineering side of this.</p>
+
+<p><a href="https://hachyderm.io/@GossiTheDog@cyberplace.social/112186033535100133">Google’s OSS Fuzzer</a>: Mastodon discussion on how the threat actor introduce a know bug into xz that caused Google’s OSS fuzzer to fail, giving the threat actor cause to ask them to disable it for xz.</p>
 
 
       </div>
@@ -451,22 +473,8 @@
 
         <!-- categories -->
         
-        <div class="post-meta mb-3">
-          <i class="far fa-folder-open fa-fw mr-1"></i>
-          
-            <a href='/categories/family/'>Family</a>
-        </div>
-        
 
         <!-- tags -->
-        
-        <div class="post-tags">
-          <i class="fa fa-tags fa-fw mr-1"></i>
-          
-          <a href="/tags/diet/"
-            class="post-tag no-text-decoration" >diet</a>
-          
-          </div>
         
 
         <div class="post-tail-bottom
@@ -491,19 +499,19 @@
 
     
       
-        <a href="https://twitter.com/intent/tweet?text=Flour, rice and potato - CodeHead Systems&url=http://www.codeheadsystems.com//posts/flour-rice-and-potato/" data-toggle="tooltip" data-placement="top"
+        <a href="https://twitter.com/intent/tweet?text=XZ Attack - CodeHead Systems&url=http://www.codeheadsystems.com//posts/XZ-Attack/" data-toggle="tooltip" data-placement="top"
           title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
           <i class="fa-fw fab fa-twitter"></i>
         </a>
     
       
-        <a href="https://www.facebook.com/sharer/sharer.php?title=Flour, rice and potato - CodeHead Systems&u=http://www.codeheadsystems.com//posts/flour-rice-and-potato/" data-toggle="tooltip" data-placement="top"
+        <a href="https://www.facebook.com/sharer/sharer.php?title=XZ Attack - CodeHead Systems&u=http://www.codeheadsystems.com//posts/XZ-Attack/" data-toggle="tooltip" data-placement="top"
           title="Facebook" target="_blank" rel="noopener" aria-label="Facebook">
           <i class="fa-fw fab fa-facebook-square"></i>
         </a>
     
       
-        <a href="https://telegram.me/share?text=Flour, rice and potato - CodeHead Systems&url=http://www.codeheadsystems.com//posts/flour-rice-and-potato/" data-toggle="tooltip" data-placement="top"
+        <a href="https://telegram.me/share?text=XZ Attack - CodeHead Systems&url=http://www.codeheadsystems.com//posts/XZ-Attack/" data-toggle="tooltip" data-placement="top"
           title="Telegram" target="_blank" rel="noopener" aria-label="Telegram">
           <i class="fa-fw fab fa-telegram"></i>
         </a>
@@ -723,436 +731,436 @@
   
 
   
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  
-
-  
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
   
 
   
@@ -2646,6 +2654,41 @@
 
 
 
+  
+    
+    
+  
+    
+    
+      
+      
+        
+        
+        
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+      
+    
+  
+    
+    
+      
+      
+        
+        
+        
+          
+
+
+
 
 
   <div id="related-posts" class="mt-5 mb-2 mb-sm-4">
@@ -2656,7 +2699,7 @@
       
       
       <div class="card">
-        <a href="/posts/august-21-is-vegetarian-day/">
+        <a href="/posts/starting-flutter/">
           <div class="card-body">
             <!--
   Date format snippet
@@ -2677,14 +2720,14 @@
   
 
   
-    Aug 20, 2009
+    Mar  8
   
 
-  <i class="unloaded">2009-08-20T03:45:45+00:00</i>
+  <i class="unloaded">2024-03-08T08:00:00+00:00</i>
 
 </span>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>August 21 is Vegetarian Day!</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Starting Flutter</h3>
             <div class="text-muted small">
               <p>
                 
@@ -2693,8 +2736,9 @@
 
 
 
-                August 21 is Vegetarian Day! That’s right, you heard right… So this Friday, eat no meat and have some drinks. Martini’s for all!
-
+                With the demise of Authy’s desktop app, I’ve spent the last few days
+trying to rebuild it.  I have the codes I need, and can totally do
+this with a command line utility.  But what I want is the app...
               </p>
             </div>
           </div>
@@ -2704,7 +2748,7 @@
       
       
       <div class="card">
-        <a href="/posts/a-great-potatoes-and-spinach-recipe/">
+        <a href="/posts/July-2023/">
           <div class="card-body">
             <!--
   Date format snippet
@@ -2725,14 +2769,14 @@
   
 
   
-    Sep 21, 2009
+    Jul 29, 2023
   
 
-  <i class="unloaded">2009-09-21T01:13:42+00:00</i>
+  <i class="unloaded">2023-07-29T14:00:00+00:00</i>
 
 </span>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>A great potatoes and spinach recipe</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Notes from July 2023</h3>
             <div class="text-muted small">
               <p>
                 
@@ -2741,7 +2785,11 @@
 
 
 
-                I made some potatoes and spinach recipe for the family using a great recipe from Vegan Dad. Jacob liked it a lot, even if he’s not into spicy food. It’s not that spicy of a recipe, but I have a ten...
+                These last few months started strong but ended up slowing down
+code-wise. I renamed dStore to
+svarm and got lots done with
+it. When I last left it, I was working on the data replication
+logic. I ha...
               </p>
             </div>
           </div>
@@ -2751,7 +2799,7 @@
       
       
       <div class="card">
-        <a href="/posts/tivo-upgrade/">
+        <a href="/posts/dStore-self-registration/">
           <div class="card-body">
             <!--
   Date format snippet
@@ -2772,14 +2820,14 @@
   
 
   
-    Feb 14, 2010
+    Feb  6, 2023
   
 
-  <i class="unloaded">2010-02-14T21:04:22+00:00</i>
+  <i class="unloaded">2023-02-06T14:00:00+00:00</i>
 
 </span>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Tivo Upgrade...</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>dStore self registeration</h3>
             <div class="text-muted small">
               <p>
                 
@@ -2788,7 +2836,11 @@
 
 
 
-                With the Olympics being broadcast in HD on NBC, we wanted to get all of it on the TiVo. But our HD TiVo is basically out of room with the digital feed already on it. (We get OTA HD) So, I wanted to...
+                I’ve been working on dStore for
+months.  dStore is a rewrite of an enterprise-grade, multi-tenant
+distributed no-sql data store; It’s my personal DynamoDB.
+
+Anyways, there are 3 main parts I want t...
               </p>
             </div>
           </div>
@@ -2806,17 +2858,17 @@
 
 <div class="post-navigation d-flex justify-content-between">
   
-  <a href="/posts/final-notes-from-the-2015-cassandra-summit/" class="btn btn-outline-primary"
+  <a href="/posts/starting-flutter/" class="btn btn-outline-primary"
     prompt="Older">
-    <p>Final Notes from the 2015 Cassandra Summit</p>
+    <p>Starting Flutter</p>
   </a>
   
 
   
-  <a href="/posts/so-im-impressed-with-the-nexus-6p/" class="btn btn-outline-primary"
+  <span class="btn btn-outline-primary disabled"
     prompt="Newer">
-    <p>So... I'm impressed with the Nexus 6P</p>
-  </a>
+    <p>-</p>
+  </span>
   
 
 </div>

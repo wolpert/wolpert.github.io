@@ -4,7 +4,7 @@
   <id>http://www.codeheadsystems.com//</id>
   <title>CodeHead Systems</title>
   <subtitle>Details on the latest.</subtitle>
-  <updated>2024-03-25T00:05:34+00:00</updated>
+  <updated>2024-03-31T15:08:51+00:00</updated>
   <author>
     <name>Ned Wolpert</name>
     <uri>http://www.codeheadsystems.com//</uri>
@@ -17,6 +17,45 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>XZ Attack</title>
+    <link href="http://www.codeheadsystems.com//posts/XZ-Attack/" rel="alternate" type="text/html" title="XZ Attack" />
+    <published>2024-03-31T07:00:00+00:00</published>
+  
+    <updated>2024-03-31T07:00:00+00:00</updated>
+  
+    <id>http://www.codeheadsystems.com//posts/XZ-Attack/</id>
+    <content src="http://www.codeheadsystems.com//posts/XZ-Attack/" />
+    <author>
+      <name>wolpert</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Purpose
+
+The recent backdoor discovered in XZ is pretty interesting. I wanted
+to have this post here not to re-explain what is going on with the
+attack, but rather to catalog the history of how it was discovered and
+decomposed by sharing links to the folks who caught this.  This is a
+testament to the OSS security community, but lots of luck was here
+that helped prevent this from becoming a horr...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -167,47 +206,6 @@ scalability, security and reliability.
 
 Really, this started because I wanted to write a control plane that
 manages hash ranges for in...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Twitter Burns</title>
-    <link href="http://www.codeheadsystems.com//posts/Twitter-Burns/" rel="alternate" type="text/html" title="Twitter Burns" />
-    <published>2022-11-21T14:00:00+00:00</published>
-  
-    <updated>2022-11-21T14:00:00+00:00</updated>
-  
-    <id>http://www.codeheadsystems.com//posts/Twitter-Burns/</id>
-    <content src="http://www.codeheadsystems.com//posts/Twitter-Burns/" />
-    <author>
-      <name>wolpert</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Yeah, so… I deleted my twitter account.
-
-I know, no one really cares.  If you want to follow me now, go to my
-Mastodon account. But this post
-isn’t really about that.
-
-I created my Twitter account in 2008. A bunch of folks I worked with
-at Corpedia did and I joined them to keep in touch. Some of the
-people I worked with knew others at Twitter at the time too, so I got
-to learn a bit about what ...
     </summary>
   
 
