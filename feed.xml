@@ -4,7 +4,7 @@
   <id>http://www.codeheadsystems.com//</id>
   <title>CodeHead Systems</title>
   <subtitle>Details on the latest.</subtitle>
-  <updated>2024-03-31T15:27:51+00:00</updated>
+  <updated>2024-03-31T16:02:44+00:00</updated>
   <author>
     <name>Ned Wolpert</name>
     <uri>http://www.codeheadsystems.com//</uri>
@@ -24,7 +24,7 @@
     <link href="http://www.codeheadsystems.com//posts/XZ-Attack/" rel="alternate" type="text/html" title="XZ Attack" />
     <published>2024-03-31T07:00:00+00:00</published>
   
-    <updated>2024-03-31T07:00:00+00:00</updated>
+    <updated>2024-03-31T15:28:11+00:00</updated>
   
     <id>http://www.codeheadsystems.com//posts/XZ-Attack/</id>
     <content src="http://www.codeheadsystems.com//posts/XZ-Attack/" />
@@ -46,7 +46,7 @@
 
       Purpose
 
-The recent backdoor discovered in XZ is pretty interesting. I wanted
+The recent backdoor discovered in xz is pretty interesting. I wanted
 to have this post here not to re-explain what is going on with the
 attack, but rather to catalog the history of how it was discovered and
 decomposed by sharing links to the folks who caught this.  This is a

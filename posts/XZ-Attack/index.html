@@ -44,7 +44,7 @@
 <meta name="twitter:creator" content="@wolpert" />
 <meta name="google-site-verification" content="google_meta_tag_verification" />
 <script type="application/ld+json">
-{"dateModified":"2024-03-31T07:00:00+00:00","datePublished":"2024-03-31T07:00:00+00:00","description":"Purpose","headline":"XZ Attack","mainEntityOfPage":{"@type":"WebPage","@id":"http://www.codeheadsystems.com//posts/XZ-Attack/"},"url":"http://www.codeheadsystems.com//posts/XZ-Attack/","author":{"@type":"Person","name":"wolpert"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"dateModified":"2024-03-31T15:28:11+00:00","datePublished":"2024-03-31T07:00:00+00:00","description":"Purpose","headline":"XZ Attack","mainEntityOfPage":{"@type":"WebPage","@id":"http://www.codeheadsystems.com//posts/XZ-Attack/"},"url":"http://www.codeheadsystems.com//posts/XZ-Attack/","author":{"@type":"Person","name":"wolpert"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -400,6 +400,39 @@
         <div>
           <!-- lastmod -->
           
+          <span>
+            <!--
+  Date format snippet
+  See: /assets/js/_utils/timeage.js
+-->
+
+
+
+
+
+<span class="timeago lastmod"
+  
+    data-toggle="tooltip"
+    data-placement="bottom"
+    title="Sun, Mar 31, 2024,  8:28 AM -0700"
+  
+
+  prefix="Updated "
+   >
+
+  
+  
+
+  
+    Mar 31
+  
+
+  <i class="unloaded">2024-03-31T15:28:11+00:00</i>
+
+</span>
+
+          </span>
+          
 
           <!-- read time -->
           <!--
@@ -416,7 +449,7 @@
 
 
 <!-- return element -->
-<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="356 words">1 min</span>
+<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="361 words">2 min</span>
 
 
           <!-- page views -->
@@ -432,7 +465,7 @@
 
         <h1 id="purpose">Purpose</h1>
 
-<p>The recent backdoor discovered in XZ is pretty interesting. I wanted
+<p>The recent backdoor discovered in xz is pretty interesting. I wanted
 to have this post here not to re-explain what is going on with the
 attack, but rather to catalog the history of how it was discovered and
 decomposed by sharing links to the folks who caught this.  This is a
@@ -441,26 +474,36 @@ that helped prevent this from becoming a horrible thing.</p>
 
 <h1 id="tldr">tl;dr</h1>
 
-<p>What happened was someone gained trust with the developer of the XZ
+<p>What happened was someone gained trust with the developer of the xz
 compression utility for the last 3 years, and secretly made patches
 that added in a backdoor that would have impacted OpenSSH daemon
-process. This includes the attacker linking XZ to SSHD through the
-build process, which is not only linked, convincing google to turn off
-their security tool on XZ itself, and a complicated backdoor that
-limited how it would work. Essentially, this was a long-con that got
-caught because of the performance impact it caused to SSH in the
-process.</p>
+process while making patches to help the project. This includes the
+attacker linking xz to sshd. They also used a google bug to convince
+google to turn off their security tool on xz itself, and a complicated
+backdoor that limited who could access it. Essentially, this was a
+long-con that got caught because of the performance impact it caused
+to ssh in the process.</p>
 
 <h1 id="links">Links</h1>
-<p><a href="https://www.openwall.com/lists/oss-security/2024/03/29/4">Discovery thread</a>: This is the email that alerted everyone in the OSS world about the backdoor. Andres is a PostgreSQL developer who was debugging performance issues, and did the initial analysis of the backdoor in XZ.</p>
+<p><a href="https://www.openwall.com/lists/oss-security/2024/03/29/4">Discovery thread</a>:
+This is the email that alerted everyone in the OSS world about the
+backdoor. Andres is a PostgreSQL developer who was debugging
+performance issues and did the initial analysis of the backdoor in
+xz.</p>
 
-<p><a href="https://boehs.org/node/everything-i-know-about-the-xz-backdoor">Timeline Analysis</a> about the history of the backdoor going back 3 years. (Some links below come from here)</p>
+<p><a href="https://boehs.org/node/everything-i-know-about-the-xz-backdoor">Timeline Analysis</a>
+about the history of the backdoor going back 3 years. (Some links
+below come from here)</p>
 
-<p><a href="https://gist.github.com/thesamesam/223949d5a074ebc3dce9ee78baad9e27">backdoor analysis</a>: detailed low-level insight into the backdoor itself.</p>
+<p><a href="https://gist.github.com/thesamesam/223949d5a074ebc3dce9ee78baad9e27">Backdoor Analysis</a>: detailed low-level insight into the backdoor itself.</p>
 
-<p><a href="https://gynvael.coldwind.pl/?lang=en&amp;id=782">Bast script explained</a>: A very good detailed analysis of the bash script itself.</p>
+<p><a href="https://gynvael.coldwind.pl/?lang=en&amp;id=782">Bash script explained</a>:
+A very good detailed analysis of the bash script itself.</p>
 
-<p><a href="https://github.com/systemd/systemd/issues/32028">libsystemd, xz and increasing vulnerabilities</a>: A discussion on github about reducing the dependencies of systemd since it can become a mechanism used by threat actors on supply-chain attacks.</p>
+<p><a href="https://github.com/systemd/systemd/issues/32028">libsystemd, xz and increasing vulnerabilities</a>: A
+discussion on github about reducing the dependencies of systemd since
+it can become a mechanism used by threat actors on supply-chain
+attacks.</p>
 
 <p><a href="https://robmensching.com/blog/posts/2024/03/30/a-microcosm-of-the-interactions-in-open-source-projects/">Social engineering</a> a discussion on the social engineering side of this.</p>
 
@@ -568,6 +611,11 @@ process.</p>
       <span>Recent Update</span>
       <ul class="post-content pl-0 pb-1 ml-1 mt-2">
 
+      
+        
+        
+        
+        <li><a href="/posts/XZ-Attack/">XZ Attack</a></li>
       
         
         
